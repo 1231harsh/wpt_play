@@ -4,6 +4,8 @@
   "description": "Interactive concept lab for HTML, CSS, JS, AJAX, React, Node, and Express.",
   "main": "server.js",
   "scripts": {
+    "generate:topics": "node scripts/generate-topics.js",
+    "build": "npm run generate:topics",
     "start": "node server.js"
   },
   "dependencies": {

@@ -14,6 +14,7 @@ An interactive learning app for HTML, CSS, JavaScript, AJAX, React, Node, and Ex
 
 ```powershell
 npm.cmd install
+npm.cmd run build
 npm.cmd start
 ```
 
@@ -26,6 +27,7 @@ Set environment variables before starting the app:
 ```powershell
 $env:OPENAI_API_KEY="your_key_here"
 $env:OPENAI_MODEL="gpt-4o-mini"
+npm.cmd run build
 npm.cmd start
 ```
 
@@ -36,6 +38,7 @@ If no API key is set, the built-in fallback tutor still works.
 This project is configured to run on Vercel using `api/index.js` as the serverless entrypoint.
 
 ```powershell
+npm.cmd run build
 vercel
 vercel --prod
 ```

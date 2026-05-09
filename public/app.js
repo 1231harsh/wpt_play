@@ -245,15 +245,17 @@ function mergeTopicGroups(baseGroups, extraGroups) {
 
 async function loadAllTopics() {
   try {
-    const response = await fetch("/api/topics");
+    const response = await fetch("/generated-topics.json");
     if (!response.ok) {
       throw new Error(`topic catalog ${response.status}`);
     }
 
     const data = await response.json();
     topicGroups = mergeTopicGroups(window.TOPIC_GROUPS || [], data.groups || []);
-  } catch (_error) {
+  } catch (error) {
+    console.error("Failed to load generated topic catalog:", error);
     topicGroups = window.TOPIC_GROUPS || [];
+    currentSummary.textContent = "Expanded topic catalog could not be loaded, so the starter lessons are being shown.";
   }
 
   collapsedGroups = new Set(topicGroups.map((group) => group.category));

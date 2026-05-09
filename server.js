@@ -1,17 +1,28 @@
 const express = require("express");
+const fs = require("fs");
 const path = require("path");
-const { getResourceTopicGroups } = require("./resourceTopics");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
+const generatedTopicsPath = path.join(__dirname, "public", "generated-topics.json");
 
 app.use(express.json({ limit: "1mb" }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/resources", express.static(path.join(__dirname, "resources")));
 app.use("/vendor/react", express.static(path.join(__dirname, "node_modules", "react", "umd")));
 app.use("/vendor/react-dom", express.static(path.join(__dirname, "node_modules", "react-dom", "umd")));
+
+function getGeneratedTopicGroups() {
+  try {
+    const raw = fs.readFileSync(generatedTopicsPath, "utf8");
+    return JSON.parse(raw).groups || [];
+  } catch (error) {
+    console.error(`Failed to load generated topics from ${generatedTopicsPath}: ${error.message}`);
+    return [];
+  }
+}
 
 const tutorGuidance = {
   HTML: "HTML gives structure to the page. Focus on what each tag means and what it groups together.",
@@ -107,7 +118,7 @@ app.get("/api/ping", (_req, res) => {
 });
 
 app.get("/api/topics", (_req, res) => {
-  res.json({ groups: getResourceTopicGroups() });
+  res.json({ groups: getGeneratedTopicGroups() });
 });
 
 app.get("/api/tutor-status", (_req, res) => {

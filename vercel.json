@@ -2,7 +2,12 @@
   "version": 2,
   "functions": {
     "api/index.js": {
-      "includeFiles": "resources/**"
+      "includeFiles": [
+        "public/**",
+        "resources/**",
+        "node_modules/react/umd/**",
+        "node_modules/react-dom/umd/**"
+      ]
     }
   },
   "routes": [

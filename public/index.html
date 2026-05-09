@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Concepts Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="app-shell" class="app-shell">
+      <aside id="sidebar" class="sidebar">
+        <div>
+          <p class="eyebrow">Learn by seeing + editing</p>
+          <h1>Web Concepts Lab</h1>
+          <p class="sidebar-copy">
+            Pick a topic, inspect the code, run it, and modify it live.
+          </p>
+        </div>
+        <div id="topic-nav" class="topic-nav"></div>
+      </aside>
+
+      <main class="workspace">
+        <section class="topbar">
+          <div class="topbar-controls">
+            <button id="toggle-sidebar-btn" class="ghost-btn toggle-btn" aria-expanded="true">
+              Hide Topics
+            </button>
+            <p id="current-category" class="meta-label"></p>
+          </div>
+          <div class="topbar-title">
+            <h2 id="current-topic">Choose a topic</h2>
+            <p id="current-summary" class="summary"></p>
+          </div>
+        </section>
+
+        <section class="main-grid">
+          <div class="panel preview-panel">
+            <div class="panel-head">
+              <span>Live Preview</span>
+              <span class="panel-hint">Left side behaves like the browser</span>
+            </div>
+            <iframe id="preview-frame" title="Live preview"></iframe>
+          </div>
+
+          <div class="panel editor-panel">
+            <div class="panel-head">
+              <div>
+                <span>Code Playground</span>
+                <span class="panel-hint">Edit, run, and learn line by line</span>
+              </div>
+              <div class="editor-actions">
+                <button id="reset-btn" class="ghost-btn">Reset Example</button>
+                <button id="run-btn" class="primary-btn">Run Preview</button>
+              </div>
+            </div>
+
+            <div class="editor-toolbar">
+              <div class="editor-tabs">
+                <button class="tab-btn active" data-tab="html">HTML</button>
+                <button class="tab-btn" data-tab="css">CSS</button>
+                <button class="tab-btn" data-tab="js">JS</button>
+              </div>
+              <span class="editor-tip">Ctrl/Cmd + Enter asks the tutor</span>
+            </div>
+
+            <div class="editor-stack">
+              <label class="editor-block active" data-editor="html">
+                <span>HTML</span>
+                <textarea id="html-editor" spellcheck="false"></textarea>
+              </label>
+              <label class="editor-block" data-editor="css">
+                <span>CSS</span>
+                <textarea id="css-editor" spellcheck="false"></textarea>
+              </label>
+              <label class="editor-block" data-editor="js">
+                <span>JavaScript</span>
+                <textarea id="js-editor" spellcheck="false"></textarea>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section class="bottom-grid">
+          <div class="panel explain-panel">
+            <div class="panel-head">
+              <span>What This Page Does</span>
+            </div>
+            <div id="topic-explanation" class="topic-explanation">
+              Choose a topic to see what the page is demonstrating.
+            </div>
+          </div>
+
+          <div class="panel notes-panel">
+            <div class="panel-head">
+              <span>What To Notice</span>
+            </div>
+            <ul id="learning-points" class="learning-points"></ul>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/topics.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

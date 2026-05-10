@@ -245,13 +245,29 @@ function mergeTopicGroups(baseGroups, extraGroups) {
 
 async function loadAllTopics() {
   try {
-    const response = await fetch("/generated-topics.json");
-    if (!response.ok) {
-      throw new Error(`topic catalog ${response.status}`);
+    let groups = [];
+
+    try {
+      const apiResponse = await fetch("/api/topics");
+      if (!apiResponse.ok) {
+        throw new Error(`api topic catalog ${apiResponse.status}`);
+      }
+
+      const apiData = await apiResponse.json();
+      groups = apiData.groups || [];
+    } catch (apiError) {
+      console.error("Failed to load topic catalog from /api/topics:", apiError);
+
+      const staticResponse = await fetch("/generated-topics.json");
+      if (!staticResponse.ok) {
+        throw new Error(`static topic catalog ${staticResponse.status}`);
+      }
+
+      const staticData = await staticResponse.json();
+      groups = staticData.groups || [];
     }
 
-    const data = await response.json();
-    topicGroups = mergeTopicGroups(window.TOPIC_GROUPS || [], data.groups || []);
+    topicGroups = mergeTopicGroups(window.TOPIC_GROUPS || [], groups);
   } catch (error) {
     console.error("Failed to load generated topic catalog:", error);
     topicGroups = window.TOPIC_GROUPS || [];

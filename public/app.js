@@ -248,16 +248,6 @@ async function loadAllTopics() {
     let groups = [];
 
     try {
-      const staticResponse = await fetch("/generated-topics.json");
-      if (!staticResponse.ok) {
-        throw new Error(`static topic catalog ${staticResponse.status}`);
-      }
-
-      const staticData = await staticResponse.json();
-      groups = staticData.groups || [];
-    } catch (staticError) {
-      console.error("Failed to load topic catalog from /generated-topics.json:", staticError);
-
       const apiResponse = await fetch("/api/topics");
       if (!apiResponse.ok) {
         throw new Error(`api topic catalog ${apiResponse.status}`);
@@ -265,6 +255,16 @@ async function loadAllTopics() {
 
       const apiData = await apiResponse.json();
       groups = apiData.groups || [];
+    } catch (apiError) {
+      console.error("Failed to load topic catalog from /api/topics:", apiError);
+
+      const staticResponse = await fetch("/generated-topics.json");
+      if (!staticResponse.ok) {
+        throw new Error(`static topic catalog ${staticResponse.status}`);
+      }
+
+      const staticData = await staticResponse.json();
+      groups = staticData.groups || [];
     }
 
     topicGroups = mergeTopicGroups(window.TOPIC_GROUPS || [], groups);

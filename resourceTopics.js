@@ -8,6 +8,10 @@ function readText(relativePath) {
   return fs.readFileSync(path.join(RESOURCES_ROOT, relativePath), "utf8");
 }
 
+function resourceExists(relativePath) {
+  return fs.existsSync(path.join(RESOURCES_ROOT, relativePath));
+}
+
 function firstNonGeneric(...values) {
   for (const value of values) {
     const clean = (value || "").trim();
@@ -145,7 +149,10 @@ function createJsOnlyTopic(html, css, relativeScripts) {
   return {
     html,
     css,
-    js: relativeScripts.map((file) => readText(file).trim()).join("\n\n")
+    js: relativeScripts
+      .filter((file) => resourceExists(file))
+      .map((file) => readText(file).trim())
+      .join("\n\n")
   };
 }
 
@@ -346,8 +353,19 @@ function makeHtmlTopic(category, relativePath, options = {}) {
 }
 
 function makeJsTopic(category, relativeScripts, options = {}) {
-  const primary = relativeScripts[0];
-  const rawSource = relativeScripts.map((file) => readText(file)).join("\n\n");
+  const availableScripts = relativeScripts.filter((file) => resourceExists(file));
+  if (availableScripts.length === 0) {
+    console.warn(`Skipping missing ${category} topic files: ${relativeScripts.join(", ")}`);
+    return null;
+  }
+
+  if (availableScripts.length !== relativeScripts.length) {
+    const missingScripts = relativeScripts.filter((file) => !resourceExists(file));
+    console.warn(`Some ${category} topic files were missing and skipped: ${missingScripts.join(", ")}`);
+  }
+
+  const primary = availableScripts[0];
+  const rawSource = availableScripts.map((file) => readText(file)).join("\n\n");
   let title = options.title || inferTitle(primary, category, rawSource);
   if (isWeakTitle(title)) {
     const parent = humanizeLabel(path.dirname(primary).split(path.sep).pop() || category);
@@ -366,7 +384,7 @@ function makeJsTopic(category, relativeScripts, options = {}) {
   <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>
 </section>`,
       options.previewCss || "body { background: #eef6ff; color: #18344c; }",
-      relativeScripts
+      availableScripts
     )
   };
 }
@@ -374,6 +392,9 @@ function makeJsTopic(category, relativeScripts, options = {}) {
 function mergeTopics(existing, incoming) {
   const seen = new Set(existing.map((topic) => topic.id));
   for (const topic of incoming) {
+    if (!topic) {
+      continue;
+    }
     if (!seen.has(topic.id)) {
       existing.push(topic);
       seen.add(topic.id);

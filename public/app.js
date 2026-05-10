@@ -243,33 +243,12 @@ function mergeTopicGroups(baseGroups, extraGroups) {
   return [...groupMap.values()];
 }
 
-async function loadAllTopics() {
-  try {
-    let groups = [];
-
-    try {
-      const apiResponse = await fetch("/api/topics");
-      if (!apiResponse.ok) {
-        throw new Error(`api topic catalog ${apiResponse.status}`);
-      }
-
-      const apiData = await apiResponse.json();
-      groups = apiData.groups || [];
-    } catch (apiError) {
-      console.error("Failed to load topic catalog from /api/topics:", apiError);
-
-      const staticResponse = await fetch("/generated-topics.json");
-      if (!staticResponse.ok) {
-        throw new Error(`static topic catalog ${staticResponse.status}`);
-      }
-
-      const staticData = await staticResponse.json();
-      groups = staticData.groups || [];
-    }
-
-    topicGroups = mergeTopicGroups(window.TOPIC_GROUPS || [], groups);
-  } catch (error) {
-    console.error("Failed to load generated topic catalog:", error);
+function loadAllTopics() {
+  const generatedGroups = window.GENERATED_TOPIC_GROUPS || [];
+  if (generatedGroups.length > 0) {
+    topicGroups = mergeTopicGroups(window.TOPIC_GROUPS || [], generatedGroups);
+  } else {
+    console.error("Generated topic catalog script was not available. Falling back to starter lessons.");
     topicGroups = window.TOPIC_GROUPS || [];
     currentSummary.textContent = "Expanded topic catalog could not be loaded, so the starter lessons are being shown.";
   }

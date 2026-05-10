@@ -1,0 +1,3461 @@
+window.GENERATED_TOPIC_GROUPS = [
+  {
+    "category": "HTML",
+    "topics": [
+      {
+        "id": "resource-html-day01-page01-html",
+        "title": "Hello From CPAC",
+        "summary": "Learn Hello From CPAC through a runnable example pulled from the Day01 lesson set.",
+        "explanation": "This lesson is part of the Day01 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Hello From CPAC comes from the Day01 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!-- the browser should use html-5 version -->\r\n<!DOCTYPE html>\r\n<!-- root tag -->\r\n<html>\r\n\r\n<head>\r\n    <!-- Metadata -->\r\n</head>\r\n\r\n<body>\r\n    <!-- UI code -->\r\n    Hello From CPAC\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day01-page02-html",
+        "title": "Header tag",
+        "summary": "Learn Header tag through a runnable example pulled from the Day01 lesson set.",
+        "explanation": "This page demonstrates Header tag. The main visible focus is \"This is my Header1\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Header tag comes from the Day01 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Header tag</title>\r\n</head>\r\n\r\n<body>\r\n    <h1>This is my Header1</h1>\r\n    <h2>This is my Header2</h2>\r\n    <h3>This is my Header3</h3>\r\n    <h4>This is my Header4</h4>\r\n    <h5>This is my Header5</h5>\r\n    <h6>This is my Header6</h6>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day01-page03-html",
+        "title": "Para tag",
+        "summary": "Learn Para tag through a runnable example pulled from the Day01 lesson set.",
+        "explanation": "This lesson is part of the Day01 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Para tag comes from the Day01 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Para tag</title>\r\n</head>\r\n\r\n<body>\r\n    <p>this is my para 1</p>\r\n    <p>this is my para 2</p>\r\n    <p>this is my para 3</p>\r\n    <p>At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n        world. Companies are restructuring their organizations & reengineering their business processes. Not only have\r\n        the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n    </p>\r\n    <p>In this scenario, technical & personal skills which provide effective solutions & time critical support are of\r\n        principal significance for the long term growth of professionals. Sunbeam's expertise in effectively delivering\r\n        training, solutions & services has made it a favored institution to many students & professionals focused on an\r\n        aggressive career growth strategy.\r\n    </p>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day01-page04-html",
+        "title": "div tag",
+        "summary": "Learn div tag through a runnable example pulled from the Day01 lesson set.",
+        "explanation": "This lesson is part of the Day01 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "div tag comes from the Day01 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>div tag</title>\r\n</head>\r\n\r\n<body>\r\n    <div>this is my div 1</div>\r\n    <div>this is my div 2</div>\r\n    <div>this is my div 3</div>\r\n    <div>At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n        world. Companies are restructuring their organizations & reengineering their business processes. Not only have\r\n        the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n    </div>\r\n    <div>In this scenario, technical & personal skills which provide effective solutions & time critical support are of\r\n        principal significance for the long term growth of professionals. Sunbeam's expertise in effectively delivering\r\n        training, solutions & services has made it a favored institution to many students & professionals focused on an\r\n        aggressive career growth strategy.\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day01-page05-html",
+        "title": "About Cdac",
+        "summary": "Learn About Cdac through a runnable example pulled from the Day01 lesson set.",
+        "explanation": "This page demonstrates About Cdac. The main visible focus is \"About Cdac\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "About Cdac comes from the Day01 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n\r\n    <div>\r\n        <h3>About Cdac</h3>\r\n\r\n        <p>Established in March 1988, as a Scientific Society of the Ministry of Communications and Technology (formerly\r\n            the\r\n            Department of Electronics), Government of India, Centre for Development of Advanced Computing (C-DAC), is\r\n            primarily an R&D institution involved in the design, development and deployment of advanced information\r\n            technology (IT) products & solution. In a little over a decade since inception, C-DAC has developed a range\r\n            of\r\n            high performance parallel computers, known as the PARAM series of supercomputers. C­ DAC's expertise also\r\n            extends to other related areas of Information Technology and includes pioneering work undertaken in the\r\n            field of\r\n            multilingual and multimedia technologies, education and training and developing IT based solutions in areas\r\n            such\r\n            as Financial Modeling, Network and Internet Security, Artificial Intelligence, Natural Language Processing,\r\n            Telemedicine, Geomatics, Real Time Systems and e-Governance.\r\n        </p>\r\n\r\n        <p>\r\n            C-DAC has established the Advanced Computing Training School (ACTS) to meet the training needs of existing\r\n            and\r\n            prospective users of advanced computing and information technology. Training Centers like SunBeam has been\r\n            established, where in hundreds of students and professionals are trained in higher value skills in frontline\r\n            tools and methodologies technology. ACTS offers the Post Graduate Diploma in Advanced Computing (PG-DAC),\r\n            Post\r\n            Graduate Diploma in Mobile Computing (PG-DMC), Post Graduate Diploma in Embedded Systems & Design (PG-DESD),\r\n            Post Graduate Diploma in Big Data Analytics (PG-DBDA) and Post Graduate Diploma in IT Infrastructure,\r\n            Systems\r\n            and Security (PG-DITISS) which focus on sharpening the computing skills, those who wish to venture out into\r\n            the\r\n            world of Advanced Computing. The course contents have been designed keeping in view the emerging trends in\r\n            advanced computing as well as the contemporary and futuristic human resource requirements of the IT\r\n            industry.\r\n\r\n        </p>\r\n    </div>\r\n\r\n    <div>\r\n        <h3>About Sunbeam</h3>\r\n\r\n        <p>\r\n            At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n            world. Companies are restructuring their organizations & reengineering their business processes. Not only\r\n            have\r\n            the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n        </p>\r\n        <p>\r\n            In this scenario, technical & personal skills which provide effective solutions & time critical support are\r\n            of\r\n            principal significance for the long term growth of professionals. Sunbeam's expertise in effectively\r\n            delivering\r\n            training, solutions & services has made it a favored institution to many students & professionals focused on\r\n            an\r\n            aggressive career growth strategy.\r\n        </p>\r\n        <p>\r\n            Sunbeam's proven track record in bringing about effective transformations in individuals is backed by a\r\n            solid\r\n            understanding of the rapidly changing needs of the industry & the global business scenario. Sunbeam's\r\n            success\r\n            has been built on its comprehensively researched, innovative training methodologies, deployment of\r\n            technology\r\n            and an emphasis on transformational & industry-relevant programs offering value-added services to its\r\n            clients. A\r\n            young and dynamic management team and carefully recruited and trained staff members drive Sunbeam's business\r\n            vision & have established strong credentials in a short span of time\r\n        </p>\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page01-html",
+        "title": "Formatting tag",
+        "summary": "Learn Formatting tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This page demonstrates Formatting tag. The main visible focus is \"Formatting tags\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Formatting tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Formatting tag</title>\r\n</head>\r\n\r\n<body>\r\n    <h2>Formatting tags</h2>\r\n\r\n    <p>At <b>Sunbeam</b> we believe retaining a competitive edge is imperative for any individual in today's\r\n        professional\r\n        world. <i><u>Companies are restructuring their organizations</u></i> & reengineering their business processes.\r\n        Not\r\n        only have\r\n        the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n    </p>\r\n\r\n    <p>Date : 24<sup>th</sup> March 2026</p>\r\n\r\n    <p>Log<sub>10</sub></p>\r\n\r\n    <p>Offer Price : <strike>10000</strike> 8999</p>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page02-html",
+        "title": "List tags",
+        "summary": "Learn List tags through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This page demonstrates List tags. The main visible focus is \"unordered list of CDAC courses\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "List tags comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>List tags</title>\r\n</head>\r\n\r\n<body>\r\n    <h3>unordered list of CDAC courses</h3>\r\n    <ul type=\"square\">\r\n        <li>CPAC</li>\r\n        <li>CPMC</li>\r\n        <li>CPBDA</li>\r\n        <li>CPESD</li>\r\n        <li>CPITISS</li>\r\n    </ul>\r\n\r\n    <h3>Ordered list of Modular courses</h3>\r\n    <ol type=\"i\">\r\n        <li>CPP</li>\r\n        <li>Java</li>\r\n        <li>Python</li>\r\n        <li>DSA</li>\r\n        <li>Aptitude</li>\r\n    </ol>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page03-html",
+        "title": "Table tag",
+        "summary": "Learn Table tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This page demonstrates Table tag. The main visible focus is \"Table of products\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Table tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Table tag</title>\r\n</head>\r\n\r\n<body>\r\n    <h3>Table of products</h3>\r\n    <table border=\"1\">\r\n        <thead>\r\n            <tr>\r\n                <th>pid</th>\r\n                <th>pname</th>\r\n                <th>category</th>\r\n                <th>price</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr>\r\n                <td>1</td>\r\n                <td>Pen</td>\r\n                <td rowspan=\"4\">Stationary</td>\r\n                <td>20</td>\r\n            </tr>\r\n            <tr>\r\n                <td>2</td>\r\n                <td>Pencil</td>\r\n                <td>5</td>\r\n            </tr>\r\n            <tr>\r\n                <td>3</td>\r\n                <td>Book</td>\r\n                <td>50</td>\r\n            </tr>\r\n            <tr>\r\n                <td>4</td>\r\n                <td>Eraser</td>\r\n                <td>5</td>\r\n            </tr>\r\n        </tbody>\r\n        <tfoot>\r\n            <tr>\r\n                <td colspan=\"3\">Total</td>\r\n                <td>80</td>\r\n            </tr>\r\n        </tfoot>\r\n    </table>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page04-html",
+        "title": "Resource tag",
+        "summary": "Learn Resource tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This page demonstrates Resource tag. The main visible focus is \"Image tags\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Resource tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Resource tag</title>\r\n</head>\r\n\r\n<body>\r\n    <h2>Image tags</h2>\r\n    <img src=\"/resources/wpt/Day02/resources/CPAC.jpg\" alt=\"cpac\" title=\"this is advanced computing course\">\r\n    <img src=\"/resources/wpt/Day02/resources/CPMC.jpg\" alt=\"\">\r\n    <img src=\"/resources/wpt/Day02/resources/CPBDA.jpg\" alt=\"cpbda\">\r\n    <img src=\"/resources/wpt/Day02/resources/CPESD.jpg\" alt=\"\">\r\n    <img src=\"/resources/wpt/Day02/resources/CPITISS.jpg\" alt=\"\" />\r\n\r\n\r\n    <h2>Video tag</h2>\r\n    <video src=\"/resources/wpt/Day02/resources/samplevideo.mp4\" width=\"300\" controls></video>\r\n\r\n    <h2>Audio tag</h2>\r\n    <audio src=\"/resources/wpt/Day02/resources/sampleaudio.mp3\" controls></audio>\r\n\r\n    <h2>Youtube Link</h2>\r\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/02q9aAVv1NI?si=TWtzNDg2-SnPZ5Kr\"\r\n        title=\"YouTube video player\" frameborder=\"0\"\r\n        allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\r\n        referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page06-html",
+        "title": "Form tag",
+        "summary": "Learn Form tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This lesson is part of the Day02 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Form tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Form tag</title>\r\n</head>\r\n\r\n<body>\r\n    <div>\r\n        <label>Name : </label>\r\n        <input type=\"text\">\r\n    </div>\r\n\r\n    <div>\r\n        <label>Age : </label>\r\n        <input type=\"number\">\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page07-html",
+        "title": "Form tag",
+        "summary": "Learn Form tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This lesson is part of the Day02 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Form tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Form tag</title>\r\n</head>\r\n\r\n<body>\r\n    <div>\r\n        <label>Name : </label>\r\n        <input type=\"text\">\r\n    </div>\r\n    <div>\r\n        <label>Email : </label>\r\n        <input type=\"email\">\r\n    </div>\r\n    <div>\r\n        <label>Password : </label>\r\n        <input type=\"password\">\r\n    </div>\r\n    <div>\r\n        <label>Phone : </label>\r\n        <input type=\"tel\">\r\n    </div>\r\n\r\n    <div>\r\n        <input type=\"submit\" value=\"save\">\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page08-html",
+        "title": "Form tag",
+        "summary": "Learn Form tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This lesson is part of the Day02 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Form tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Form tag</title>\r\n</head>\r\n\r\n<body>\r\n    <form>\r\n        <div>\r\n            <label>Name : </label>\r\n            <input type=\"text\" name=\"name\" placeholder=\"Enter name\" required>\r\n        </div>\r\n\r\n        <div>\r\n            <label>Email : </label>\r\n            <input type=\"email\" name=\"email\" placeholder=\"enter email\">\r\n        </div>\r\n        <div>\r\n            <label>Password : </label>\r\n            <input type=\"password\" name=\"password\">\r\n        </div>\r\n\r\n        <div>\r\n            <label>Phone : </label>\r\n            <input type=\"tel\" name=\"phone\" placeholder=\"enter mobile no\" readonly>\r\n        </div>\r\n\r\n        <div>\r\n            <input type=\"submit\" value=\"save\">\r\n        </div>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page09-html",
+        "title": "Form tag",
+        "summary": "Learn Form tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This lesson is part of the Day02 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Form tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Form tag</title>\r\n</head>\r\n\r\n<body>\r\n    <form>\r\n        <div>\r\n            <label>Gender : </label>\r\n            <input type=\"radio\" name=\"gender\" value=\"M\"> M\r\n            <input type=\"radio\" name=\"gender\" value=\"F\"> F\r\n        </div>\r\n\r\n        <div>\r\n            <label>Skills : </label>\r\n            <input type=\"checkbox\" name=\"checkboxCPP\" value=\"CPP\"> CPP\r\n            <input type=\"checkbox\" name=\"checkboxSQL\" value=\"SQL\"> SQL\r\n            <input type=\"checkbox\" name=\"checkboxHTML\" value=\"HTML\"> HTML\r\n            <input type=\"checkbox\" name=\"checkboxCSS\"> CSS\r\n            <input type=\"checkbox\" name=\"checkboxJS\"> JS\r\n        </div>\r\n\r\n        <div>\r\n            <label>city : </label>\r\n            <select name=\"city\">\r\n                <option value=\"1\">Mumbai</option>\r\n                <option value=\"2\">Pune</option>\r\n                <option value=\"3\">Banglore</option>\r\n            </select>\r\n        </div>\r\n\r\n        <div>\r\n            <input type=\"submit\" value=\"save\">\r\n        </div>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page10-html",
+        "title": "Form tag",
+        "summary": "Learn Form tag through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This lesson is part of the Day02 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Form tag comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Form tag</title>\r\n</head>\r\n\r\n<body>\r\n    <form action=\"result.html\" method=\"POST\">\r\n        <div>\r\n            <label>Name : </label>\r\n            <input type=\"text\" placeholder=\"Enter name\" name=\"name\">\r\n        </div>\r\n        <div>\r\n            <label>Email : </label>\r\n            <input type=\"email\" placeholder=\"Enter email\" name=\"email\">\r\n        </div>\r\n        <div>\r\n            <label>Password : </label>\r\n            <input minlength=\"3\" maxlength=\"10\" type=\"password\" placeholder=\"Enter password\" name=\"password\">\r\n        </div>\r\n        <div>\r\n            <label>Phone : </label>\r\n            <input type=\"tel\" placeholder=\"Enter phone\" name=\"phone\">\r\n        </div>\r\n        <div>\r\n            <label>Gender : </label>\r\n            <input type=\"radio\" name=\"gender\" value=\"M\">Male\r\n            <input type=\"radio\" name=\"gender\" value=\"F\">Female\r\n        </div>\r\n        <div>\r\n            <label>Skills : </label>\r\n            <input type=\"checkbox\" name=\"checkboxC\">C\r\n            <input type=\"checkbox\" name=\"checkboxCPP\">CPP\r\n            <input type=\"checkbox\" name=\"checkboxJAVA\">Java\r\n        </div>\r\n        <div>\r\n            <label>City : </label>\r\n            <select name=\"city\">\r\n                <option>Mumbai</option>\r\n                <option>Pune</option>\r\n                <option>Banglore</option>\r\n            </select>\r\n        </div>\r\n        <div>\r\n            <label>Address : </label>\r\n            <textarea name=\"address\" rows=\"3\"></textarea>\r\n        </div>\r\n\r\n        <div>\r\n            <input type=\"submit\" value=\"save\">\r\n            <input type=\"reset\" value=\"clear\">\r\n        </div>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page11-html",
+        "title": "Form using table",
+        "summary": "Learn Form using table through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This lesson is part of the Day02 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying html code.",
+        "points": [
+          "Form using table comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Form using table</title>\r\n</head>\r\n\r\n<body>\r\n    <form action=\"\">\r\n        <table>\r\n            <tbody>\r\n                <tr>\r\n                    <td>\r\n                        <label>Name</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"text\">\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Email</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"email\">\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Password</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"password\">\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Phone</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"tel\">\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Gender</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"radio\" name=\"gender\">Male\r\n                        <input type=\"radio\" name=\"gender\">Female\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Skills</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"checkbox\">C\r\n                        <input type=\"checkbox\">CPP\r\n                        <input type=\"checkbox\">JAVA\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>city</label>\r\n                    </td>\r\n                    <td>\r\n                        : <select>\r\n                            <option>Select</option>\r\n                            <option>Mumbai</option>\r\n                            <option>Pune</option>\r\n                            <option>Banglore</option>\r\n                        </select>\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Address</label>\r\n                    </td>\r\n                    <td>\r\n                        <textarea rows=\"3\"></textarea>\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Date</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"date\">\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td>\r\n                        <label>Time</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"time\">\r\n                    </td>\r\n                </tr>\r\n\r\n                <tr>\r\n                    <td>\r\n                        <label>Date Time</label>\r\n                    </td>\r\n                    <td>\r\n                        : <input type=\"datetime-local\">\r\n                    </td>\r\n                </tr>\r\n                <tr>\r\n                    <td></td>\r\n                    <td>\r\n                        <input type=\"submit\" value=\"save\">\r\n                        <input type=\"reset\" value=\"clear\">\r\n                    </td>\r\n\r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-page12-html",
+        "title": "different tags",
+        "summary": "Learn different tags through a runnable example pulled from the Day02 lesson set.",
+        "explanation": "This page demonstrates different tags. The main visible focus is \"Sunbeam Advanced Computing Course\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "different tags comes from the Day02 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>different tags</title>\r\n</head>\r\n\r\n<body>\r\n    <header>\r\n        <h2>Sunbeam Advanced Computing Course</h2>\r\n        <img src=\"/resources/wpt/Day02/resources/CPAC.jpg\" alt=\"\">\r\n    </header>\r\n    <nav>\r\n        <a href=\"/resources/wpt/Day02/page01.html\">Page01</a>\r\n        <a href=\"/resources/wpt/Day02/page02.html\">Page02</a>\r\n        <a href=\"/resources/wpt/Day02/page03.html\">Page03</a>\r\n        <a href=\"/resources/wpt/Day02/page04.html\">Page04</a>\r\n        <a href=\"/resources/wpt/Day02/page05.html\">Page05</a>\r\n    </nav>\r\n    <section>\r\n        <article>\r\n            <h2>Modules</h2>\r\n            <ul>\r\n                <li>CPP</li>\r\n                <li>Java</li>\r\n                <li>WPT</li>\r\n                <li>DBT</li>\r\n            </ul>\r\n        </article>\r\n        <article>\r\n            <h2>activities</h2>\r\n        </article>\r\n    </section>\r\n    <aside>\r\n        <h3>ad</h3>\r\n        <video src=\"/resources/wpt/Day02/resources/samplevideo.mp4\" width=\"200\" controls></video>\r\n    </aside>\r\n    <dl>\r\n        <dt>HTML</dt>\r\n        <dd>HyperText Markup Language</dd>\r\n    </dl>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-demo05-campus-html",
+        "title": "Demo05 Campus",
+        "summary": "Learn Demo05 Campus through a runnable example pulled from the Demo05 lesson set.",
+        "explanation": "This page demonstrates Demo05 Campus. The main visible focus is \"Campus\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Demo05 Campus comes from the Demo05 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Campus</title>\r\n    <link rel=\"icon\" href=\"/resources/wpt/Day02/resources/sunbeam.jpg\">\r\n\r\n</head>\r\n\r\n<body>\r\n    <h2>Campus</h2>\r\n    <div>\r\n        <h3>Sunbeam Pune</h3>\r\n        <img src=\"/resources/wpt/Day02/resources/sunbeam_hinjwadi_infra.jpg\" alt=\"\">\r\n        <img src=\"/resources/wpt/Day02/resources/sunbeam_hinjweadi_lab.jpg\" alt=\"\">\r\n        <p>SunBeam IT Park, Hinjawadi campus is located in Phase 2 area of Rajiv Gandhi IT Park Hinjawadi. It isjust\r\n            opposite to Infosys- Phase 2 campus. The institute isspread across a campus of 70,000 sq ft.\r\n        </p>\r\n        <p>\r\n            The campus houses aworld class academic and computing infrastructure. The campus consists of\r\n            state-of-the-art classrooms each equipped with ergonomic seating arrangements, air conditioning, LCD\r\n            projection system, public address system and soothing interiors conducive to learning.\r\n        </p>\r\n        <p>\r\n            The computing infrastructure consists of state-of-the-art labs designed with utmost care to enable students\r\n            to spend prolonged hours in their practicals. Computer Labs have been designed to enable classroom approach\r\n            making concurrent conduct of lectures and practicals (Online Training) possible.\r\n        </p>\r\n        <p>The campus also houses a well equipped library, reading rooms, the administrative blocks, server rooms, staff\r\n            rooms, canteen etc. The institute has tie-ups with private third party hostels in the close vicinity which\r\n            provide student accommodation on sharing basis.\r\n        </p>\r\n    </div>\r\n\r\n    <div id=\"karad_campus\">\r\n        <h3>Sunbeam Karad</h3>\r\n        <img src=\"/resources/wpt/Day02/resources/sunbeam-karad-infra.jpg\" alt=\"\">\r\n        <img src=\"/resources/wpt/Day02/resources/sunbeam_karad_lab.jpg\" alt=\"\">\r\n        <p>SunBeam Karad is most conveniently located just opposite the Karad Bus Stand & 4 km from the Karad Railway\r\n            Station. Karad is located on the Mumbai-Bangalore NH-4 & only 5 hours from Mumbai, 3 hours from Pune & 1\r\n            hour from Kolhapur. The institute is spread across a campus of 12,000 sq ft covering the institute and the\r\n            on campus hostels & mess.\r\n        </p>\r\n        <p>The campus houses aworld class academic and computing infrastructure. The campus houses two state-of-the-art\r\n            classrooms each equipped with ergonomic seating arrangements, air conditioning, LCD projection system,\r\n            public address system and soothing interiors conducive to learning.\r\n        </p>\r\n        <p>The computing infrastructure is spread across four state-of-the-art labs designed with utmost care to enable\r\n            students to spend prolonged hours in their practicals. Three of the four labs have been designed to enable\r\n            classroom approach making concurrent conduct of lecture and practicals (online training) possible.\r\n        </p>\r\n        <p>The campus also houses the on-campus hostelwhich isfully furnished and an on-campus mess which makes SunBeam\r\n            Karad a truly residential & 24 hours institute. The institute also hasawell equipped library,administrative\r\n            blocks, server rooms, staff rooms etc.\r\n        </p>\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-demo05-contactus-html",
+        "title": "Demo05 Contact us",
+        "summary": "Learn Demo05 Contact us through a runnable example pulled from the Demo05 lesson set.",
+        "explanation": "This page demonstrates Demo05 Contact us. The main visible focus is \"Contact us\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Demo05 Contact us comes from the Demo05 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Contact us</title>\r\n    <link rel=\"icon\" href=\"/resources/wpt/Day02/resources/sunbeam.jpg\">\r\n\r\n</head>\r\n\r\n<body>\r\n    <h2>Contact us</h2>\r\n    <div>\r\n        <h3>Sunbeam Pune</h3>\r\n        <p>Address : \"Sunbeam IT Park\", Ground Floor, Phase 2 of Rajiv Gandhi Infotech Park, Hinjawadi, Pune - 411057,\r\n            MH-INDIA</p>\r\n        <p>Phone : +91 82 82 82 9805 / +91 82 82 82 9806</p>\r\n        <p>Email : siit@sunbeaminfo.com</p>\r\n    </div>\r\n    <hr>\r\n    <div>\r\n        <h3>Sunbeam Karad</h3>\r\n        <p>Address : 'Anuda Chambers', 203 Shaniwar Peth, Near Gujar Hospital, Karad - 415 110, Dist. Satara, MH-INDIA.\r\n        </p>\r\n        <p>Phone : +91 82 82 82 9806 / 02164 - 225500 , 225800</p>\r\n        <p>Email : siitkarad@sunbeaminfo.com</p>\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-html-day02-demo05-home-html",
+        "title": "Demo05 Home",
+        "summary": "Learn Demo05 Home through a runnable example pulled from the Demo05 lesson set.",
+        "explanation": "This page demonstrates Demo05 Home. The main visible focus is \"About Sunbeam\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Demo05 Home comes from the Demo05 resource section.",
+          "Edit the code and rerun it to see how the html concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Home</title>\r\n    <link rel=\"icon\" href=\"/resources/wpt/Day02/resources/sunbeam.jpg\">\r\n</head>\r\n\r\n<body>\r\n    <h2>About Sunbeam</h2>\r\n    <img src=\"/resources/wpt/Day02/resources/sunbeam.jpg\" width=\"300\" alt=\"\">\r\n\r\n    <p>\r\n        At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n        world. Companies are restructuring their organizations & reengineering their business processes. Not only have\r\n        the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n    </p>\r\n\r\n    <p>\r\n        In this scenario, technical & personal skills which provide effective solutions & time critical support are of\r\n        principal significance for the long term growth of professionals. Sunbeam's expertise in effectively delivering\r\n        training, solutions & services has made it a favored institution to many students & professionals focused on an\r\n        aggressive career growth strategy.\r\n    </p>\r\n    <p>\r\n        Sunbeam's proven track record in bringing about effective transformations in individuals is backed by a solid\r\n        understanding of the rapidly changing needs of the industry & the global business scenario. Sunbeam's success\r\n        has been built on its comprehensively researched, innovative training methodologies, deployment of technology\r\n        and an emphasis on transformational & industry-relevant programs offering value-added services to its clients. A\r\n        young and dynamic management team and carefully recruited and trained staff members drive Sunbeam's business\r\n        vision & have established strong credentials in a short span of time.\r\n    </p>\r\n\r\n    <p>\r\n        Sunbeam Group's expertise in effectively delivering training & solutions has made it a favored associate to many\r\n        establishments focused on aggressive growth strategies. Since it's humble beginnings in the late 90's Sunbeam\r\n        Group has today, evolved into a multi-technology, multi-location competency center with IT professionals capable\r\n        of delivering high-end technological training & solutions in diverse modes. Their expertise in various IT fields\r\n        has made Sunbeam Group a premium turnkey solution provider.\r\n    </p>\r\n\r\n    <!-- <a href=\"/resources/wpt/Day02/Demo05/contactus.html\">Contact us</a>\r\n    <a href=\"/resources/wpt/Day02/Demo05/campus.html\">Campus</a> -->\r\n\r\n    <ul>\r\n        <li>\r\n            <a href=\"/resources/wpt/Day02/Demo05/contactus.html\">Contact us</a>\r\n        </li>\r\n        <li>\r\n            <a href=\"/resources/wpt/Day02/Demo05/campus.html\">Campus</a>\r\n        </li>\r\n        <ul>\r\n            <li><a href=\"/resources/wpt/Day02/Demo05/campus.html\">Hinjawadi</a></li>\r\n            <li><a href=\"/resources/wpt/Day02/Demo05/campus.html#karad_campus\">Karad</a></li>\r\n        </ul>\r\n    </ul>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      }
+    ]
+  },
+  {
+    "category": "CSS",
+    "topics": [
+      {
+        "id": "resource-css-day03-1-addingcss-page01-html",
+        "title": "Adding Inline CSS",
+        "summary": "Learn Adding Inline CSS through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Adding Inline CSS comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Adding Inline CSS</title>\r\n</head>\r\n\r\n<body>\r\n\r\n    <!-- Inline CSS -->\r\n    <div style=\"color: red;\">This is div1</div>\r\n\r\n    <p>This is para 1</p>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-1-addingcss-page02-html",
+        "title": "Adding Inline CSS",
+        "summary": "Learn Adding Inline CSS through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Adding Inline CSS comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Adding Inline CSS</title>\r\n    <!-- Internal CSS -->\r\n    \r\n</head>\r\n\r\n<body>\r\n\r\n    <div>This is div1</div>\r\n    <div>This is div2</div>\r\n    <div>This is div3</div>\r\n    <div>This is div4</div>\r\n\r\n    <p>This is para 1</p>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            color: red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-1-addingcss-page03-html",
+        "title": "Adding Inline CSS",
+        "summary": "Learn Adding Inline CSS through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Adding Inline CSS comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Adding Inline CSS</title>\r\n    <!-- External CSS -->\r\n    \r\n</head>\r\n\r\n<body>\r\n\r\n    <div>This is div1</div>\r\n    <div>This is div2</div>\r\n    <div>This is div3</div>\r\n    <div>This is div4</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n    <p>This is para 3</p>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n    color: red;\r\n}\r\n\r\np {\r\n    color: blue;\r\n}",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-1-addingcss-page04-html",
+        "title": "Adding Inline CSS",
+        "summary": "Learn Adding Inline CSS through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Adding Inline CSS comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Adding Inline CSS</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n\r\n    <div>This is div1</div>\r\n    <div>This is div2</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n    color: red;\r\n}\r\n\r\np {\r\n    color: blue;\r\n}",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-1-addingcss-page05-html",
+        "title": "Adding Inline CSS",
+        "summary": "Learn Adding Inline CSS through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Adding Inline CSS comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Adding Inline CSS</title>\r\n    \r\n    \r\n</head>\r\n\r\n<body>\r\n\r\n    <div>This is div1</div>\r\n    <div>This is div2</div>\r\n    <div>This is div4</div>\r\n    <div style=\"color: blue;\">This is div5</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n    <p>This is para 3</p>\r\n    <p>This is para 4</p>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "p {\r\n            color: green;\r\n        }\n\ndiv {\r\n    color: red;\r\n}\r\n\r\np {\r\n    color: blue;\r\n}",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page01-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>This is div1</div>\r\n    <div>This is div2</div>\r\n    <div>This is div3</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n    <p>This is para 3</p>\r\n</body>\r\n\r\n</html>",
+          "css": "/* Element Selector */\r\n        /* CSS Rule */\r\n        /* selector + declaration block */\r\n        div {\r\n            /* declaration */\r\n            /* css property : value */\r\n            color: red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page02-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>This is div1</div>\r\n    <div>This is div2</div>\r\n    <div>This is div3</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n    <p>This is para 3</p>\r\n</body>\r\n\r\n</html>",
+          "css": "/* Multiple Element Selector */\r\n        div,\r\n        p {\r\n            color: red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page03-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div id=\"div1\">This is div1</div>\r\n    <div>This is div2</div>\r\n    <div>This is div3</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n    <p>This is para 3</p>\r\n</body>\r\n\r\n</html>",
+          "css": "/* Id Selector */\r\n        #div1 {\r\n            background-color: black;\r\n            color: white;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page04-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>This is div1</div>\r\n    <div class=\"c1\">This is div2</div>\r\n    <div class=\"c1\">This is div3</div>\r\n\r\n    <p>This is para 1</p>\r\n    <p>This is para 2</p>\r\n    <p class=\"c1\">This is para 3</p>\r\n</body>\r\n\r\n</html>",
+          "css": "/* class Selector */\r\n        .c1 {\r\n            background-color: black;\r\n            color: white;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page05-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>\r\n        <p>This is para 1</p>\r\n        <p>This is para 2</p>\r\n    </div>\r\n    <div>\r\n        <ul>\r\n            <li>\r\n                <p>This is para 3</p>\r\n            </li>\r\n            <li>\r\n                <p>This is para 4</p>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n    <p>This is para 5</p>\r\n    <p>This is para 6</p>\r\n</body>\r\n\r\n</html>",
+          "css": "/* descendent selector */\r\n        div p {\r\n            color: red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page06-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>\r\n        <p>This is para 1</p>\r\n        <p>This is para 2</p>\r\n    </div>\r\n    <div>\r\n        <ul>\r\n            <li>\r\n                <p>This is para 3</p>\r\n            </li>\r\n            <li>\r\n                <p>This is para 4</p>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n    <p>This is para 5</p>\r\n    <p>This is para 6</p>\r\n</body>\r\n\r\n</html>",
+          "css": "/* child selector */\r\n        div>p {\r\n            color: red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page07-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <input type=\"submit\" value=\"signin\">\r\n    <input type=\"reset\" value=\"cancel\">\r\n</body>\r\n\r\n</html>",
+          "css": "/* Attribute Selector */\r\n        [type=\"submit\"] {\r\n            background-color: green;\r\n            color: white;\r\n        }\r\n\r\n        [type=\"reset\"] {\r\n            background-color: red;\r\n            color: white;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page08-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>div1</div>\r\n    <div>div2</div>\r\n    <div>div3</div>\r\n    <div>div4</div>\r\n    <div>div5</div>\r\n    <div>div6</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            background-color: red;\r\n        }\r\n\r\n        /* pseudo selector */\r\n        div:nth-child(even) {\r\n            background-color: green;\r\n        }\r\n\r\n        /* pseudo selectors */\r\n        div:hover {\r\n            background-color: yellow;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-2-selectors-page09-html",
+        "title": "Selector",
+        "summary": "Learn Selector through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates Selector. The main visible focus is \"This is header 2\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Selector comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Selector</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>this is div1</div>\r\n    <div>this is div2</div>\r\n    <div>this is div3</div>\r\n\r\n    <p>this is para 1</p>\r\n    <p>this is para 2</p>\r\n    <p>this is para 3</p>\r\n\r\n    <h2>This is header 2</h2>\r\n</body>\r\n\r\n</html>",
+          "css": "/* universal Selector */\r\n        * {\r\n            color: red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-3-boxmodel-page01-html",
+        "title": "Border",
+        "summary": "Learn Border through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is part of the 3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Border comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Border</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>DIV1</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            background-color: red;\r\n            /* border-style: solid;\r\n            border-color: blue;\r\n            border-width: 5px; */\r\n            border: solid 5px blue;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-3-boxmodel-page02-html",
+        "title": "Border",
+        "summary": "Learn Border through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is part of the 3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Border comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Border</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>DIV1</div>\r\n    <div>DIV2</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            background-color: red;\r\n            border: solid 5px blue;\r\n            /* margin-top: 50px;\r\n            margin-left: 50px; */\r\n            margin: 50px;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-3-boxmodel-page03-html",
+        "title": "Border",
+        "summary": "Learn Border through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is part of the 3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Border comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Border</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>DIV1</div>\r\n    <div>DIV2</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            background-color: red;\r\n            border: solid 5px blue;\r\n            margin: 50px;\r\n            /* padding-top: 10px;\r\n            padding-left: 10px; */\r\n            padding: 10px;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-4-positions-page01-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: antiquewhite;\">div1</div>\r\n    <div style=\"background-color: aqua;\">div2</div>\r\n    <div style=\"background-color: brown;\">div3</div>\r\n    <div style=\"background-color: burlywood;\">div4</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n            top: 50px;\r\n            left: 50px;\r\n            /* by default position: static */\r\n            /* It ignores top left right bottom */\r\n            /* position: static; */\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-4-positions-page02-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: antiquewhite;\">div1</div>\r\n    <div style=\"background-color: aqua;\">div2</div>\r\n    <div style=\"background-color: brown;\">div3</div>\r\n    <div style=\"background-color: burlywood;\">div4</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n            top: 50px;\r\n            left: 50px;\r\n            position: relative;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-4-positions-page03-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div id=\"div1\" style=\"background-color: antiquewhite;\">div1</div>\r\n    <div id=\"div2\" style=\"background-color: aqua;\">div2</div>\r\n    <div id=\"div3\" style=\"background-color: brown;\">div3</div>\r\n    <div id=\"div4\" style=\"background-color: burlywood;\">div4</div>\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n            position: absolute;\r\n        }\r\n\r\n        #div1 {\r\n            top: 50px;\r\n            left: 50px;\r\n        }\r\n\r\n        #div2 {\r\n            right: 50px;\r\n            top: 50px;\r\n        }\r\n\r\n        #div3 {\r\n            left: 50px;\r\n            bottom: 50px;\r\n        }\r\n\r\n        #div4 {\r\n            right: 50px;\r\n            bottom: 50px;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-4-positions-page04-html",
+        "title": "This is a header",
+        "summary": "Learn This is a header through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This page demonstrates This is a header. The main visible focus is \"This is a header\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "This is a header comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <h1>This is a header</h1>\r\n    <div id=\"div1\" style=\"background-color: antiquewhite;\">div1</div>\r\n    <div id=\"div2\" style=\"background-color: aqua;\">div2</div>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n\r\n\r\n\r\n    <p>This is a para</p>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n            position: fixed;\r\n        }\r\n\r\n        #div1 {\r\n            top: 50px;\r\n            left: 50px;\r\n        }\r\n\r\n        #div2 {\r\n            left: 160px;\r\n            top: 50px;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-4-positions-page05-html",
+        "title": "Sunbeam",
+        "summary": "Learn Sunbeam through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This page demonstrates Sunbeam. The main visible focus is \"Sunbeam\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Sunbeam comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>div1</div>\r\n    <div>div2</div>\r\n    <div>div3</div>\r\n    <div>div4</div>\r\n    <h2>Sunbeam</h2>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n            /* float: left; */\r\n            float: right;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page01-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>div1</div>\r\n    <div>div2</div>\r\n    <div>div3</div>\r\n    <div>div4</div>\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n            /* by default display:block */\r\n            display: block;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page02-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>div1</div>\r\n    <div>div2</div>\r\n    <div>div3</div>\r\n    <div>div4</div>\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n\r\n            /* It ignores the width and height property  */\r\n            display: inline;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page03-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>div1</div>\r\n    <div>div2</div>\r\n    <div>div3</div>\r\n    <div>div4</div>\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n\r\n            /* It considers the width and height property  */\r\n            display: inline-block;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page04-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div>div1</div>\r\n    <div>div2</div>\r\n    <div>div3</div>\r\n    <div>div4</div>\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n\r\n            /* It considers the width and height property  */\r\n            display: none;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page05-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <div class=\"mydiv\">div1</div>\r\n        <div class=\"mydiv\">div2</div>\r\n        <div class=\"mydiv\">div3</div>\r\n        <div class=\"mydiv\">div4</div>\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": ".mydiv {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n        }\r\n\r\n        .container {\r\n            background-color: antiquewhite;\r\n            display: flex;\r\n            /* by default the flex-direction:row */\r\n            /* flex-direction: row; */\r\n            /* flex-direction: row-reverse; */\r\n            /* flex-direction: column; */\r\n            flex-direction: column-reverse;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page06-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <div class=\"mydiv\">div1</div>\r\n        <div class=\"mydiv\">div2</div>\r\n        <div class=\"mydiv\">div3</div>\r\n        <div class=\"mydiv\">div4</div>\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": ".mydiv {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n        }\r\n\r\n        .container {\r\n            background-color: antiquewhite;\r\n            /* one dimensional display */\r\n            display: flex;\r\n            /* by default the flex-direction:row */\r\n            /* justify-content: center; */\r\n            /* justify-content: space-evenly; */\r\n            /* justify-content: space-between; */\r\n            justify-content: space-around;\r\n\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-5-display-page07-html",
+        "title": "Document Div1 Div2 Div3 Div4",
+        "summary": "Learn Document Div1 Div2 Div3 Div4 through a runnable example pulled from the 5 lesson set.",
+        "explanation": "This lesson is part of the 5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 Div4 comes from the 5 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <div class=\"mydiv\">div1</div>\r\n        <div class=\"mydiv\">div2</div>\r\n        <div class=\"mydiv\">div3</div>\r\n        <div class=\"mydiv\">div4</div>\r\n    </div>\r\n</body>\r\n\r\n</html>",
+          "css": ".mydiv {\r\n            background-color: red;\r\n            width: 100px;\r\n            height: 100px;\r\n            margin: 10px;\r\n        }\r\n\r\n        .container {\r\n            background-color: antiquewhite;\r\n            display: grid;\r\n            grid-template-rows: 200px 200px;\r\n            grid-template-columns: 1fr 1fr;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-6-examples-page01-html",
+        "title": "Examples Concept",
+        "summary": "Learn Examples Concept through a runnable example pulled from the 6 lesson set.",
+        "explanation": "This lesson is part of the 6 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Examples Concept comes from the 6 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <table border=\"1\">\r\n        <thead>\r\n            <tr>\r\n                <th>pid</th>\r\n                <th>name</th>\r\n                <th>price</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr>\r\n                <td>1</td>\r\n                <td>Pen</td>\r\n                <td>20</td>\r\n            </tr>\r\n            <tr>\r\n                <td>2</td>\r\n                <td>Pencil</td>\r\n                <td>10</td>\r\n            </tr>\r\n            <tr>\r\n                <td>3</td>\r\n                <td>Book</td>\r\n                <td>50</td>\r\n            </tr>\r\n            <tr>\r\n                <td>4</td>\r\n                <td>Eraser</td>\r\n                <td>10</td>\r\n            </tr>\r\n        </tbody>\r\n        <tfoot>\r\n            <tr>\r\n                <td colspan=\"2\">Total</td>\r\n                <td>90</td>\r\n            </tr>\r\n        </tfoot>\r\n    </table>\r\n</body>\r\n\r\n</html>",
+          "css": "thead {\r\n            background-color: aquamarine;\r\n        }\r\n\r\n        tbody>tr:nth-child(even) {\r\n            background-color: aliceblue;\r\n        }\r\n\r\n        tbody>tr:nth-child(odd) {\r\n            background-color: beige;\r\n        }\r\n\r\n        tfoot {\r\n            background-color: crimson;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-6-examples-page02-html",
+        "title": "This is a header",
+        "summary": "Learn This is a header through a runnable example pulled from the 6 lesson set.",
+        "explanation": "This page demonstrates This is a header. The main visible focus is \"This is a header\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "This is a header comes from the 6 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n</head>\r\n\r\n<body>\r\n    <h1>This is a header</h1>\r\n    <table class=\"table table-striped\">\r\n        <thead>\r\n            <tr>\r\n                <th>pid</th>\r\n                <th>name</th>\r\n                <th>price</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr>\r\n                <td>1</td>\r\n                <td>Pen</td>\r\n                <td>20</td>\r\n            </tr>\r\n            <tr>\r\n                <td>2</td>\r\n                <td>Pencil</td>\r\n                <td>10</td>\r\n            </tr>\r\n            <tr>\r\n                <td>3</td>\r\n                <td>Book</td>\r\n                <td>50</td>\r\n            </tr>\r\n            <tr>\r\n                <td>4</td>\r\n                <td>Eraser</td>\r\n                <td>10</td>\r\n            </tr>\r\n        </tbody>\r\n        <tfoot>\r\n            <tr>\r\n                <td colspan=\"2\">Total</td>\r\n                <td>90</td>\r\n            </tr>\r\n        </tfoot>\r\n    </table>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-7-extraproperties-page01-html",
+        "title": "Sunbeam",
+        "summary": "Learn Sunbeam through a runnable example pulled from the 7 lesson set.",
+        "explanation": "This page demonstrates Sunbeam. The main visible focus is \"Sunbeam\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Sunbeam comes from the 7 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <h1>Sunbeam</h1>\r\n\r\n    <div></div>\r\n</body>\r\n\r\n</html>",
+          "css": "h1 {\r\n            text-shadow: 5px 5px 5px gray, 5px 5px 5px red;\r\n        }\r\n\r\n        div {\r\n            width: 100px;\r\n            height: 100px;\r\n            background-color: bisque;\r\n            margin: 10px;\r\n            box-shadow: 5px 10px 5px 5px grey, 5px 10px 5px 5px red;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-7-extraproperties-page02-html",
+        "title": "Extra Properties Concept",
+        "summary": "Learn Extra Properties Concept through a runnable example pulled from the 7 lesson set.",
+        "explanation": "This lesson is part of the 7 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Extra Properties Concept comes from the 7 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div></div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            /* background: linear-gradient(red, yellow); */\r\n            background: radial-gradient(red, yellow);\r\n            /* border-radius: 10px; */\r\n            border-radius: 50%;\r\n            margin: 10px;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-7-extraproperties-page03-html",
+        "title": "Document Div1 Div2 Div3",
+        "summary": "Learn Document Div1 Div2 Div3 through a runnable example pulled from the 7 lesson set.",
+        "explanation": "This lesson is part of the 7 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Document Div1 Div2 Div3 comes from the 7 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <div id=\"div1\">Div1</div>\r\n    <div id=\"div2\">Div2</div>\r\n    <div id=\"div3\">Div3</div>\r\n</body>\r\n\r\n</html>",
+          "css": "div {\r\n            width: 100px;\r\n            height: 100px;\r\n            background-color: red;\r\n            margin: 10px;\r\n        }\r\n\r\n        #div1:hover {\r\n            transform: rotate(360deg);\r\n            transition: 2s;\r\n        }\r\n\r\n        #div2:hover {\r\n            transform: scale(1.5);\r\n            transition: 2s;\r\n        }\r\n\r\n        #div3:hover {\r\n            transform: translate(100px, 0px);\r\n            transition: 2s;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-7-extraproperties-page04-html",
+        "title": "Extra Properties Concept",
+        "summary": "Learn Extra Properties Concept through a runnable example pulled from the 7 lesson set.",
+        "explanation": "This lesson is part of the 7 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying css code.",
+        "points": [
+          "Extra Properties Concept comes from the 7 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <p>At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n        world. Companies are restructuring their organizations & reengineering their business processes. Not only have\r\n        the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n    </p>\r\n\r\n    <p>In this scenario, technical & personal skills which provide effective solutions & time critical support are of\r\n        principal significance for the long term growth of professionals. Sunbeam's expertise in effectively delivering\r\n        training, solutions & services has made it a favored institution to many students & professionals focused on an\r\n        aggressive career growth strategy.\r\n    </p>\r\n    <p>\r\n        Sunbeam's proven track record in bringing about effective transformations in individuals is backed by a solid\r\n        understanding of the rapidly changing needs of the industry & the global business scenario. Sunbeam's success\r\n        has been built on its comprehensively researched, innovative training methodologies, deployment of technology\r\n        and an emphasis on transformational & industry-relevant programs offering value-added services to its clients. A\r\n        young and dynamic management team and carefully recruited and trained staff members drive Sunbeam's business\r\n        vision & have established strong credentials in a short span of time.\r\n    </p>\r\n\r\n    <p>Sunbeam Group's expertise in effectively delivering training & solutions has made it a favored associate to many\r\n        establishments focused on aggressive growth strategies. Since it's humble beginnings in the late 90's Sunbeam\r\n        Group has today, evolved into a multi-technology, multi-location competency center with IT professionals capable\r\n        of delivering high-end technological training & solutions in diverse modes. Their expertise in various IT fields\r\n        has made Sunbeam Group a premium turnkey solution provider.\r\n    </p>\r\n</body>\r\n\r\n</html>",
+          "css": "p {\r\n            column-count: 3;\r\n        }",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-css-day03-8-mediaqueries-page01-html",
+        "title": "Desktop Heading",
+        "summary": "Learn Desktop Heading through a runnable example pulled from the 8 lesson set.",
+        "explanation": "This page demonstrates Desktop Heading. The main visible focus is \"Desktop Heading\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Desktop Heading comes from the 8 resource section.",
+          "Edit the code and rerun it to see how the css concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n\r\n    <h1>Desktop Heading</h1>\r\n    <h2>Tablet Heading</h2>\r\n    <h3>Mobile Heading</h3>\r\n\r\n    <p>At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n        world. Companies are restructuring their organizations & reengineering their business processes. Not only have\r\n        the challenges become more demanding, but also the rewards of staying at the forefront seem to be promising.\r\n    </p>\r\n\r\n    <p>In this scenario, technical & personal skills which provide effective solutions & time critical support are of\r\n        principal significance for the long term growth of professionals. Sunbeam's expertise in effectively delivering\r\n        training, solutions & services has made it a favored institution to many students & professionals focused on an\r\n        aggressive career growth strategy.\r\n    </p>\r\n    <p>\r\n        Sunbeam's proven track record in bringing about effective transformations in individuals is backed by a solid\r\n        understanding of the rapidly changing needs of the industry & the global business scenario. Sunbeam's success\r\n        has been built on its comprehensively researched, innovative training methodologies, deployment of technology\r\n        and an emphasis on transformational & industry-relevant programs offering value-added services to its clients. A\r\n        young and dynamic management team and carefully recruited and trained staff members drive Sunbeam's business\r\n        vision & have established strong credentials in a short span of time.\r\n    </p>\r\n\r\n    <p>Sunbeam Group's expertise in effectively delivering training & solutions has made it a favored associate to many\r\n        establishments focused on aggressive growth strategies. Since it's humble beginnings in the late 90's Sunbeam\r\n        Group has today, evolved into a multi-technology, multi-location competency center with IT professionals capable\r\n        of delivering high-end technological training & solutions in diverse modes. Their expertise in various IT fields\r\n        has made Sunbeam Group a premium turnkey solution provider.\r\n    </p>\r\n\r\n</body>\r\n\r\n</html>",
+          "css": "/* Mobile screen */\r\n        @media screen and (min-width:200px) {\r\n            body {\r\n                background-color: aqua;\r\n            }\r\n\r\n            h1,\r\n            h2 {\r\n                display: none;\r\n            }\r\n\r\n            h3 {\r\n                display: block;\r\n            }\r\n\r\n            p {\r\n                column-count: 1;\r\n            }\r\n        }\r\n\r\n        /* tablet screen */\r\n        @media screen and (min-width:720px) {\r\n            body {\r\n                background-color: cadetblue;\r\n            }\r\n\r\n            h1,\r\n            h3 {\r\n                display: none;\r\n            }\r\n\r\n            h2 {\r\n                display: block;\r\n            }\r\n\r\n            p {\r\n                column-count: 2;\r\n            }\r\n\r\n        }\r\n\r\n        /* desktop screen  */\r\n        @media screen and (min-width:980px) {\r\n            body {\r\n                background-color: antiquewhite;\r\n            }\r\n\r\n            h1 {\r\n                display: block;\r\n            }\r\n\r\n            h2,\r\n            h3 {\r\n                display: none;\r\n            }\r\n\r\n            p {\r\n                column-count: 4;\r\n            }\r\n        }",
+          "js": ""
+        }
+      }
+    ]
+  },
+  {
+    "category": "JavaScript",
+    "topics": [
+      {
+        "id": "resource-javascript-day04-2-jsbasics-page01-html",
+        "title": "JSBasics Concept",
+        "summary": "Learn JSBasics Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "JSBasics Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n\r\n</head>\r\n\r\n<body>\r\n    <!-- External JS -->\r\n    \r\n\r\n    <!-- Internal JS -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "console.log(\"Hello World from body\")\n\nconsole.log(\"Hello from demo01\")"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-2-jsbasics-page02-html",
+        "title": "JSBasics Concept",
+        "summary": "Learn JSBasics Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "JSBasics Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<!--  -->\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n\r\n    \r\n</head>\r\n\r\n<body>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "/*  */",
+          "js": "// let is a keyword in javascript used to declare a variable\r\n        // let is used to create mutable variables\r\n        let n1 = 10\r\n        n1 = 20\r\n        console.log(n1)\r\n\r\n        // const is a keyword in js used to declare Immutable variables\r\n        const n2 = 30;\r\n        // n2 = 40; // NOT OK\r\n        console.log(n2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-2-jsbasics-page03-html",
+        "title": "JSBasics Concept",
+        "summary": "Learn JSBasics Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "JSBasics Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n\r\n</head>\r\n\r\n<body>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "let n1\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // \r\n        n1 = 10\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // number\r\n        n1 = 11.22\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // number\r\n        n1 = true\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // boolean\r\n        n1 = \"sunbeam\"\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // string\r\n        n1 = null\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // object\r\n        n1 = 'a'\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // string\r\n        n1 = 10 / 0\r\n        console.log(\"value of n1 - \" + n1 + \", type of n1 - \" + typeof (n1)) // number\r\n        n1 = 'sunbeam' * 10\r\n        console.log('value of n1 - ' + n1 + \", type of n1 - \" + typeof (n1)) // number"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-3-jsfunctions-page01-html",
+        "title": "JSFunctions Concept",
+        "summary": "Learn JSFunctions Concept through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is part of the 3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "JSFunctions Concept comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "// parameterless function\r\nfunction f1() {\r\n    console.log(\"Hello from f1\")\r\n}\r\n\r\n// parameterized function\r\nfunction add(n1, n2) {\r\n    console.log('Addition of nos - ' + (n1 + n2))\r\n}\r\n\r\n// function that returns a value\r\nfunction sqr(n) {\r\n    return n * n;\r\n}\r\n\r\nf1()\r\nadd(10, 20)\r\nconst res = sqr(5)\r\nconsole.log('result - ' + res)\n\nfunction f1(n1) {\r\n    console.log(\"value of n1 - \" + n1 + \", typeof(n1) - \" + typeof (n1))\r\n}\r\n\r\nf1(10)\r\nf1(\"sunbeam\")\r\nf1(false)\r\nf1(null)\r\nf1()\n\nfunction f1(n1, n2) {\r\n    // template string\r\n    console.log(`value of n1 - ${n1} , typeof(n1) - ${typeof (n1)}`)\r\n    console.log(`value of n2 - ${n2} , typeof(n2) - ${typeof (n2)}`)\r\n}\r\nf1(10, 20)\r\nf1(10, \"sunbeam\")\r\nf1(\"sunbeam\", true)\r\nf1(10)\r\nf1()\r\nf1(10, 20, 30)\n\n// default argument function\r\nfunction add(n1, n2, n3 = 0, n4 = 0) {\r\n    const res = n1 + n2 + n3 + n4\r\n    console.log(`Addition - ${res}`)\r\n}\r\n\r\nadd(10, 20)\r\nadd(10, 20, 30)\r\nadd(10, 20, 30, 40)\n\n// function f1() {\r\n//     console.log(\"Inside f1()-1\")\r\n// }\r\n\r\nfunction f1(n1) {\r\n    console.log(\"Inside f1(n1)-2\")\r\n}\r\nf1() //\r\n\r\nf1(10) //"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-4-jsfunctiondetails-page01-html",
+        "title": "JSFunction Details Concept",
+        "summary": "Learn JSFunction Details Concept through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "JSFunction Details Concept comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function add(n1, n2) {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n// let n1 = 10\r\n// let n2 = n1\r\n\r\n// function alias\r\nlet myadd = add\r\n\r\n\r\n//myadd = 10 // OK\r\n//add = 20 // OK\r\n\r\nadd(10, 20)\r\nconsole.log('add - ' + add)\r\nconsole.log('typeof(add) - ' + typeof (add))\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))\n\n// function add(n1, n2) {\r\n//     const res = n1 + n2\r\n//     console.log(`result - ${res}`)\r\n// }\r\n\r\n\r\n// anonymous function\r\nlet myadd = function (n1, n2) {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n//console.log('add - ' + add) // add is not defined\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))\n\n// let myadd = function (n1, n2) {\r\n//     const res = n1 + n2\r\n//     console.log(`result - ${res}`)\r\n// }\r\n\r\nconst myadd = function (n1, n2) {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))\n\n// Arrow functions\r\nconst myadd = (n1, n2) => console.log(`result - ${n1 + n2}`)\r\nmyadd(11, 22)\r\n\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-page01-html",
+        "title": "Day05 Concept",
+        "summary": "Learn Day05 Concept through a runnable example pulled from the Day05 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Day05 Concept comes from the Day05 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "// console.log(window)\r\n        let n = window.prompt(\"Enter name\")\r\n        console.log(n)\r\n        window.alert(\"Hello \" + n)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-page01-html",
+        "title": "JSFunctions Concept",
+        "summary": "Learn JSFunctions Concept through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "JSFunctions Concept comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "// closure(js) -> capturing lamda(java)\r\nfunction outer() {\r\n    let z = 30\r\n    return function inner() {\r\n        let a = 10\r\n        console.log('a -' + a)\r\n        console.log('z - ' + z)\r\n    }\r\n\r\n}\r\n\r\nlet inner_fn = outer()\r\ninner_fn()\n\nfunction counter() {\r\n    let count = 0;\r\n    return () => {\r\n        count++\r\n        console.log('count -  ' + count)\r\n    }\r\n}\r\n\r\n\r\nconst incrementCounter = counter()\r\nconst incrementCounter2 = counter()\r\nincrementCounter()\r\nincrementCounter()\r\nincrementCounter()\r\nincrementCounter()\r\nincrementCounter()\n\n// function kmTom(value) {\r\n//     return value * 1000\r\n// }\r\n\r\n// function cmTomm(value) {\r\n//     return value * 10\r\n// }\r\n\r\n// function hrTom(value) {\r\n//     return value * 60\r\n// }\r\n\r\n// function currying\r\nfunction multiply(n) {\r\n    return (value) => {\r\n        return value * n\r\n    }\r\n}\r\n\r\nconst kmTom = multiply(1000)\r\nconsole.log('2 km = ' + kmTom(2))\r\n\r\nconst hrTOm = multiply(60)\r\nconsole.log('3 hrs = ' + hrTOm(3))\r\n\r\nconsole.log('5 cm = ' + multiply(10)(5))\r\n\r\nfunction add() {\r\n\r\n}\r\n\r\nconst myadd = add\n\n//Higher Order Function\r\nfunction f1(fn) {\r\n    console.log(\"Inside f1()\")\r\n    fn()\r\n}\r\n\r\nfunction f2() {\r\n    console.log(\"Inside f2()\")\r\n}\r\n\r\nf1(f2)\n\nfunction add(n1, n2) {\r\n    const res = n1 + n2\r\n    return res\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    const res = n1 - n2\r\n    return res\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    const res = n1 * n2\r\n    return res\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    const res = n1 / n2\r\n    return res\r\n}\r\n\r\n// Higher order function\r\nfunction arithmeticExecuter(fn) {\r\n    const res1 = fn(20, 10)\r\n    console.log(\"result - \" + res1)\r\n}\r\n\r\narithmeticExecuter(add)\r\narithmeticExecuter(sub)\r\narithmeticExecuter(mul)\r\narithmeticExecuter(div)\n\nfunction mul(n1, n2) {\r\n    const res = n1 * n2\r\n    return res\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    const res = n1 / n2\r\n    return res\r\n}\r\n\r\n// Higher order function\r\nfunction arithmeticExecuter(fn) {\r\n    const res1 = fn(20, 10)\r\n    console.log(\"result - \" + res1)\r\n}\r\n\r\n\r\narithmeticExecuter(function (n1, n2) {\r\n    const res = n1 + n2\r\n    return res\r\n})\r\n\r\narithmeticExecuter((n1, n2) => {\r\n    const res = n1 - n2\r\n    return res\r\n})\r\n\r\narithmeticExecuter((n1, n2) => {\r\n    return n1 * n2\r\n})\r\n\r\narithmeticExecuter((n1, n2) => n1 / n2)\n\nfunction take_input() {\r\n\r\n}\r\n\r\n// Higher order function\r\nfunction arithmeticExecuter(fn) {\r\n    take_input()\r\n    const res1 = fn(20, 10)\r\n    console.log(\"result - \" + res1)\r\n    return () => {\r\n\r\n    }\r\n}\r\n\r\narithmeticExecuter((n1, n2) => n1 + n2)\r\narithmeticExecuter((n1, n2) => n1 * n2)\r\narithmeticExecuter((n1, n2) => n1 - n2)\r\narithmeticExecuter((n1, n2) => n1 / n2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-page01-html",
+        "title": "JSObjects Concept",
+        "summary": "Learn JSObjects Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "JSObjects Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "let e1 = {} // way 1 of creating an object\r\ne1.id = 1\r\ne1.name = \"anil\"\r\ne1.salary = 10000\r\n\r\nconsole.log(e1)\r\nconsole.log('typeof(e1) - ' + typeof (e1))\r\nconsole.log(\"id - \" + e1.id)\r\nconsole.log(\"name - \" + e1.name)\r\nconsole.log(\"salary - \" + e1.salary)\r\n\r\nlet e2 = {}\r\ne2.id = 2;\r\ne2.name = \"Mukesh\"\r\ne2.salary = 20000\r\ne2.mobile = \"9876543210\"\r\nconsole.log(e2)\n\nlet e1 = new Object() // way of creating an object\r\ne1.id = 1\r\ne1.name = \"anil\"\r\ne1.salary = 10000 // way 1 of adding a property\r\ne1[\"city\"] = \"Pune\" // way 2 of adding a property\r\n\r\nconsole.log(e1)\r\nconsole.log('typeof(e1) - ' + typeof (e1))\r\nconsole.log(\"id - \" + e1.id)\r\nconsole.log(\"name - \" + e1.name)\r\nconsole.log(\"salary - \" + e1.salary)\r\n\r\nlet e2 = new Object()\r\ne2.id = 2;\r\ne2.name = \"Mukesh\"\r\ne2.salary = 20000\r\ne2.mobile = \"9876543210\"\r\nconsole.log(e2)\n\n// JSON syntax\r\nlet e1 = {\r\n    \"name\": \"Anil\",\r\n    age: 30\r\n}\r\n\r\ne1.city = \"Pune\"\r\ne1[\"mobile\"] = \"9876543210\"\r\ne1.name = \"Mukesh\"\r\n\r\nconsole.log(e1)\n\n// let e1 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n\r\n// let e2 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n// let e3 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n// let e4 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n\r\n// constructor function\r\nfunction Employee(id = 0, name = \"\", salary = 0) {\r\n    this.id = id;\r\n    this.name = name;\r\n    this.salary = salary;\r\n}\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000)\r\nlet e2 = new Employee(2, \"Mukesh\", 20000)\r\nlet e3 = new Employee(3, \"Ramesh\", 30000)\r\nlet e4 = new Employee()\r\n\r\ne1.mobile = \"9876543210\"\r\nconsole.log(e1)\r\nconsole.log(e2)\r\nconsole.log(e3)\r\nconsole.log(e4)\n\n// constructor function\r\nfunction Employee(id = 0, name = \"\", salary = 0) {\r\n    this.id = id;\r\n    this.name = name;\r\n    this.salary = salary;\r\n}\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log(\"id - \" + this.id)\r\n    console.log(\"name - \" + this.name)\r\n    console.log(\"salary - \" + this.salary)\r\n}\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000)\r\nlet e2 = new Employee(2, \"Mukesh\", 20000)\r\nlet e3 = new Employee(3, \"Ramesh\", 30000)\r\nlet e4 = new Employee()\r\n\r\ne1.displayEmployee()\r\ne2.displayEmployee()\r\ne2.displayEmployee()\n\nlet e1 = {}\r\nconsole.log(\"Using object literal\")\r\nconsole.log(e1)\r\n\r\nconsole.log(\"Using new Object\")\r\nlet e2 = new Object()\r\nconsole.log(e2)\r\n\r\nfunction Employee(id, name) {\r\n    this.id = id\r\n    this.name = name\r\n}\r\n\r\nlet e3 = new Employee(1, \"anil\")\r\nconsole.log(\"using ctor function\")\r\nconsole.log(e3)\n\n// constructor function\r\nfunction Employee(id = 0, name = \"\", salary = 0) {\r\n    this.id = id;\r\n    this.name = name;\r\n    this.salary = salary;\r\n    // this.displayEmployee = function () {\r\n    //     console.log(\"id - \" + this.id)\r\n    //     console.log(\"name - \" + this.name)\r\n    //     console.log(\"salary - \" + this.salary)\r\n    // }\r\n}\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log(\"id - \" + this.id)\r\n    console.log(\"name - \" + this.name)\r\n    console.log(\"salary - \" + this.salary)\r\n}\r\n\r\nfunction Date(day, month, year) {\r\n    this.day = day;\r\n    this.month = month;\r\n    this.year = year;\r\n}\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000)\r\nlet e2 = new Employee(2, \"Mukesh\", 20000)\r\nconsole.log(e1)\r\nconsole.log(e2)\r\nconsole.log(e2.toString())\r\n\r\nlet d1 = new Date(1, 1, 2000)\r\nlet d2 = new Date()\r\n\r\nconsole.log(d1)\r\nconsole.log(d2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-3-hirerachy-page01-html",
+        "title": "Hirerachy Concept",
+        "summary": "Learn Hirerachy Concept through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is part of the 3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "Hirerachy Concept comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function Date(day, month, year) {\r\n    this.day = day\r\n    this.month = month\r\n    this.year = year\r\n}\r\n\r\nDate.prototype.displayDate = function () {\r\n    console.log(`Date - ${this.day}/${this.month}/${this.year}`)\r\n}\r\n\r\nfunction Employee(id, name, salary, day, month, year) {\r\n    this.id = id\r\n    this.name = name\r\n    this.salary = salary\r\n    this.doj = new Date(day, month, year)\r\n}\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log('id - ' + this.id)\r\n    console.log('name - ' + this.name)\r\n    console.log('salary - ' + this.salary)\r\n    this.doj.displayDate()\r\n}\r\n\r\nlet d1 = new Date(1, 1, 2001)\r\nconsole.log(d1)\r\nd1.displayDate()\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000, 2, 2, 2002)\r\nconsole.log(e1)\r\ne1.displayEmployee()\n\nclass Date {\r\n    constructor(day, month, year) {\r\n        this.day = day\r\n        this.month = month\r\n        this.year = year\r\n    }\r\n    displayDate() {\r\n        console.log(`Date - ${this.day}/${this.month}/${this.year}`)\r\n    }\r\n}\r\n\r\n\r\nclass Employee {\r\n    constructor(id, name, salary, day, month, year) {\r\n        this.id = id\r\n        this.name = name\r\n        this.salary = salary\r\n        this.doj = new Date(day, month, year)\r\n    }\r\n\r\n    displayEmployee() {\r\n        console.log('id - ' + this.id)\r\n        console.log('name - ' + this.name)\r\n        console.log('salary - ' + this.salary)\r\n        this.doj.displayDate()\r\n    }\r\n}\r\n\r\n\r\nlet d1 = new Date(1, 1, 2001)\r\nconsole.log(d1)\r\nd1.displayDate()\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000, 2, 2, 2002)\r\nconsole.log(e1)\r\ne1.displayEmployee()\n\nfunction Person(name) {\r\n    this.name = name\r\n}\r\n\r\nPerson.prototype.displayPerson = function () {\r\n    console.log(`Name - ${this.name}`)\r\n}\r\n\r\nfunction Employee(id, name, salary) {\r\n    Person.call(this, name)\r\n    this.id = id\r\n    this.salary = salary\r\n}\r\n\r\nObject.setPrototypeOf(Employee.prototype, Person.prototype)\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log('id - ' + this.id)\r\n    this.displayPerson()\r\n    console.log('salary - ' + this.salary)\r\n}\r\n\r\nlet p1 = new Person(\"Anil\")\r\nconsole.log(p1)\r\np1.displayPerson()\r\n\r\nlet e1 = new Employee(1, \"Mukesh\", 10000)\r\nconsole.log(e1)\r\n// e1.displayPerson()\r\ne1.displayEmployee()\n\nclass Person {\r\n    constructor(name) {\r\n        this.name = name\r\n    }\r\n    display() {\r\n        console.log(`Name - ${this.name}`)\r\n\r\n    }\r\n}\r\n\r\nclass Employee extends Person {\r\n    constructor(id, name, salary) {\r\n        super(name)\r\n        this.id = id\r\n        this.salary = salary\r\n    }\r\n\r\n    // display() {\r\n    //     console.log('id - ' + this.id)\r\n    //     // this.displayPerson()\r\n    //     super.display()\r\n    //     console.log('salary - ' + this.salary)\r\n    // }\r\n}\r\n\r\nlet p1 = new Person(\"Anil\")\r\nconsole.log(p1)\r\n// p1.displayPerson()\r\np1.display()\r\n\r\nlet e1 = new Employee(1, \"Mukesh\", 10000)\r\nconsole.log(e1)\r\n//e1.displayPerson()\r\n// e1.displayEmployee()\r\ne1.display()"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-page01-html",
+        "title": "Array Concept",
+        "summary": "Learn Array Concept through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "Array Concept comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "let arr1 = [] // way 1 of creating the arrray\r\nlet arr2 = new Array() // way 2 of creating the array\r\nconsole.log(arr1)\r\nconsole.log(arr2)\r\n\r\narr1.push(10)\r\narr1.push(20)\r\narr1.push(30)\r\narr1.push(40)\r\narr1.push(50)\r\n\r\nconsole.log(arr1)\r\nconsole.log(\"size of arr1 - \" + arr1.length)\r\n\r\narr1.pop()\r\narr1.pop()\r\nconsole.log(arr1)\r\nconsole.log(\"size of arr1 - \" + arr1.length)\n\nlet arr1 = []\r\n\r\narr1.push(10)\r\narr1.push(20)\r\narr1.push(30)\r\narr1[3] = 40\r\narr1[6] = 50 // will be added\r\n// the index 4 and 5 will be empty\r\n\r\nconsole.log(arr1)\r\nconsole.log(\"size of arr1 - \" + arr1.length)\r\n\r\nconsole.log('arr1[4] - ' + arr1[4]) // It returns undefined\n\nlet arr1 = []\r\n\r\narr1.push(10)\r\narr1.push(20)\r\narr1.push(30)\r\narr1.push(40)\r\narr1.push(50)\r\n\r\nconsole.log('Using index based for-loop ->')\r\nfor (let i = 0; i < arr1.length; i++)\r\n    console.log('Element - ' + arr1[i])\r\n\r\nconsole.log('Using for-of loop ->')\r\nfor (e of arr1)\r\n    console.log('Element - ' + e)\r\n\r\nconsole.log('Using forEach() ->')\r\narr1.forEach((value, index, arr) => {\r\n    console.log(`${value} - ${index} - ${arr}`)\r\n})\r\n\r\nconsole.log('Using forEach() ->')\r\narr1.forEach(value => console.log(`Element - ${value}`))\r\n\r\n\r\n// create my higher order function similar to forEach\r\nfunction myForEach(arr, fn) {\r\n    for (let i = 0; i < arr.length; i++) {\r\n        fn(arr[i], i, arr)\r\n    }\r\n}\r\n\r\nconsole.log(\"Using myForEach->\")\r\nmyForEach(arr1, (value) => console.log(`${value}`))\n\nlet arr1 = []\r\n\r\narr1.push(1)\r\narr1.push(2)\r\narr1.push(3)\r\narr1.push(4)\r\narr1.push(5)\r\narr1.push(6)\r\n\r\nfor (e of arr1) {\r\n    const sq = e * e // Operation on every single element\r\n    console.log('square - ' + sq)\r\n}\r\n\r\nconsole.log('Using map ->')\r\n// const arr2 = arr1.map(e => e * e)\r\n// console.log(arr2)\r\n\r\narr1.map(e => e * e).forEach(e => console.log('Square - ' + e))\n\nlet arr1 = []\r\n\r\narr1.push(1)\r\narr1.push(2)\r\narr1.push(3)\r\narr1.push(4)\r\narr1.push(5)\r\narr1.push(6)\r\n\r\nfor (e of arr1) {\r\n    if (e % 2 == 0) // condition checking\r\n        console.log('Even number - ' + e)\r\n}\r\n\r\n// const arr2 = arr1.filter(e => e % 2 == 0)\r\n// console.log(arr2)\r\n\r\nconsole.log('Using Filter - >')\r\narr1.filter(e => e % 2 == 0).forEach(e => console.log(\"Even number - \" + e))\n\nlet arr1 = []\r\n\r\narr1.push(1)\r\narr1.push(2)\r\narr1.push(3)\r\narr1.push(4)\r\narr1.push(5)\r\narr1.push(6)\r\n\r\n// squaring all odd numbers\r\nfor (e of arr1) {\r\n    if (e % 2 != 0) // checking the condition -> filter\r\n    {\r\n        // operation\r\n        const sq = e * e //-> map\r\n        // display\r\n        console.log('Square - ' + sq) // -> forEach\r\n    }\r\n}\r\n\r\nconsole.log('square of odd numbers using array methods ->')\r\narr1.filter(e => e % 2 != 0).map(e => e * e).forEach(e => console.log('Square - ' + e))\n\nconst arr = [8, 2, 6, 3, 4, 1, 5, 9, 7]\r\nconsole.log('Before sorting - ' + arr)\r\n\r\n// By default the sorting is done on natural order of the elements\r\n//arr.sort()\r\narr.sort((a, b) => b - a)// first element > second element\r\n\r\n// if (+ve) {\r\n//     swap(a, b)\r\n// }\r\n\r\n// function swap(int a, int b) {\r\n//     let temp = a;\r\n//     a = b;\r\n//     b = temp;\r\n// }\r\n\r\n\r\n\r\nconsole.log('After sorting - ' + arr)\n\nconst arr = [\"Hello World\", \"How are you\"]\r\nconsole.log(arr)\r\n\r\n//const arr2 = []\r\n// for (e of arr) {\r\n//     const res = e.split(' ')\r\n//     console.log(res)\r\n//     //arr2.push(res)\r\n//     for (s of res)\r\n//         arr2.push(s)\r\n// }\r\n\r\n// const arr2 = arr.map(e => e.split(' '))\r\nconst arr2 = arr.flatMap(e => e.split(' '))\r\nconsole.log(arr2)\n\nconst arr = [1, 2, 3, 4, 5, 6, 7, 8]\r\nconsole.log(arr)\r\narr.splice(3, 1)\r\nconsole.log(arr)\n\nconst arr = [\r\n    {\r\n        id: 1,\r\n        name: \"anil\",\r\n        salary: 10000\r\n    },\r\n    {\r\n        id: 2,\r\n        name: \"mukesh\",\r\n        salary: 20000\r\n    },\r\n    {\r\n        id: 3,\r\n        name: \"ramesh\",\r\n        salary: 30000\r\n    },\r\n    {\r\n        id: 4,\r\n        name: \"suresh\",\r\n        salary: 40000\r\n    }\r\n]\r\n\r\nconsole.log(arr)\n\nfunction add(n1, n2) {\r\n    console.log(\"Addition - \" + (n1 + n2))\r\n}\r\nfunction sub(n1, n2) {\r\n    console.log(\"Substraction - \" + (n1 - n2))\r\n}\r\nfunction mul(n1, n2) {\r\n    console.log(\"Multiplication - \" + (n1 * n2))\r\n}\r\nfunction div(n1, n2) {\r\n    console.log(\"Division - \" + (n1 / n2))\r\n}\r\n\r\nconst arr = [add, sub, mul, div]\r\n\r\nconsole.log(arr)\r\narr[0](10, 20)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-page01-html",
+        "title": "Destructuring Spread Rest Operator Concept",
+        "summary": "Learn Destructuring Spread Rest Operator Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying javascript code.",
+        "points": [
+          "Destructuring Spread Rest Operator Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    <!--  -->\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "const p1 = {\r\n    name: \"anil\",\r\n    age: 35,\r\n    mobile: \"9876543210\",\r\n    city: \"pune\",\r\n    pincode: \"411057\",\r\n    address: \"hinjewadi phase 2\"\r\n}\r\n\r\n\r\n// const name = p1.name\r\n// const age = p1.age\r\n// const city = p1.city\r\n\r\n// Destructuring\r\nconst { name, age, city, mobile } = p1\r\n\r\n\r\nconsole.log(\"name - \" + name)\r\nconsole.log(\"age - \" + age)\r\nconsole.log(\"city - \" + city)\r\nconsole.log(\"mobile - \" + mobile)\r\n\r\nconst day = 1\r\nconst month = 1\r\nconst year = 2000\r\n\r\nconst d1 = {\r\n    day: day,\r\n    month: month,\r\n    year: year\r\n}\r\n\r\nconsole.log(d1)\n\nconst arr = [1, 2, 3, 4, 5, 6, 7]\r\nconsole.log(arr)\r\n// const SUN = arr[0]\r\n// const MON = arr[1]\r\n// const TUE = arr[2]\r\n// const WED = arr[3]\r\n// const THURS = arr[4]\r\n// const FRI = arr[5]\r\n// const SAT = arr[6]\r\n\r\n// Destructure array\r\nconst [SUN, MON, TUE] = arr\r\nconsole.log(SUN)\r\nconsole.log(MON)\r\nconsole.log(TUE)\n\nconst p1 = {\r\n    name: \"anil\",\r\n    age: 35\r\n}\r\n\r\nconsole.log(p1)\r\n\r\np1.age = 40 // OK\r\n\r\nconsole.log(p1)\r\n\r\n// NOT OK\r\n// p1 = {\r\n//     name: \"mukesh\",\r\n//     age: 45\r\n// }\r\n\r\nconst arr = [1, 2, 3, 4, 5]\r\narr.push(6)\r\narr.splice(1, 1)\r\nconsole.log(arr)\r\n\r\n// NOT OK\r\n// arr = [7, 8, 9, 10]\n\nconst p1 = {\r\n    name: \"anil\",\r\n    age: 35,\r\n    city: \"pune\",\r\n    picode: \"411057\"\r\n}\r\n// const p2 = p1 // It copies the variable i.e address\r\n\r\nconst p2 = {\r\n    name: p1.name,\r\n    age: p1.age,\r\n    city: p1.city,\r\n    pincode: p1.pincode\r\n}\r\n\r\np2.name = \"mukesh\"\r\nconsole.log(p1)\r\nconsole.log(p2)\n\nconst p1 = {\r\n    name: \"anil\",\r\n    age: 35,\r\n    city: \"pune\",\r\n    pincode: \"411057\"\r\n}\r\n// const p2 = p1 // It copies the variable i.e address\r\n\r\n//const p2 = { p1 }\r\n\r\n//const { name, age, city, pincode } = p1\r\n// const p2 = { name, age, city, pincode }\r\n\r\nconst p2 = { ...p1 } // spread operator\r\np2.name = \"mukesh\"\r\nconsole.log(p1)\r\nconsole.log(p2)\r\n\r\n// const name = p1.name\r\n// const age = p1.age\r\n// const loc = { city: p1.city, pincode: p1.pincode }\r\nconst { name, age, ...loc } = p1 // Rest Operator\r\nconsole.log(name)\r\nconsole.log(age)\r\nconsole.log(loc)\n\nconst arr1 = [1, 2, 3, 4, 5, 6]\r\n// const arr2 = arr1\r\n// const arr2 = []\r\n// for (e of arr1)\r\n//     arr2.push(e)\r\n\r\nconst arr2 = [...arr1] // spread operator\r\narr2.push(7)\r\n\r\nconsole.log(arr1)\r\nconsole.log(arr2)\r\n\r\nconst [one, two, three, ...arr] = arr1 // Rest Operator\r\nconsole.log(one)\r\nconsole.log(two)\r\nconsole.log(three)\r\nconsole.log(arr)\n\nconst pgCourses = ['CPAC', 'CPMC', 'CPBDA', 'CPESD', 'CPITISS']\r\nconst modularCourses = ['CPP', 'JAVA', 'Python', 'DSA', 'Aptitude']\r\n\r\nconst sunbeamCourses = [...pgCourses, ...modularCourses]\r\nconsole.log(sunbeamCourses)\n\nfunction sum(...arr) {\r\n    let total = 0\r\n    console.log(arr)\r\n    for (e of arr)\r\n        total += e\r\n    console.log('SUM - ' + total)\r\n}\r\n\r\nsum(10, 20)\r\nsum(10, 20, 30)\r\nsum(10, 20, 30, 40)\r\n//sum([10, 20, 30])\r\n//sum([10, 20, 30, 40])\n\nfunction sum() {\r\n    let total = 0\r\n    console.log(arguments)\r\n    for (e of arguments)\r\n        total += e\r\n    console.log('SUM - ' + total)\r\n}\r\n\r\n// sum()\r\n// sum(10)\r\nsum(10, 20)\r\nsum(10, 20, 30)\r\nsum(10, 20, 30, 40)\r\n\r\nsum()\r\nsum(10)\r\nsum(10, 20)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-3-dom-page01-html",
+        "title": "DOM Concept",
+        "summary": "Learn DOM Concept through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "DOM Concept comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "console.log(window)\r\n        console.log(window.document)\r\n        // console.dir(window.document)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-3-dom-page02-html",
+        "title": "This is a header",
+        "summary": "Learn This is a header through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates This is a header. The main visible focus is \"This is a header\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "This is a header comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n\r\n    <h1>This is a header</h1>\r\n\r\n    <p>This is para 1</p>\r\n\r\n    <p>This is para for company name</p>\r\n    <div>\r\n        <p>This is para 2</p>\r\n        <p>This is para 3</p>\r\n    </div>\r\n    <button onclick=\"changeHeader()\">Change Header</button>\r\n    <button onclick=\"f1()\">Change Para 1</button>\r\n    <button onclick=\"f2()\">Address-1</button>\r\n    <button onclick=\"f3()\">Address-2</button>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function changeHeader() {\r\n            const h1 = document.firstElementChild.lastElementChild.firstElementChild\r\n            h1.innerText = \"Hello\"\r\n        }\r\n\r\n        function f1() {\r\n            const p = document.firstElementChild.lastElementChild.children[1]\r\n            console.dir(p)\r\n            p.innerText = \"From CPAC\"\r\n            p.style.color = 'red'\r\n        }\r\n\r\n        function f2() {\r\n            const p = document.firstElementChild.lastElementChild.children[2].firstElementChild\r\n            console.dir(p)\r\n            p.innerText = \"Addres-1 : Phase 2\"\r\n        }\r\n\r\n        function f3() {\r\n            const p = document.firstElementChild.lastElementChild.children[2].lastElementChild\r\n            p.innerText = \"Addres-2 : Hinjewadi\"\r\n        }"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-3-dom-page03-html",
+        "title": "This is a header",
+        "summary": "Learn This is a header through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates This is a header. The main visible focus is \"This is a header\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "This is a header comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n\r\n</head>\r\n\r\n<body>\r\n    <h1>This is a header</h1>\r\n\r\n    <p id=\"p1\">This is para 1</p>\r\n\r\n    <p id=\"p_company\">Company Name</p>\r\n\r\n    <div>\r\n        <p class=\"address\">This is para 2</p>\r\n        <p class=\"address\">This is para 3</p>\r\n    </div>\r\n    <button onclick=\"changeHeader()\">Change Header</button>\r\n    <button onclick=\"f1()\">Change Para 1</button>\r\n    <button onclick=\"f2()\">Address-1</button>\r\n    <button onclick=\"f3()\">Address-2</button>\r\n    <button onclick=\"changeCompanyName()\">Change company name</button>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function changeHeader() {\r\n            const arr = document.getElementsByTagName(\"h1\")\r\n            const h1 = arr[0]\r\n            console.dir(h1)\r\n            h1.innerText = \"Hello\"\r\n        }\r\n\r\n        function f1() {\r\n            const p = document.getElementById(\"p1\")\r\n            console.dir(p)\r\n            p.innerText = \"From CPAC\"\r\n            p.style.color = 'red'\r\n        }\r\n\r\n        function f2() {\r\n            const arr = document.getElementsByClassName(\"address\")\r\n            const p = arr[0]\r\n            console.dir(p)\r\n            p.innerText = \"Addres-1 : Phase 2\"\r\n        }\r\n\r\n        function f3() {\r\n            const arr = document.getElementsByClassName('address')\r\n            const p = arr[1]\r\n            // p.innerText = 'Address-2 : Hinjewadi'\r\n            // p.innerText = 'Address-2 : <b>Hinjewadi</b>'\r\n            p.innerHTML = 'Address-2 : <b>Hinjewadi</b>'\r\n        }\r\n\r\n        function changeCompanyName() {\r\n            const p = document.getElementById('p_company')\r\n            // p.innerHTML = \"<b>Sunbeam</b>\"\r\n            p.innerHTML = \"<h2>Sunbeam</h2>\"\r\n            p.style.color = 'green'\r\n        }"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-3-dom-page04-html",
+        "title": "</div> <div> <label>Price</label> <input type=\"number\"> </div> <div> <button onclick=\"save()\">save",
+        "summary": "Learn </div> <div> <label>Price</label> <input type=\"number\"> </div> <div> <button onclick=\"save()\">save through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates </div> <div> <label>Price</label> <input type=\"number\"> </div> <div> <button onclick=\"save()\">save. The main visible focus is \"</div> <div> <label>Price</label> <input type=\"number\"> </div> <div> <button onclick=\"save()\">save\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "</div> <div> <label>Price</label> <input type=\"number\"> </div> <div> <button onclick=\"save()\">save comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n\r\n</head>\r\n\r\n<body align=\"center\">\r\n    <div>\r\n        <div>\r\n            <label>Name</label>\r\n            <input type=\"text\">\r\n        </div>\r\n        <div>\r\n            <label>Price</label>\r\n            <input type=\"number\">\r\n        </div>\r\n        <div>\r\n            <button onclick=\"save()\">save</button>\r\n        </div>\r\n\r\n        <hr>\r\n        <table border=\"1\" class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <td>pid</td>\r\n                    <td>name</td>\r\n                    <td>price</td>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n            <tfoot>\r\n                <tr>\r\n                    <td colspan=\"2\">Total : </td>\r\n                    <td id=\"total_bill\">0</td>\r\n                </tr>\r\n            </tfoot>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "let generatePid = 0\r\n        let total = 0\r\n\r\n        function save() {\r\n            const arr = document.getElementsByTagName('input')\r\n            const pid = ++generatePid\r\n            const name = arr[0].value\r\n            const price = arr[1].value\r\n            total += parseInt(price)\r\n            console.log(total)\r\n\r\n            const tbody = document.getElementById('tbody')\r\n            const total_bill = document.getElementById('total_bill')\r\n            total_bill.innerText = total\r\n\r\n            tbody.innerHTML += `<tr>\r\n                <td>${pid}</td>\r\n                <td>${name}</td>\r\n                <td>${price}</td>\r\n                </tr>`\r\n\r\n        }"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-2-jsbasics-demo01-js",
+        "title": "External Script Demo",
+        "summary": "Learn External Script Demo through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "External Script Demo comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>External Script Demo</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "console.log(\"Hello from demo01\")"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-3-jsfunctions-demo01-js",
+        "title": "3 Demo 01",
+        "summary": "Learn 3 Demo 01 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 01 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 01</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// parameterless function\r\nfunction f1() {\r\n    console.log(\"Hello from f1\")\r\n}\r\n\r\n// parameterized function\r\nfunction add(n1, n2) {\r\n    console.log('Addition of nos - ' + (n1 + n2))\r\n}\r\n\r\n// function that returns a value\r\nfunction sqr(n) {\r\n    return n * n;\r\n}\r\n\r\nf1()\r\nadd(10, 20)\r\nconst res = sqr(5)\r\nconsole.log('result - ' + res)"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-3-jsfunctions-demo02-js",
+        "title": "3 Demo 02",
+        "summary": "Learn 3 Demo 02 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 02 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function f1(n1) {\r\n    console.log(\"value of n1 - \" + n1 + \", typeof(n1) - \" + typeof (n1))\r\n}\r\n\r\nf1(10)\r\nf1(\"sunbeam\")\r\nf1(false)\r\nf1(null)\r\nf1()"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-3-jsfunctions-demo03-js",
+        "title": "3 Demo 03",
+        "summary": "Learn 3 Demo 03 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 03 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 03</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function f1(n1, n2) {\r\n    // template string\r\n    console.log(`value of n1 - ${n1} , typeof(n1) - ${typeof (n1)}`)\r\n    console.log(`value of n2 - ${n2} , typeof(n2) - ${typeof (n2)}`)\r\n}\r\nf1(10, 20)\r\nf1(10, \"sunbeam\")\r\nf1(\"sunbeam\", true)\r\nf1(10)\r\nf1()\r\nf1(10, 20, 30)"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-3-jsfunctions-demo04-js",
+        "title": "3 Demo 04",
+        "summary": "Learn 3 Demo 04 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 04 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// default argument function\r\nfunction add(n1, n2, n3 = 0, n4 = 0) {\r\n    const res = n1 + n2 + n3 + n4\r\n    console.log(`Addition - ${res}`)\r\n}\r\n\r\nadd(10, 20)\r\nadd(10, 20, 30)\r\nadd(10, 20, 30, 40)"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-3-jsfunctions-demo05-js",
+        "title": "3 Demo 05",
+        "summary": "Learn 3 Demo 05 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 05 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// function f1() {\r\n//     console.log(\"Inside f1()-1\")\r\n// }\r\n\r\nfunction f1(n1) {\r\n    console.log(\"Inside f1(n1)-2\")\r\n}\r\nf1() //\r\n\r\nf1(10) //"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-4-jsfunctiondetails-demo01-js",
+        "title": "let And const",
+        "summary": "Learn let And const through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "let And const comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>let And const</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n// let n1 = 10\r\n// let n2 = n1\r\n\r\n// function alias\r\nlet myadd = add\r\n\r\n\r\n//myadd = 10 // OK\r\n//add = 20 // OK\r\n\r\nadd(10, 20)\r\nconsole.log('add - ' + add)\r\nconsole.log('typeof(add) - ' + typeof (add))\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-4-jsfunctiondetails-demo02-js",
+        "title": "let And const",
+        "summary": "Learn let And const through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "let And const comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>let And const</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// function add(n1, n2) {\r\n//     const res = n1 + n2\r\n//     console.log(`result - ${res}`)\r\n// }\r\n\r\n\r\n// anonymous function\r\nlet myadd = function (n1, n2) {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n//console.log('add - ' + add) // add is not defined\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-4-jsfunctiondetails-demo03-js",
+        "title": "let And const",
+        "summary": "Learn let And const through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "let And const comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>let And const</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// let myadd = function (n1, n2) {\r\n//     const res = n1 + n2\r\n//     console.log(`result - ${res}`)\r\n// }\r\n\r\nconst myadd = function (n1, n2) {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-4-jsfunctiondetails-demo04-js",
+        "title": "let And const",
+        "summary": "Learn let And const through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "let And const comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>let And const</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// let myadd = function (n1, n2) {\r\n//     const res = n1 + n2\r\n//     console.log(`result - ${res}`)\r\n// }\r\n\r\n// Arrow functions\r\nconst myadd = (n1, n2) => {\r\n    const res = n1 + n2\r\n    console.log(`result - ${res}`)\r\n}\r\n\r\n\r\nmyadd(11, 22)\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))"
+        }
+      },
+      {
+        "id": "resource-javascript-day04-4-jsfunctiondetails-demo05-js",
+        "title": "4 Demo 05",
+        "summary": "Learn 4 Demo 05 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "4 Demo 05 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// Arrow functions\r\nconst myadd = (n1, n2) => console.log(`result - ${n1 + n2}`)\r\nmyadd(11, 22)\r\n\r\nconsole.log('myadd - ' + myadd)\r\nconsole.log('typeof(myadd) - ' + typeof (myadd))"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo01-js",
+        "title": "1 Demo 01",
+        "summary": "Learn 1 Demo 01 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 01 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 01</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// closure(js) -> capturing lamda(java)\r\nfunction outer() {\r\n    let z = 30\r\n    return function inner() {\r\n        let a = 10\r\n        console.log('a -' + a)\r\n        console.log('z - ' + z)\r\n    }\r\n\r\n}\r\n\r\nlet inner_fn = outer()\r\ninner_fn()"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo02-js",
+        "title": "let And const",
+        "summary": "Learn let And const through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "let And const comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>let And const</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function counter() {\r\n    let count = 0;\r\n    return () => {\r\n        count++\r\n        console.log('count -  ' + count)\r\n    }\r\n}\r\n\r\n\r\nconst incrementCounter = counter()\r\nconst incrementCounter2 = counter()\r\nincrementCounter()\r\nincrementCounter()\r\nincrementCounter()\r\nincrementCounter()\r\nincrementCounter()"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo03-js",
+        "title": "1 Demo 03",
+        "summary": "Learn 1 Demo 03 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 03 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 03</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// function kmTom(value) {\r\n//     return value * 1000\r\n// }\r\n\r\n// function cmTomm(value) {\r\n//     return value * 10\r\n// }\r\n\r\n// function hrTom(value) {\r\n//     return value * 60\r\n// }\r\n\r\n// function currying\r\nfunction multiply(n) {\r\n    return (value) => {\r\n        return value * n\r\n    }\r\n}\r\n\r\nconst kmTom = multiply(1000)\r\nconsole.log('2 km = ' + kmTom(2))\r\n\r\nconst hrTOm = multiply(60)\r\nconsole.log('3 hrs = ' + hrTOm(3))\r\n\r\nconsole.log('5 cm = ' + multiply(10)(5))\r\n\r\nfunction add() {\r\n\r\n}\r\n\r\nconst myadd = add"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo04-js",
+        "title": "1 Demo 04",
+        "summary": "Learn 1 Demo 04 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 04 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "//Higher Order Function\r\nfunction f1(fn) {\r\n    console.log(\"Inside f1()\")\r\n    fn()\r\n}\r\n\r\nfunction f2() {\r\n    console.log(\"Inside f2()\")\r\n}\r\n\r\nf1(f2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo05-js",
+        "title": "1 Demo 05",
+        "summary": "Learn 1 Demo 05 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 05 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    const res = n1 + n2\r\n    return res\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    const res = n1 - n2\r\n    return res\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    const res = n1 * n2\r\n    return res\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    const res = n1 / n2\r\n    return res\r\n}\r\n\r\nconst res1 = add(20, 10)\r\nconsole.log(\"result - \" + res1)\r\n\r\nconst res2 = sub(20, 10)\r\nconsole.log(\"result - \" + res2)\r\n\r\nconst res3 = mul(20, 10)\r\nconsole.log(\"result - \" + res3)\r\n\r\nconst res4 = mul(20, 10)\r\nconsole.log(\"result - \" + res4)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo06-js",
+        "title": "1 Demo 06",
+        "summary": "Learn 1 Demo 06 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 06 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 06</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    const res = n1 + n2\r\n    return res\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    const res = n1 - n2\r\n    return res\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    const res = n1 * n2\r\n    return res\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    const res = n1 / n2\r\n    return res\r\n}\r\n\r\n// Higher order function\r\nfunction arithmeticExecuter(fn) {\r\n    const res1 = fn(20, 10)\r\n    console.log(\"result - \" + res1)\r\n}\r\n\r\narithmeticExecuter(add)\r\narithmeticExecuter(sub)\r\narithmeticExecuter(mul)\r\narithmeticExecuter(div)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo07-js",
+        "title": "1 Demo 07",
+        "summary": "Learn 1 Demo 07 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 07 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 07</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function mul(n1, n2) {\r\n    const res = n1 * n2\r\n    return res\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    const res = n1 / n2\r\n    return res\r\n}\r\n\r\n// Higher order function\r\nfunction arithmeticExecuter(fn) {\r\n    const res1 = fn(20, 10)\r\n    console.log(\"result - \" + res1)\r\n}\r\n\r\n\r\narithmeticExecuter(function (n1, n2) {\r\n    const res = n1 + n2\r\n    return res\r\n})\r\n\r\narithmeticExecuter((n1, n2) => {\r\n    const res = n1 - n2\r\n    return res\r\n})\r\n\r\narithmeticExecuter((n1, n2) => {\r\n    return n1 * n2\r\n})\r\n\r\narithmeticExecuter((n1, n2) => n1 / n2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-1-jsfunctions-demo08-js",
+        "title": "1 Demo 08",
+        "summary": "Learn 1 Demo 08 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 08 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 08</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function take_input() {\r\n\r\n}\r\n\r\n// Higher order function\r\nfunction arithmeticExecuter(fn) {\r\n    take_input()\r\n    const res1 = fn(20, 10)\r\n    console.log(\"result - \" + res1)\r\n    return () => {\r\n\r\n    }\r\n}\r\n\r\narithmeticExecuter((n1, n2) => n1 + n2)\r\narithmeticExecuter((n1, n2) => n1 * n2)\r\narithmeticExecuter((n1, n2) => n1 - n2)\r\narithmeticExecuter((n1, n2) => n1 / n2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo01-js",
+        "title": "2 Demo 01",
+        "summary": "Learn 2 Demo 01 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 01 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 01</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let e1 = {} // way 1 of creating an object\r\ne1.id = 1\r\ne1.name = \"anil\"\r\ne1.salary = 10000\r\n\r\nconsole.log(e1)\r\nconsole.log('typeof(e1) - ' + typeof (e1))\r\nconsole.log(\"id - \" + e1.id)\r\nconsole.log(\"name - \" + e1.name)\r\nconsole.log(\"salary - \" + e1.salary)\r\n\r\nlet e2 = {}\r\ne2.id = 2;\r\ne2.name = \"Mukesh\"\r\ne2.salary = 20000\r\ne2.mobile = \"9876543210\"\r\nconsole.log(e2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo02-js",
+        "title": "2 Demo 02",
+        "summary": "Learn 2 Demo 02 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 02 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let e1 = new Object() // way of creating an object\r\ne1.id = 1\r\ne1.name = \"anil\"\r\ne1.salary = 10000 // way 1 of adding a property\r\ne1[\"city\"] = \"Pune\" // way 2 of adding a property\r\n\r\nconsole.log(e1)\r\nconsole.log('typeof(e1) - ' + typeof (e1))\r\nconsole.log(\"id - \" + e1.id)\r\nconsole.log(\"name - \" + e1.name)\r\nconsole.log(\"salary - \" + e1.salary)\r\n\r\nlet e2 = new Object()\r\ne2.id = 2;\r\ne2.name = \"Mukesh\"\r\ne2.salary = 20000\r\ne2.mobile = \"9876543210\"\r\nconsole.log(e2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo03-js",
+        "title": "2 Demo 03",
+        "summary": "Learn 2 Demo 03 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 03 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 03</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// JSON syntax\r\nlet e1 = {\r\n    \"name\": \"Anil\",\r\n    age: 30\r\n}\r\n\r\ne1.city = \"Pune\"\r\ne1[\"mobile\"] = \"9876543210\"\r\ne1.name = \"Mukesh\"\r\n\r\nconsole.log(e1)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo04-js",
+        "title": "Employee",
+        "summary": "Learn Employee through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Employee comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Employee</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// let e1 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n\r\n// let e2 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n// let e3 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n// let e4 = {\r\n//     id: 1,\r\n//     name: \"anil\",\r\n//     salary: 10000\r\n// }\r\n\r\n// constructor function\r\nfunction Employee(id = 0, name = \"\", salary = 0) {\r\n    this.id = id;\r\n    this.name = name;\r\n    this.salary = salary;\r\n}\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000)\r\nlet e2 = new Employee(2, \"Mukesh\", 20000)\r\nlet e3 = new Employee(3, \"Ramesh\", 30000)\r\nlet e4 = new Employee()\r\n\r\ne1.mobile = \"9876543210\"\r\nconsole.log(e1)\r\nconsole.log(e2)\r\nconsole.log(e3)\r\nconsole.log(e4)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo05-js",
+        "title": "Employee",
+        "summary": "Learn Employee through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Employee comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Employee</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// constructor function\r\nfunction Employee(id = 0, name = \"\", salary = 0) {\r\n    this.id = id;\r\n    this.name = name;\r\n    this.salary = salary;\r\n}\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log(\"id - \" + this.id)\r\n    console.log(\"name - \" + this.name)\r\n    console.log(\"salary - \" + this.salary)\r\n}\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000)\r\nlet e2 = new Employee(2, \"Mukesh\", 20000)\r\nlet e3 = new Employee(3, \"Ramesh\", 30000)\r\nlet e4 = new Employee()\r\n\r\ne1.displayEmployee()\r\ne2.displayEmployee()\r\ne2.displayEmployee()"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo06-js",
+        "title": "Employee",
+        "summary": "Learn Employee through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Employee comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Employee</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let e1 = {}\r\nconsole.log(\"Using object literal\")\r\nconsole.log(e1)\r\n\r\nconsole.log(\"Using new Object\")\r\nlet e2 = new Object()\r\nconsole.log(e2)\r\n\r\nfunction Employee(id, name) {\r\n    this.id = id\r\n    this.name = name\r\n}\r\n\r\nlet e3 = new Employee(1, \"anil\")\r\nconsole.log(\"using ctor function\")\r\nconsole.log(e3)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-2-jsobjects-demo07-js",
+        "title": "Employee",
+        "summary": "Learn Employee through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Employee comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Employee</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "// constructor function\r\nfunction Employee(id = 0, name = \"\", salary = 0) {\r\n    this.id = id;\r\n    this.name = name;\r\n    this.salary = salary;\r\n    // this.displayEmployee = function () {\r\n    //     console.log(\"id - \" + this.id)\r\n    //     console.log(\"name - \" + this.name)\r\n    //     console.log(\"salary - \" + this.salary)\r\n    // }\r\n}\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log(\"id - \" + this.id)\r\n    console.log(\"name - \" + this.name)\r\n    console.log(\"salary - \" + this.salary)\r\n}\r\n\r\nfunction Date(day, month, year) {\r\n    this.day = day;\r\n    this.month = month;\r\n    this.year = year;\r\n}\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000)\r\nlet e2 = new Employee(2, \"Mukesh\", 20000)\r\nconsole.log(e1)\r\nconsole.log(e2)\r\nconsole.log(e2.toString())\r\n\r\nlet d1 = new Date(1, 1, 2000)\r\nlet d2 = new Date()\r\n\r\nconsole.log(d1)\r\nconsole.log(d2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-3-hirerachy-demo01-js",
+        "title": "Date",
+        "summary": "Learn Date through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Date comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Date</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function Date(day, month, year) {\r\n    this.day = day\r\n    this.month = month\r\n    this.year = year\r\n}\r\n\r\nDate.prototype.displayDate = function () {\r\n    console.log(`Date - ${this.day}/${this.month}/${this.year}`)\r\n}\r\n\r\nfunction Employee(id, name, salary, day, month, year) {\r\n    this.id = id\r\n    this.name = name\r\n    this.salary = salary\r\n    this.doj = new Date(day, month, year)\r\n}\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log('id - ' + this.id)\r\n    console.log('name - ' + this.name)\r\n    console.log('salary - ' + this.salary)\r\n    this.doj.displayDate()\r\n}\r\n\r\nlet d1 = new Date(1, 1, 2001)\r\nconsole.log(d1)\r\nd1.displayDate()\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000, 2, 2, 2002)\r\nconsole.log(e1)\r\ne1.displayEmployee()"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-3-hirerachy-demo02-js",
+        "title": "3 Demo 02",
+        "summary": "Learn 3 Demo 02 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 02 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "class Date {\r\n    constructor(day, month, year) {\r\n        this.day = day\r\n        this.month = month\r\n        this.year = year\r\n    }\r\n    displayDate() {\r\n        console.log(`Date - ${this.day}/${this.month}/${this.year}`)\r\n    }\r\n}\r\n\r\n\r\nclass Employee {\r\n    constructor(id, name, salary, day, month, year) {\r\n        this.id = id\r\n        this.name = name\r\n        this.salary = salary\r\n        this.doj = new Date(day, month, year)\r\n    }\r\n\r\n    displayEmployee() {\r\n        console.log('id - ' + this.id)\r\n        console.log('name - ' + this.name)\r\n        console.log('salary - ' + this.salary)\r\n        this.doj.displayDate()\r\n    }\r\n}\r\n\r\n\r\nlet d1 = new Date(1, 1, 2001)\r\nconsole.log(d1)\r\nd1.displayDate()\r\n\r\nlet e1 = new Employee(1, \"Anil\", 10000, 2, 2, 2002)\r\nconsole.log(e1)\r\ne1.displayEmployee()"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-3-hirerachy-demo03-js",
+        "title": "Person",
+        "summary": "Learn Person through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Person comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Person</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function Person(name) {\r\n    this.name = name\r\n}\r\n\r\nPerson.prototype.displayPerson = function () {\r\n    console.log(`Name - ${this.name}`)\r\n}\r\n\r\nfunction Employee(id, name, salary) {\r\n    Person.call(this, name)\r\n    this.id = id\r\n    this.salary = salary\r\n}\r\n\r\nObject.setPrototypeOf(Employee.prototype, Person.prototype)\r\n\r\nEmployee.prototype.displayEmployee = function () {\r\n    console.log('id - ' + this.id)\r\n    this.displayPerson()\r\n    console.log('salary - ' + this.salary)\r\n}\r\n\r\nlet p1 = new Person(\"Anil\")\r\nconsole.log(p1)\r\np1.displayPerson()\r\n\r\nlet e1 = new Employee(1, \"Mukesh\", 10000)\r\nconsole.log(e1)\r\n// e1.displayPerson()\r\ne1.displayEmployee()"
+        }
+      },
+      {
+        "id": "resource-javascript-day05-3-hirerachy-demo04-js",
+        "title": "3 Demo 04",
+        "summary": "Learn 3 Demo 04 through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "3 Demo 04 comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Demo 04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "class Person {\r\n    constructor(name) {\r\n        this.name = name\r\n    }\r\n    display() {\r\n        console.log(`Name - ${this.name}`)\r\n\r\n    }\r\n}\r\n\r\nclass Employee extends Person {\r\n    constructor(id, name, salary) {\r\n        super(name)\r\n        this.id = id\r\n        this.salary = salary\r\n    }\r\n\r\n    // display() {\r\n    //     console.log('id - ' + this.id)\r\n    //     // this.displayPerson()\r\n    //     super.display()\r\n    //     console.log('salary - ' + this.salary)\r\n    // }\r\n}\r\n\r\nlet p1 = new Person(\"Anil\")\r\nconsole.log(p1)\r\n// p1.displayPerson()\r\np1.display()\r\n\r\nlet e1 = new Employee(1, \"Mukesh\", 10000)\r\nconsole.log(e1)\r\n//e1.displayPerson()\r\n// e1.displayEmployee()\r\ne1.display()"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo01-js",
+        "title": "Array push()",
+        "summary": "Learn Array push() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array push() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array push()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let arr1 = [] // way 1 of creating the arrray\r\nlet arr2 = new Array() // way 2 of creating the array\r\nconsole.log(arr1)\r\nconsole.log(arr2)\r\n\r\narr1.push(10)\r\narr1.push(20)\r\narr1.push(30)\r\narr1.push(40)\r\narr1.push(50)\r\n\r\nconsole.log(arr1)\r\nconsole.log(\"size of arr1 - \" + arr1.length)\r\n\r\narr1.pop()\r\narr1.pop()\r\nconsole.log(arr1)\r\nconsole.log(\"size of arr1 - \" + arr1.length)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo02-js",
+        "title": "Array push()",
+        "summary": "Learn Array push() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array push() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array push()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let arr1 = []\r\n\r\narr1.push(10)\r\narr1.push(20)\r\narr1.push(30)\r\narr1[3] = 40\r\narr1[6] = 50 // will be added\r\n// the index 4 and 5 will be empty\r\n\r\nconsole.log(arr1)\r\nconsole.log(\"size of arr1 - \" + arr1.length)\r\n\r\nconsole.log('arr1[4] - ' + arr1[4]) // It returns undefined"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo03-js",
+        "title": "Array push()",
+        "summary": "Learn Array push() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array push() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array push()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let arr1 = []\r\n\r\narr1.push(10)\r\narr1.push(20)\r\narr1.push(30)\r\narr1.push(40)\r\narr1.push(50)\r\n\r\nconsole.log('Using index based for-loop ->')\r\nfor (let i = 0; i < arr1.length; i++)\r\n    console.log('Element - ' + arr1[i])\r\n\r\nconsole.log('Using for-of loop ->')\r\nfor (e of arr1)\r\n    console.log('Element - ' + e)\r\n\r\nconsole.log('Using forEach() ->')\r\narr1.forEach((value, index, arr) => {\r\n    console.log(`${value} - ${index} - ${arr}`)\r\n})\r\n\r\nconsole.log('Using forEach() ->')\r\narr1.forEach(value => console.log(`Element - ${value}`))\r\n\r\n\r\n// create my higher order function similar to forEach\r\nfunction myForEach(arr, fn) {\r\n    for (let i = 0; i < arr.length; i++) {\r\n        fn(arr[i], i, arr)\r\n    }\r\n}\r\n\r\nconsole.log(\"Using myForEach->\")\r\nmyForEach(arr1, (value) => console.log(`${value}`))"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo04-js",
+        "title": "Array map()",
+        "summary": "Learn Array map() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array map() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array map()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let arr1 = []\r\n\r\narr1.push(1)\r\narr1.push(2)\r\narr1.push(3)\r\narr1.push(4)\r\narr1.push(5)\r\narr1.push(6)\r\n\r\nfor (e of arr1) {\r\n    const sq = e * e // Operation on every single element\r\n    console.log('square - ' + sq)\r\n}\r\n\r\nconsole.log('Using map ->')\r\n// const arr2 = arr1.map(e => e * e)\r\n// console.log(arr2)\r\n\r\narr1.map(e => e * e).forEach(e => console.log('Square - ' + e))"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo05-js",
+        "title": "Array filter()",
+        "summary": "Learn Array filter() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array filter() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array filter()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let arr1 = []\r\n\r\narr1.push(1)\r\narr1.push(2)\r\narr1.push(3)\r\narr1.push(4)\r\narr1.push(5)\r\narr1.push(6)\r\n\r\nfor (e of arr1) {\r\n    if (e % 2 == 0) // condition checking\r\n        console.log('Even number - ' + e)\r\n}\r\n\r\n// const arr2 = arr1.filter(e => e % 2 == 0)\r\n// console.log(arr2)\r\n\r\nconsole.log('Using Filter - >')\r\narr1.filter(e => e % 2 == 0).forEach(e => console.log(\"Even number - \" + e))"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo06-js",
+        "title": "Array filter()",
+        "summary": "Learn Array filter() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array filter() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array filter()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "let arr1 = []\r\n\r\narr1.push(1)\r\narr1.push(2)\r\narr1.push(3)\r\narr1.push(4)\r\narr1.push(5)\r\narr1.push(6)\r\n\r\n// squaring all odd numbers\r\nfor (e of arr1) {\r\n    if (e % 2 != 0) // checking the condition -> filter\r\n    {\r\n        // operation\r\n        const sq = e * e //-> map\r\n        // display\r\n        console.log('Square - ' + sq) // -> forEach\r\n    }\r\n}\r\n\r\nconsole.log('square of odd numbers using array methods ->')\r\narr1.filter(e => e % 2 != 0).map(e => e * e).forEach(e => console.log('Square - ' + e))"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo07-js",
+        "title": "let And const",
+        "summary": "Learn let And const through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "let And const comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>let And const</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const arr = [8, 2, 6, 3, 4, 1, 5, 9, 7]\r\nconsole.log('Before sorting - ' + arr)\r\n\r\n// By default the sorting is done on natural order of the elements\r\n//arr.sort()\r\narr.sort((a, b) => b - a)// first element > second element\r\n\r\n// if (+ve) {\r\n//     swap(a, b)\r\n// }\r\n\r\n// function swap(int a, int b) {\r\n//     let temp = a;\r\n//     a = b;\r\n//     b = temp;\r\n// }\r\n\r\n\r\n\r\nconsole.log('After sorting - ' + arr)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo08-js",
+        "title": "Array map()",
+        "summary": "Learn Array map() through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array map() comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array map()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const arr = [\"Hello World\", \"How are you\"]\r\nconsole.log(arr)\r\n\r\n//const arr2 = []\r\n// for (e of arr) {\r\n//     const res = e.split(' ')\r\n//     console.log(res)\r\n//     //arr2.push(res)\r\n//     for (s of res)\r\n//         arr2.push(s)\r\n// }\r\n\r\n// const arr2 = arr.map(e => e.split(' '))\r\nconst arr2 = arr.flatMap(e => e.split(' '))\r\nconsole.log(arr2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo09-js",
+        "title": "1 Demo 09",
+        "summary": "Learn 1 Demo 09 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 09 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 09</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const arr = [1, 2, 3, 4, 5, 6, 7, 8]\r\nconsole.log(arr)\r\narr.splice(3, 1)\r\nconsole.log(arr)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo10-js",
+        "title": "1 Demo 10",
+        "summary": "Learn 1 Demo 10 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 10 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 10</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const arr = [\r\n    {\r\n        id: 1,\r\n        name: \"anil\",\r\n        salary: 10000\r\n    },\r\n    {\r\n        id: 2,\r\n        name: \"mukesh\",\r\n        salary: 20000\r\n    },\r\n    {\r\n        id: 3,\r\n        name: \"ramesh\",\r\n        salary: 30000\r\n    },\r\n    {\r\n        id: 4,\r\n        name: \"suresh\",\r\n        salary: 40000\r\n    }\r\n]\r\n\r\nconsole.log(arr)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-1-array-demo11-js",
+        "title": "1 Demo 11",
+        "summary": "Learn 1 Demo 11 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "1 Demo 11 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 11</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(\"Addition - \" + (n1 + n2))\r\n}\r\nfunction sub(n1, n2) {\r\n    console.log(\"Substraction - \" + (n1 - n2))\r\n}\r\nfunction mul(n1, n2) {\r\n    console.log(\"Multiplication - \" + (n1 * n2))\r\n}\r\nfunction div(n1, n2) {\r\n    console.log(\"Division - \" + (n1 / n2))\r\n}\r\n\r\nconst arr = [add, sub, mul, div]\r\n\r\nconsole.log(arr)\r\narr[0](10, 20)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo01-js",
+        "title": "2 Demo 01",
+        "summary": "Learn 2 Demo 01 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 01 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 01</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const p1 = {\r\n    name: \"anil\",\r\n    age: 35,\r\n    mobile: \"9876543210\",\r\n    city: \"pune\",\r\n    pincode: \"411057\",\r\n    address: \"hinjewadi phase 2\"\r\n}\r\n\r\n\r\n// const name = p1.name\r\n// const age = p1.age\r\n// const city = p1.city\r\n\r\n// Destructuring\r\nconst { name, age, city, mobile } = p1\r\n\r\n\r\nconsole.log(\"name - \" + name)\r\nconsole.log(\"age - \" + age)\r\nconsole.log(\"city - \" + city)\r\nconsole.log(\"mobile - \" + mobile)\r\n\r\nconst day = 1\r\nconst month = 1\r\nconst year = 2000\r\n\r\nconst d1 = {\r\n    day: day,\r\n    month: month,\r\n    year: year\r\n}\r\n\r\nconsole.log(d1)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo02-js",
+        "title": "2 Demo 02",
+        "summary": "Learn 2 Demo 02 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 02 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const arr = [1, 2, 3, 4, 5, 6, 7]\r\nconsole.log(arr)\r\n// const SUN = arr[0]\r\n// const MON = arr[1]\r\n// const TUE = arr[2]\r\n// const WED = arr[3]\r\n// const THURS = arr[4]\r\n// const FRI = arr[5]\r\n// const SAT = arr[6]\r\n\r\n// Destructure array\r\nconst [SUN, MON, TUE] = arr\r\nconsole.log(SUN)\r\nconsole.log(MON)\r\nconsole.log(TUE)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo03-js",
+        "title": "Array push()",
+        "summary": "Learn Array push() through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array push() comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array push()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const p1 = {\r\n    name: \"anil\",\r\n    age: 35\r\n}\r\n\r\nconsole.log(p1)\r\n\r\np1.age = 40 // OK\r\n\r\nconsole.log(p1)\r\n\r\n// NOT OK\r\n// p1 = {\r\n//     name: \"mukesh\",\r\n//     age: 45\r\n// }\r\n\r\nconst arr = [1, 2, 3, 4, 5]\r\narr.push(6)\r\narr.splice(1, 1)\r\nconsole.log(arr)\r\n\r\n// NOT OK\r\n// arr = [7, 8, 9, 10]"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo04-js",
+        "title": "2 Demo 04",
+        "summary": "Learn 2 Demo 04 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 04 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const p1 = {\r\n    name: \"anil\",\r\n    age: 35,\r\n    city: \"pune\",\r\n    picode: \"411057\"\r\n}\r\n// const p2 = p1 // It copies the variable i.e address\r\n\r\nconst p2 = {\r\n    name: p1.name,\r\n    age: p1.age,\r\n    city: p1.city,\r\n    pincode: p1.pincode\r\n}\r\n\r\np2.name = \"mukesh\"\r\nconsole.log(p1)\r\nconsole.log(p2)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo05-js",
+        "title": "2 Demo 05",
+        "summary": "Learn 2 Demo 05 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 05 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const p1 = {\r\n    name: \"anil\",\r\n    age: 35,\r\n    city: \"pune\",\r\n    pincode: \"411057\"\r\n}\r\n// const p2 = p1 // It copies the variable i.e address\r\n\r\n//const p2 = { p1 }\r\n\r\n//const { name, age, city, pincode } = p1\r\n// const p2 = { name, age, city, pincode }\r\n\r\nconst p2 = { ...p1 } // spread operator\r\np2.name = \"mukesh\"\r\nconsole.log(p1)\r\nconsole.log(p2)\r\n\r\n// const name = p1.name\r\n// const age = p1.age\r\n// const loc = { city: p1.city, pincode: p1.pincode }\r\nconst { name, age, ...loc } = p1 // Rest Operator\r\nconsole.log(name)\r\nconsole.log(age)\r\nconsole.log(loc)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo06-js",
+        "title": "Array push()",
+        "summary": "Learn Array push() through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "Array push() comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Array push()</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const arr1 = [1, 2, 3, 4, 5, 6]\r\n// const arr2 = arr1\r\n// const arr2 = []\r\n// for (e of arr1)\r\n//     arr2.push(e)\r\n\r\nconst arr2 = [...arr1] // spread operator\r\narr2.push(7)\r\n\r\nconsole.log(arr1)\r\nconsole.log(arr2)\r\n\r\nconst [one, two, three, ...arr] = arr1 // Rest Operator\r\nconsole.log(one)\r\nconsole.log(two)\r\nconsole.log(three)\r\nconsole.log(arr)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo07-js",
+        "title": "2 Demo 07",
+        "summary": "Learn 2 Demo 07 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 07 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 07</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const pgCourses = ['CPAC', 'CPMC', 'CPBDA', 'CPESD', 'CPITISS']\r\nconst modularCourses = ['CPP', 'JAVA', 'Python', 'DSA', 'Aptitude']\r\n\r\nconst sunbeamCourses = [...pgCourses, ...modularCourses]\r\nconsole.log(sunbeamCourses)"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo08-js",
+        "title": "2 Demo 08",
+        "summary": "Learn 2 Demo 08 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 08 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 08</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function sum(...arr) {\r\n    let total = 0\r\n    console.log(arr)\r\n    for (e of arr)\r\n        total += e\r\n    console.log('SUM - ' + total)\r\n}\r\n\r\nsum(10, 20)\r\nsum(10, 20, 30)\r\nsum(10, 20, 30, 40)\r\n//sum([10, 20, 30])\r\n//sum([10, 20, 30, 40])"
+        }
+      },
+      {
+        "id": "resource-javascript-day06-2-destructuring_spread_rest_operator-demo09-js",
+        "title": "2 Demo 09",
+        "summary": "Learn 2 Demo 09 through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is mainly about observing JavaScript behavior through the console, so the preview and console output should be read together.",
+        "points": [
+          "2 Demo 09 comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the javascript concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>2 Demo 09</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function sum() {\r\n    let total = 0\r\n    console.log(arguments)\r\n    for (e of arguments)\r\n        total += e\r\n    console.log('SUM - ' + total)\r\n}\r\n\r\n// sum()\r\n// sum(10)\r\nsum(10, 20)\r\nsum(10, 20, 30)\r\nsum(10, 20, 30, 40)\r\n\r\nsum()\r\nsum(10)\r\nsum(10, 20)"
+        }
+      }
+    ]
+  },
+  {
+    "category": "AJAX",
+    "topics": [
+      {
+        "id": "resource-ajax-day07-1-fetchingdatafromlocalhost-page01-html",
+        "title": "Using XHR",
+        "summary": "Learn Using XHR through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This page demonstrates Using XHR. The main visible focus is \"Using XHR\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Using XHR comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>Using XHR</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\" id=\"btnGetData\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "// const btnGetData = document.getElementById('btnGetData')\r\n        // btnGetData.addEventListener('click', () => {\r\n        //     console.log('btn clicked')\r\n        // })\r\n\r\n        function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            // create the object of xhr\r\n            const xhr = new XMLHttpRequest()\r\n\r\n            console.log('Before configuring - ' + xhr.readyState)\r\n\r\n            // configure the object to send the request \r\n            xhr.open(\"GET\", 'http://127.0.0.1:5500/data.json')\r\n\r\n            console.log('Before sending - ' + xhr.readyState)\r\n            // send the request\r\n            xhr.send()\r\n            console.log('After sending - ' + xhr.readyState)\r\n\r\n            xhr.onreadystatechange = () => {\r\n                console.log('Changed state - ' + xhr.readyState)\r\n                if (xhr.readyState == 4 && xhr.status == 200) {\r\n                    console.log('data is received')\r\n                    console.log(xhr.response)\r\n                    const data = JSON.parse(xhr.response)\r\n                    console.log(data)\r\n                    for (e of data) {\r\n                        const row = `<tr>\r\n                            <td>${e.id}</td>\r\n                            <td>${e.name}</td>\r\n                            <td>${e.salary}</td>\r\n                            </tr>`\r\n                        tbody.innerHTML += row\r\n                    }\r\n                }\r\n            }\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-1-fetchingdatafromlocalhost-page02-html",
+        "title": "Using fetch",
+        "summary": "Learn Using fetch through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This page demonstrates Using fetch. The main visible focus is \"Using fetch\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Using fetch comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>Using fetch</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            // returns promise\r\n            fetch('http://127.0.0.1:5500/data.json')\r\n                .then((response) => {\r\n                    console.log(response)\r\n                    response.json() // promise\r\n                        .then((data) => {\r\n                            console.log(data)\r\n                            for (e of data) {\r\n                                const row = `<tr>\r\n                                    <td>${e.id}</td>\r\n                                    <td>${e.name}</td>\r\n                                    <td>${e.salary}</td>\r\n                                    </tr>`\r\n                                tbody.innerHTML += row\r\n                            }\r\n                        }).catch((ex) => {\r\n                            console.log(ex)\r\n                        })\r\n                })\r\n                .catch((ex) => {\r\n                    console.log(\"Error while fetching - \")\r\n                    console.log(ex)\r\n                })\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-1-fetchingdatafromlocalhost-page03-html",
+        "title": "Using fetch example 2",
+        "summary": "Learn Using fetch example 2 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This page demonstrates Using fetch example 2. The main visible focus is \"Using fetch example 2\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Using fetch example 2 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>Using fetch example 2</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            // returns promise\r\n            fetch('http://127.0.0.1:5500/data.json')\r\n                .then((response) => {\r\n                    return response.json() // promise\r\n                })\r\n                .then((data) => {\r\n                    console.log(data)\r\n                    for (e of data) {\r\n                        const row = `<tr>\r\n                        <td>${e.id}</td>\r\n                        <td>${e.name}</td>\r\n                        <td>${e.salary}</td>\r\n                        </tr>`\r\n                        tbody.innerHTML += row\r\n                    }\r\n                })\r\n                .catch((ex) => {\r\n                    console.log(\"Error while fetching - \")\r\n                    console.log(ex)\r\n                })\r\n\r\n\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-1-fetchingdatafromlocalhost-page04-html",
+        "title": "using async... await",
+        "summary": "Learn using async... await through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This page demonstrates using async... await. The main visible focus is \"using async... await\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "using async... await comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>using async... await</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "async function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            try {\r\n                // returns promise\r\n                const response = await fetch('http://127.0.0.1:5500/data.json')\r\n                const data = await response.json()\r\n\r\n                for (e of data) {\r\n                    const row = `<tr>\r\n                        <td>${e.id}</td>\r\n                        <td>${e.name}</td>\r\n                        <td>${e.salary}</td>\r\n                        </tr>`\r\n                    tbody.innerHTML += row\r\n                }\r\n            } catch (ex) {\r\n                console.log(ex)\r\n            }\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-1-fetchingdatafromlocalhost-page05-html",
+        "title": "using axios",
+        "summary": "Learn using axios through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This page demonstrates using axios. The main visible focus is \"using axios\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "using axios comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>using axios</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "async function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            try {\r\n                // returns promise\r\n                const response = await axios.get('http://127.0.0.1:5500/data.json')\r\n                const data = response.data\r\n                for (e of data) {\r\n                    const row = `<tr>\r\n                        <td>${e.id}</td>\r\n                        <td>${e.name}</td>\r\n                        <td>${e.salary}</td>\r\n                        </tr>`\r\n                    tbody.innerHTML += row\r\n                }\r\n            } catch (ex) {\r\n                console.log(ex)\r\n            }\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-2-fetchingdatafromthirdpartyserver-page01-html",
+        "title": "Using XHR",
+        "summary": "Learn Using XHR through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates Using XHR. The main visible focus is \"Using XHR\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Using XHR comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>Using XHR</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\" id=\"btnGetData\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>phone</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "// const btnGetData = document.getElementById('btnGetData')\r\n        // btnGetData.addEventListener('click', () => {\r\n        //     console.log('btn clicked')\r\n        // })\r\n\r\n        function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            const xhr = new XMLHttpRequest()\r\n            xhr.open(\"GET\", 'https://dummyjson.com/users')\r\n            // send the request\r\n            xhr.send()\r\n            xhr.onreadystatechange = () => {\r\n                if (xhr.readyState == 4 && xhr.status == 200) {\r\n                    console.log(xhr.response)\r\n                    const data = JSON.parse(xhr.response)\r\n                    const users = data.users\r\n                    for (e of users) {\r\n                        const row = `<tr>\r\n                            <td>${e.id}</td>\r\n                            <td>${e.firstName}</td>\r\n                            <td>${e.phone}</td>\r\n                            </tr>`\r\n                        tbody.innerHTML += row\r\n                    }\r\n                }\r\n            }\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-2-fetchingdatafromthirdpartyserver-page02-html",
+        "title": "using async... await",
+        "summary": "Learn using async... await through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates using async... await. The main visible focus is \"using async... await\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "using async... await comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>using async... await</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "async function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            try {\r\n                // returns promise\r\n                const response = await fetch('https://dummyjson.com/users')\r\n                const data = await response.json()\r\n                console.log(data)\r\n                const users = data.users\r\n\r\n                for (e of users) {\r\n                    const row = `<tr>\r\n                        <td>${e.id}</td>\r\n                        <td>${e.firstName}</td>\r\n                        <td>${e.phone}</td>\r\n                        </tr>`\r\n                    tbody.innerHTML += row\r\n                }\r\n            } catch (ex) {\r\n                console.log(ex)\r\n            }\r\n        }"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-2-fetchingdatafromthirdpartyserver-page03-html",
+        "title": "using axios",
+        "summary": "Learn using axios through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates using axios. The main visible focus is \"using axios\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "using axios comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\r\n        integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <div class=\"container\">\r\n        <h1>using axios</h1>\r\n        <button class=\"btn btn-primary m-3\" onclick=\"getData()\">Get Data</button>\r\n        <table class=\"table\">\r\n            <thead>\r\n                <tr>\r\n                    <th>#id</th>\r\n                    <th>name</th>\r\n                    <th>salary</th>\r\n                </tr>\r\n            </thead>\r\n            <tbody id=\"tbody\">\r\n\r\n            </tbody>\r\n        </table>\r\n    </div>\r\n    <script src=\"/resources/wpt/Day07/2.FetchingDataFromThirdPartyServer/demo01.js\">\r\n\r\n        async function getData() {\r\n            const tbody = document.getElementById('tbody')\r\n            try {\r\n                // returns promise\r\n                const response = await axios.get('https://dummyjson.com/users')\r\n                const data = response.data\r\n                const users = data.users\r\n                for (e of users) {\r\n                    const row = `<tr>\r\n                        <td>${e.id}</td>\r\n                        <td>${e.firstName}</td>\r\n                        <td>${e.phone}</td>\r\n                        </tr>`\r\n                    tbody.innerHTML += row\r\n                }\r\n            } catch (ex) {\r\n                console.log(ex)\r\n            }\r\n        }\r\n\r\n    </script>\r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": ""
+        }
+      },
+      {
+        "id": "resource-ajax-day07-3-promise-page01-html",
+        "title": "Get Data",
+        "summary": "Learn Get Data through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates Get Data. The main visible focus is \"Get Data\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Get Data comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <button onclick=\"getData()\">Get Data</button>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getData() {\r\n            serachEmployee(3, (emp, error) => {\r\n                if (emp) {\r\n                    console.log(emp)\r\n                    serachDepartment(emp.deptno, (dept, error) => {\r\n                        if (dept) {\r\n                            console.log(dept)\r\n                        }\r\n                        else {\r\n                            console.log(error)\r\n                        }\r\n                    })\r\n                }\r\n                else {\r\n                    console.log(error)\r\n                }\r\n            })\r\n        }\n\nconst emps = [\r\n    { id: 1, name: 'anil', salary: 10000, deptno: 10 },\r\n    { id: 2, name: 'ramesh', salary: 20000, deptno: 20 },\r\n    { id: 3, name: 'mukesh', salary: 30000, deptno: 50 }\r\n]\r\n\r\nconst depts = [\r\n    { deptno: 10, dname: \"Operations\", location: 'Pune' },\r\n    { deptno: 20, dname: \"Accounting\", location: 'Mumbai' },\r\n    { deptno: 30, dname: \"Sales\", location: 'Banglore' },\r\n    { deptno: 40, dname: \"Development\", location: 'Delhi' }\r\n]\r\n\r\nfunction serachEmployee(id, fn) {\r\n    for (e of emps) {\r\n        if (e.id == id) {\r\n            fn(e, null)\r\n            return\r\n        }\r\n    }\r\n    fn(null, 'Employee not found')\r\n}\r\n\r\nfunction serachDepartment(deptno, fn) {\r\n    for (d of depts) {\r\n        if (d.deptno == deptno) {\r\n            fn(d, null)\r\n            return\r\n        }\r\n    }\r\n    fn(null, 'Department not found')\r\n}"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-3-promise-page02-html",
+        "title": "Get Data",
+        "summary": "Learn Get Data through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates Get Data. The main visible focus is \"Get Data\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Get Data comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <button onclick=\"getData()\">Get Data</button>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getData() {\r\n            serachEmployee(3)\r\n                .then((emp) => {\r\n                    console.log(emp)\r\n                    serachDepartment(emp.deptno)\r\n                        .then((dept) => {\r\n                            console.log(dept)\r\n                        })\r\n                        .catch((error) => {\r\n                            console.log(error)\r\n                        })\r\n                })\r\n                .catch((error) => {\r\n                    console.log(error)\r\n                })\r\n        }\n\nconst emps = [\r\n    { id: 1, name: 'anil', salary: 10000, deptno: 10 },\r\n    { id: 2, name: 'ramesh', salary: 20000, deptno: 20 },\r\n    { id: 3, name: 'mukesh', salary: 30000, deptno: 50 }\r\n]\r\n\r\nconst depts = [\r\n    { deptno: 10, dname: \"Operations\", location: 'Pune' },\r\n    { deptno: 20, dname: \"Accounting\", location: 'Mumbai' },\r\n    { deptno: 30, dname: \"Sales\", location: 'Banglore' },\r\n    { deptno: 40, dname: \"Development\", location: 'Delhi' }\r\n]\r\n\r\nfunction serachEmployee(id) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (e of emps) {\r\n            if (e.id == id) {\r\n                resolve(e)\r\n                return\r\n            }\r\n        }\r\n        reject('Employee not found')\r\n    })\r\n    return promise\r\n}\r\n\r\n\r\nfunction serachDepartment(deptno) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (d of depts) {\r\n            if (d.deptno == deptno) {\r\n                resolve(d)\r\n                return\r\n            }\r\n        }\r\n        reject('department not found')\r\n    })\r\n    return promise\r\n}"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-3-promise-page03-html",
+        "title": "Get Data",
+        "summary": "Learn Get Data through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates Get Data. The main visible focus is \"Get Data\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Get Data comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <button onclick=\"getData()\">Get Data</button>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getData() {\r\n            serachEmployee(4)\r\n                .then((emp) => {\r\n                    console.log(emp)\r\n                    return serachDepartment(emp.deptno)\r\n                })\r\n                .then((dept) => {\r\n                    console.log(dept)\r\n                })\r\n                .catch((error) => {\r\n                    console.log(error)\r\n                })\r\n        }\n\nconst emps = [\r\n    { id: 1, name: 'anil', salary: 10000, deptno: 10 },\r\n    { id: 2, name: 'ramesh', salary: 20000, deptno: 20 },\r\n    { id: 3, name: 'mukesh', salary: 30000, deptno: 50 }\r\n]\r\n\r\nconst depts = [\r\n    { deptno: 10, dname: \"Operations\", location: 'Pune' },\r\n    { deptno: 20, dname: \"Accounting\", location: 'Mumbai' },\r\n    { deptno: 30, dname: \"Sales\", location: 'Banglore' },\r\n    { deptno: 40, dname: \"Development\", location: 'Delhi' }\r\n]\r\n\r\nfunction serachEmployee(id) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (e of emps) {\r\n            if (e.id == id) {\r\n                resolve(e)\r\n                return\r\n            }\r\n        }\r\n        reject('Employee not found')\r\n    })\r\n    return promise\r\n}\r\n\r\n\r\nfunction serachDepartment(deptno) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (d of depts) {\r\n            if (d.deptno == deptno) {\r\n                resolve(d)\r\n                return\r\n            }\r\n        }\r\n        reject('department not found')\r\n    })\r\n    return promise\r\n}"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-3-promise-page04-html",
+        "title": "Get Data",
+        "summary": "Learn Get Data through a runnable example pulled from the 3 lesson set.",
+        "explanation": "This page demonstrates Get Data. The main visible focus is \"Get Data\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Get Data comes from the 3 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    \r\n</head>\r\n\r\n<body>\r\n    <button onclick=\"getData()\">Get Data</button>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "async function getData() {\r\n            try {\r\n                const emp = await serachEmployee(5)\r\n                console.log(emp)\r\n                const dept = await serachDepartment(emp.deptno)\r\n                console.log(dept)\r\n            } catch (error) {\r\n                console.log(error)\r\n            }\r\n        }\n\nconst emps = [\r\n    { id: 1, name: 'anil', salary: 10000, deptno: 10 },\r\n    { id: 2, name: 'ramesh', salary: 20000, deptno: 20 },\r\n    { id: 3, name: 'mukesh', salary: 30000, deptno: 50 }\r\n]\r\n\r\nconst depts = [\r\n    { deptno: 10, dname: \"Operations\", location: 'Pune' },\r\n    { deptno: 20, dname: \"Accounting\", location: 'Mumbai' },\r\n    { deptno: 30, dname: \"Sales\", location: 'Banglore' },\r\n    { deptno: 40, dname: \"Development\", location: 'Delhi' }\r\n]\r\n\r\nfunction serachEmployee(id) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (e of emps) {\r\n            if (e.id == id) {\r\n                resolve(e)\r\n                return\r\n            }\r\n        }\r\n        reject('Employee not found')\r\n    })\r\n    return promise\r\n}\r\n\r\n\r\nfunction serachDepartment(deptno) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (d of depts) {\r\n            if (d.deptno == deptno) {\r\n                resolve(d)\r\n                return\r\n            }\r\n        }\r\n        reject('department not found')\r\n    })\r\n    return promise\r\n}"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-3-promise-callbackbasedlibrary-js",
+        "title": "3 Callbackbasedlibrary",
+        "summary": "Learn 3 Callbackbasedlibrary through a runnable example pulled from the Day07/3 lesson set.",
+        "explanation": "This lesson is part of the Day07/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying ajax code.",
+        "points": [
+          "3 Callbackbasedlibrary comes from the Day07/3 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Callbackbasedlibrary</h2>\n  <p>This support library powers asynchronous data flow examples from the resources.</p>\n</section>",
+          "css": "body { background: #eefafc; color: #133348; }",
+          "js": "const emps = [\r\n    { id: 1, name: 'anil', salary: 10000, deptno: 10 },\r\n    { id: 2, name: 'ramesh', salary: 20000, deptno: 20 },\r\n    { id: 3, name: 'mukesh', salary: 30000, deptno: 50 }\r\n]\r\n\r\nconst depts = [\r\n    { deptno: 10, dname: \"Operations\", location: 'Pune' },\r\n    { deptno: 20, dname: \"Accounting\", location: 'Mumbai' },\r\n    { deptno: 30, dname: \"Sales\", location: 'Banglore' },\r\n    { deptno: 40, dname: \"Development\", location: 'Delhi' }\r\n]\r\n\r\nfunction serachEmployee(id, fn) {\r\n    for (e of emps) {\r\n        if (e.id == id) {\r\n            fn(e, null)\r\n            return\r\n        }\r\n    }\r\n    fn(null, 'Employee not found')\r\n}\r\n\r\nfunction serachDepartment(deptno, fn) {\r\n    for (d of depts) {\r\n        if (d.deptno == deptno) {\r\n            fn(d, null)\r\n            return\r\n        }\r\n    }\r\n    fn(null, 'Department not found')\r\n}"
+        }
+      },
+      {
+        "id": "resource-ajax-day07-3-promise-promisebasedlibrary-js",
+        "title": "3 Promisebasedlibrary",
+        "summary": "Learn 3 Promisebasedlibrary through a runnable example pulled from the Day07/3 lesson set.",
+        "explanation": "This lesson is part of the Day07/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying ajax code.",
+        "points": [
+          "3 Promisebasedlibrary comes from the Day07/3 resource section.",
+          "Edit the code and rerun it to see how the ajax concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>3 Promisebasedlibrary</h2>\n  <p>This support library powers asynchronous data flow examples from the resources.</p>\n</section>",
+          "css": "body { background: #eefafc; color: #133348; }",
+          "js": "const emps = [\r\n    { id: 1, name: 'anil', salary: 10000, deptno: 10 },\r\n    { id: 2, name: 'ramesh', salary: 20000, deptno: 20 },\r\n    { id: 3, name: 'mukesh', salary: 30000, deptno: 50 }\r\n]\r\n\r\nconst depts = [\r\n    { deptno: 10, dname: \"Operations\", location: 'Pune' },\r\n    { deptno: 20, dname: \"Accounting\", location: 'Mumbai' },\r\n    { deptno: 30, dname: \"Sales\", location: 'Banglore' },\r\n    { deptno: 40, dname: \"Development\", location: 'Delhi' }\r\n]\r\n\r\nfunction serachEmployee(id) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (e of emps) {\r\n            if (e.id == id) {\r\n                resolve(e)\r\n                return\r\n            }\r\n        }\r\n        reject('Employee not found')\r\n    })\r\n    return promise\r\n}\r\n\r\n\r\nfunction serachDepartment(deptno) {\r\n    const promise = new Promise((resolve, reject) => {\r\n        for (d of depts) {\r\n            if (d.deptno == deptno) {\r\n                resolve(d)\r\n                return\r\n            }\r\n        }\r\n        reject('department not found')\r\n    })\r\n    return promise\r\n}"
+        }
+      }
+    ]
+  },
+  {
+    "category": "React",
+    "topics": [
+      {
+        "id": "resource-react-day11-2-purereact-page01-html",
+        "title": "Pure React Concept",
+        "summary": "Learn Pure React Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Pure React Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body onload=\"startReact()\">\r\n    <div id=\"root\">\r\n\r\n    </div>\r\n    <script src=\"/vendor/react/react.development.js\" crossorigin></script>\r\n    <script src=\"/vendor/react-dom/react-dom.development.js\" crossorigin></script>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function startReact() {\r\n            const root = document.getElementById('root')\r\n            const h1 = React.createElement('h1', null, 'Hello from React')\r\n            const vdom = ReactDOM.createRoot(root)\r\n            vdom.render(h1)\r\n\r\n        }\r\n        startReact()"
+        }
+      },
+      {
+        "id": "resource-react-day11-2-purereact-page02-html",
+        "title": "Pure React Concept",
+        "summary": "Learn Pure React Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Pure React Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body onload=\"startReact()\">\r\n    <div id=\"root\">\r\n\r\n    </div>\r\n    <script src=\"/vendor/react/react.development.js\" crossorigin></script>\r\n    <script src=\"/vendor/react-dom/react-dom.development.js\" crossorigin></script>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function startReact() {\r\n            const root = document.getElementById('root')\r\n\r\n            const h1 = React.createElement('h1', null, 'Welcome')\r\n            const h2 = React.createElement('h2', null, \"From CPAC\")\r\n\r\n            const vdom = ReactDOM.createRoot(root)\r\n            vdom.render([h1, h2])\r\n        }\r\n        startReact()"
+        }
+      },
+      {
+        "id": "resource-react-day11-2-purereact-page03-html",
+        "title": "Manipulating DOM",
+        "summary": "Learn Manipulating DOM through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates Manipulating DOM. The main visible focus is \"Manipulating DOM\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Manipulating DOM comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <h1>Manipulating DOM</h1>\r\n    <button onclick=\"getProducts()\">Get Products</button>\r\n    <ul id=\"root\">\r\n\r\n    </ul>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getProducts() {\r\n            const root = document.getElementById('root')\r\n            const startTime = window.performance.now()\r\n            for (let i = 1; i <= 1000; i++) {\r\n                // const li = `<li>Product - ${i}</li>`\r\n                const li = document.createElement('li')\r\n                li.textContent = 'Product - ' + i\r\n                root.innerHTML += li\r\n            }\r\n            const endTime = window.performance.now()\r\n            const timeDifference = (endTime - startTime).toFixed(2)\r\n            console.log('Time taken - ' + timeDifference + ' ms')\r\n\r\n        }"
+        }
+      },
+      {
+        "id": "resource-react-day11-2-purereact-page04-html",
+        "title": "Manipulating VDOM",
+        "summary": "Learn Manipulating VDOM through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates Manipulating VDOM. The main visible focus is \"Manipulating VDOM\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Manipulating VDOM comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body>\r\n    <h1>Manipulating VDOM</h1>\r\n    <button onclick=\"getProducts()\">Get Products</button>\r\n    <ul id=\"root\">\r\n\r\n    </ul>\r\n    <script src=\"/vendor/react/react.development.js\" crossorigin></script>\r\n    <script src=\"/vendor/react-dom/react-dom.development.js\" crossorigin></script>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function getProducts() {\r\n            const root = document.getElementById('root')\r\n            const startTime = window.performance.now()\r\n            const arr = []\r\n            for (let i = 1; i <= 10000; i++) {\r\n                const li = React.createElement('li', null, 'Product - ' + i);\r\n                arr.push(li)\r\n            }\r\n            const vdom = ReactDOM.createRoot(root)\r\n            vdom.render(arr)\r\n\r\n            const endTime = window.performance.now()\r\n            const timeDifference = (endTime - startTime).toFixed(2)\r\n            console.log('Time taken - ' + timeDifference + ' ms')\r\n\r\n        }"
+        }
+      },
+      {
+        "id": "resource-react-day11-2-purereact-page05-html",
+        "title": "Pure React Concept",
+        "summary": "Learn Pure React Concept through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson is part of the 2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Pure React Concept comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body onload=\"startReact()\">\r\n    <div id=\"root\">\r\n\r\n    </div>\r\n    <script src=\"/vendor/react/react.development.js\" crossorigin></script>\r\n    <script src=\"/vendor/react-dom/react-dom.development.js\" crossorigin></script>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function startReact() {\r\n\r\n            const UI = `\r\n                    <h1>Sunbeam<h1>\r\n                    <div>\r\n                        <p>This is para 1</p>    \r\n                        <p>This is para 2</p>    \r\n                    </div>\r\n            `\r\n\r\n            const root = ReactDOM.createRoot(document.getElementById('root'))\r\n            const h1 = React.createElement('h1', null, 'Sunbeam')\r\n            const p1 = React.createElement('p', null, 'At Sunbeam we believe retaining a competitive edge is imperative for any individual in todays professional world.');\r\n            const p2 = React.createElement('p', null, 'In this scenario, technical & personal skills which provide effective solutions & time critical support are of principal significance for the long term growth of professionals.')\r\n            const div = React.createElement('div', null, [p1, p2])\r\n            root.render([h1, div])\r\n        }"
+        }
+      },
+      {
+        "id": "resource-react-day11-2-purereact-page06-html",
+        "title": "Sunbeam",
+        "summary": "Learn Sunbeam through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This page demonstrates Sunbeam. The main visible focus is \"Sunbeam\", and the example is meant to help you connect the rendered UI with the code that produces it.",
+        "points": [
+          "Sunbeam comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n\r\n<body onload=\"startReact()\">\r\n    <div id=\"root\">\r\n\r\n    </div>\r\n    <script src=\"/vendor/react/react.development.js\" crossorigin></script>\r\n    <script src=\"/vendor/react-dom/react-dom.development.js\" crossorigin></script>\r\n\r\n    <!-- babel is a JS compiler -->\r\n    <script src=\"https://unpkg.com/@babel/standalone/babel.min.js\"></script>\r\n    \r\n</body>\r\n\r\n</html>",
+          "css": "",
+          "js": "function startReact() {\r\n            const root = ReactDOM.createRoot(document.getElementById('root'))\r\n\r\n            const UI = <div>\r\n                <h1>Sunbeam</h1>\r\n                <div>\r\n                    <p>At Sunbeam we believe retaining a competitive edge is imperative for any individual in today's professional\r\n                        world. Companies are restructuring their organizations & reengineering their business processes. Not only\r\n                        have the challenges become more demanding, but also the rewards of staying at the forefront seem to be\r\n                        promising.\r\n                    </p>\r\n                    <p>\r\n                        In this scenario, technical & personal skills which provide effective solutions & time critical support are\r\n                        of principal significance for the long term growth of professionals. Sunbeam's expertise in effectively\r\n                        delivering training, solutions & services has made it a favored institution to many students & professionals\r\n                        focused on an aggressive career growth strategy.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n\r\n            root.render(UI)\r\n        }"
+        }
+      },
+      {
+        "id": "resource-react-day11-app1-src-app-jsx",
+        "title": "App",
+        "summary": "Learn App through a runnable example pulled from the Day11/App1/Src lesson set.",
+        "explanation": "This lesson shows a React stateful component. The important thing to notice is that updating state triggers a rerender and changes what appears on screen.",
+        "points": [
+          "App comes from the Day11/App1/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src App</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { useState } from 'react'\r\nimport reactLogo from './assets/react.svg'\r\nimport viteLogo from '/vite.svg'\r\nimport './App.css'\r\n\r\nfunction App() {\r\n  const [count, setCount] = useState(0)\r\n\r\n  return (\r\n    <>\r\n      <div>\r\n        <a href=\"https://vite.dev\" target=\"_blank\">\r\n          <img src={viteLogo} className=\"logo\" alt=\"Vite logo\" />\r\n        </a>\r\n        <a href=\"https://react.dev\" target=\"_blank\">\r\n          <img src={reactLogo} className=\"logo react\" alt=\"React logo\" />\r\n        </a>\r\n      </div>\r\n      <h1>Vite + React</h1>\r\n      <div className=\"card\">\r\n        <button onClick={() => setCount((count) => count + 1)}>\r\n          count is {count}\r\n        </button>\r\n        <p>\r\n          Edit <code>src/App.jsx</code> and save to test HMR\r\n        </p>\r\n      </div>\r\n      <p className=\"read-the-docs\">\r\n        Click on the Vite and React logos to learn more\r\n      </p>\r\n    </>\r\n  )\r\n}\r\n\r\nexport default App"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main01-jsx",
+        "title": "Src Main01",
+        "summary": "Learn Src Main01 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main01 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main01</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst name = 'Mukesh'\r\nconst age = 35\r\nconst mobile = '9876543210'\r\n\r\n// const div = `<div>Name : ${name}</div>`\r\n//const div = <div>Name : {name}</div>\r\n\r\nconst div = <div>\r\n    <p>Name : {name}</p>\r\n    <p>Age : {age}</p>\r\n    <p>Mobile : {mobile}</p>\r\n</div>\r\ncreateRoot(document.getElementById('root')).render(div)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main02-jsx",
+        "title": "Src Main02",
+        "summary": "Learn Src Main02 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main02 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main02</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst p1 = {\r\n    name: \"Anil\",\r\n    age: 35,\r\n    city: 'pune',\r\n    mobile: '9876543210'\r\n}\r\n\r\nconst div = <>\r\n    <p>Name : {p1.name}</p>\r\n    <p>Age : {p1.age}</p>\r\n    <p>Mobile : {p1['mobile']}</p>\r\n</>\r\n\r\ncreateRoot(document.getElementById('root')).render(div)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main03-jsx",
+        "title": "Src Main03",
+        "summary": "Learn Src Main03 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main03 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main03</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst countries = ['India', 'USA', 'UK', 'China', 'Japan']\r\n\r\nconst ul = <ul>\r\n    <li>{countries[0]}</li>\r\n    <li>{countries[1]}</li>\r\n    <li>{countries[2]}</li>\r\n    <li>{countries[3]}</li>\r\n    <li>{countries[4]}</li>\r\n</ul>\r\n\r\ncreateRoot(document.getElementById('root')).render(ul)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main04-jsx",
+        "title": "Src Main04",
+        "summary": "Learn Src Main04 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main04 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main04</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst countries = ['India', 'USA', 'UK', 'China', 'Japan']\r\n\r\nconst ul = <ul>\r\n    {\r\n        countries.map(e => {\r\n            return <li>{e}</li>\r\n        })\r\n    }\r\n</ul>\r\n\r\ncreateRoot(document.getElementById('root')).render(ul)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main05-jsx",
+        "title": "Src Main05",
+        "summary": "Learn Src Main05 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main05 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main05</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst p1 = {\r\n    name: 'anil',\r\n    age: 35,\r\n    mobile: '9876543210'\r\n}\r\n\r\nconst p2 = {\r\n    name: 'mukesh',\r\n    age: 35,\r\n    mobile: '9876543211'\r\n}\r\n\r\nconst div = <div>\r\n    <div>\r\n        <p>Name : {p1.name}</p>\r\n        <p>Age : {p1.age}</p>\r\n        <p>Mobile : {p1.mobile}</p>\r\n    </div>\r\n    <hr />\r\n    <div>\r\n        <p>Name : {p2.name}</p>\r\n        <p>Age : {p2.age}</p>\r\n        <p>Mobile : {p2.mobile}</p>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\ncreateRoot(document.getElementById('root')).render(div)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main06-jsx",
+        "title": "Src Main06",
+        "summary": "Learn Src Main06 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main06 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main06</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst arr = [\r\n    {\r\n        name: 'anil',\r\n        age: 35,\r\n        mobile: '9876543210'\r\n    },\r\n    {\r\n        name: 'mukesh',\r\n        age: 40,\r\n        mobile: '9876543211'\r\n    },\r\n    {\r\n        name: 'ramesh',\r\n        age: 45,\r\n        mobile: '9876543212'\r\n    },\r\n    {\r\n        name: 'suresh',\r\n        age: 50,\r\n        mobile: '9876543213'\r\n    }\r\n\r\n]\r\n\r\nconst div = <div>\r\n    {\r\n        arr.map(e => {\r\n            return <div>\r\n                <p>Name : {e.name}</p>\r\n                <p>Age : {e.age}</p>\r\n                <p>Mobile : {e.mobile}</p>\r\n                <hr />\r\n            </div>\r\n        })\r\n    }\r\n</div>\r\n\r\ncreateRoot(document.getElementById('root')).render(div)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main07-jsx",
+        "title": "Src Main07",
+        "summary": "Learn Src Main07 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main07 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main07</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst div = <div>\r\n    <p style={{ color: 'white', backgroundColor: 'black' }}>This is a para</p>\r\n</div>\r\n\r\ncreateRoot(document.getElementById('root')).render(div)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main08-jsx",
+        "title": "Src Main08",
+        "summary": "Learn Src Main08 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main08 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main08</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst countries = ['India', 'USA', 'UK', 'China', 'Japan']\r\n\r\n{/* <ul class=\"list-group list-group-flush\">\r\n  <li class=\"list-group-item\">An item</li>\r\n  <li class=\"list-group-item\">A second item</li>\r\n  <li class=\"list-group-item\">A third item</li>\r\n  <li class=\"list-group-item\">A fourth item</li>\r\n  <li class=\"list-group-item\">And a fifth one</li>\r\n</ul> */}\r\n\r\nconst ul = <ul className=\"list-group list-group-flush\">\r\n    {\r\n        countries.map(e => {\r\n            return <li className=\"list-group-item\">{e}</li>\r\n        })\r\n    }\r\n</ul>\r\n\r\ncreateRoot(document.getElementById('root')).render(ul)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app2-src-main09-jsx",
+        "title": "Src Main09",
+        "summary": "Learn Src Main09 through a runnable example pulled from the Day11/App2/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App2/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Src Main09 comes from the Day11/App2/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main09</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\nconst arr = [\r\n    {\r\n        uid: 1,\r\n        name: 'anil',\r\n        age: 35,\r\n        mobile: '9876543210'\r\n    },\r\n    {\r\n        uid: 2,\r\n        name: 'mukesh',\r\n        age: 40,\r\n        mobile: '9876543211'\r\n    },\r\n    {\r\n        uid: 3,\r\n        name: 'ramesh',\r\n        age: 45,\r\n        mobile: '9876543212'\r\n    },\r\n    {\r\n        uid: 4,\r\n        name: 'suresh',\r\n        age: 50,\r\n        mobile: '9876543213'\r\n    }\r\n]\r\n\r\nconst div = <div className='container'>\r\n    <table className='table table-striped'>\r\n        <thead>\r\n            <th>#uid</th>\r\n            <th>name</th>\r\n            <th>age</th>\r\n            <th>mobile</th>\r\n        </thead>\r\n        <tbody>\r\n            {\r\n                arr.map(e => {\r\n                    return <tr>\r\n                        <td>{e.uid}</td>\r\n                        <td>{e.name}</td>\r\n                        <td>{e.age}</td>\r\n                        <td>{e.mobile}</td>\r\n                    </tr>\r\n                })\r\n            }\r\n        </tbody>\r\n    </table>\r\n</div>\r\n\r\ncreateRoot(document.getElementById('root')).render(div)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app3-src-main01-jsx",
+        "title": "Person",
+        "summary": "Learn Person through a runnable example pulled from the Day11/App3/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App3/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Person comes from the Day11/App3/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main01</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\n\r\n// functional Component\r\nfunction Person() {\r\n  const p1 = { uid: 1, name: 'Anil', age: 35, city: 'pune' }\r\n  const div = <div>\r\n    <h2>Person Data</h2>\r\n    <p>uid - {p1.uid}</p>\r\n    <p>name - {p1.name}</p>\r\n    <p>age - {p1.age}</p>\r\n    <p>city - {p1.city}</p>\r\n    <hr />\r\n  </div>\r\n  return div\r\n}\r\n\r\n// createRoot(document.getElementById('root')).render(Person())\r\ncreateRoot(document.getElementById('root')).render(<Person />)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app3-src-main02-jsx",
+        "title": "Person",
+        "summary": "Learn Person through a runnable example pulled from the Day11/App3/Src lesson set.",
+        "explanation": "This lesson is part of the Day11/App3/Src section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Person comes from the Day11/App3/Src resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Src Main02</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { createRoot } from 'react-dom/client'\r\n\r\n\r\n// functional Component\r\nfunction Person() {\r\n  const p1 = { uid: 1, name: 'Anil', age: 35, city: 'pune' }\r\n  const div = <div>\r\n    <h2>Person Data</h2>\r\n    <p>uid - {p1.uid}</p>\r\n    <p>name - {p1.name}</p>\r\n    <p>age - {p1.age}</p>\r\n    <p>city - {p1.city}</p>\r\n    <hr />\r\n  </div>\r\n  return div\r\n}\r\nfunction Employee() {\r\n  const e1 = { empid: 1, name: 'Mukesh', email: 'anil@gmail.com', salary: 10000 }\r\n  return <>\r\n    <h2>Employee Data</h2>\r\n    <p>empid - {e1.empid}</p>\r\n    <p>name - {e1.name}</p>\r\n    <p>email - {e1.email}</p>\r\n    <p>salary - {e1.salary}</p>\r\n    <hr />\r\n  </>\r\n}\r\n\r\n\r\nfunction Student() {\r\n  const s1 = { rollno: 1, name: 'ramesh', marks: 70, course: 'CPAC' }\r\n  return <div>\r\n    <h2>Student Data</h2>\r\n    <p>rollno - {s1.rollno}</p>\r\n    <p>name - {s1.name}</p>\r\n    <p>marks - {s1.marks}</p>\r\n    <p>course - {s1.course}</p>\r\n    <hr />\r\n  </div>\r\n}\r\n\r\nfunction App() {\r\n  return <>\r\n    {/* {Person()}\r\n    {Employee()}\r\n    {Student()} */}\r\n    <Person />\r\n    <Employee />\r\n    <Student />\r\n  </>\r\n\r\n}\r\n\r\n\r\n// createRoot(document.getElementById('root')).render(Person())\r\n// createRoot(document.getElementById('root')).render(<Person />)\r\n// createRoot(document.getElementById('root')).render(Employee())\r\n// createRoot(document.getElementById('root')).render(<Employee />)\r\n// createRoot(document.getElementById('root')).render(Student())\r\n// createRoot(document.getElementById('root')).render(<Student />)\r\n// createRoot(document.getElementById('root')).render([\r\n//   <Person />,\r\n//   <Employee />,\r\n//   <Student />\r\n// ])\r\n\r\n// createRoot(document.getElementById('root')).render(App())\r\ncreateRoot(document.getElementById('root')).render(<App />)"
+        }
+      },
+      {
+        "id": "resource-react-day11-app4-src-components-person-jsx",
+        "title": "Person",
+        "summary": "Learn Person through a runnable example pulled from the Day11/App4/Src/Components lesson set.",
+        "explanation": "This lesson is part of the Day11/App4/Src/Components section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Person comes from the Day11/App4/Src/Components resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Person</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "export default function Person() {\r\n    const p1 = { uid: 1, name: 'Anil', age: 35, city: 'pune' }\r\n    return <div>\r\n        <h2>Person Data</h2>\r\n        <p>uid - {p1.uid}</p>\r\n        <p>name - {p1.name}</p>\r\n        <p>age - {p1.age}</p>\r\n        <p>city - {p1.city}</p>\r\n        <hr />\r\n    </div>\r\n}"
+        }
+      },
+      {
+        "id": "resource-react-day11-app4-src-components-employee-jsx",
+        "title": "Employee",
+        "summary": "Learn Employee through a runnable example pulled from the Day11/App4/Src/Components lesson set.",
+        "explanation": "This lesson is part of the Day11/App4/Src/Components section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Employee comes from the Day11/App4/Src/Components resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Employee</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "function Employee() {\r\n    const e1 = { empid: 1, name: 'Mukesh', email: 'anil@gmail.com', salary: 10000 }\r\n    return (\r\n        <div>\r\n            <h2>Employee Data</h2>\r\n            <p>empid - {e1.empid}</p>\r\n            <p>name - {e1.name}</p>\r\n            <p>email - {e1.email}</p>\r\n            <p>salary - {e1.salary}</p>\r\n            <hr />\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Employee"
+        }
+      },
+      {
+        "id": "resource-react-day12-1-events_props-src-components-events-jsx",
+        "title": "Events",
+        "summary": "Learn Events through a runnable example pulled from the Day12/1 lesson set.",
+        "explanation": "This lesson is part of the Day12/1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Events comes from the Day12/1 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Events</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "function Events() {\r\n\r\n    const handleSecondButtonClick = (e) => {\r\n        console.log('Second Button clicked')\r\n        console.log(e)\r\n    }\r\n\r\n    const handleInputChange = (e) => {\r\n        //console.log('Input Change')\r\n        //console.log(e) // SyntheticBaseEvent\r\n        console.log(e.target.value)  \r\n\r\n    const handleSubmit = (e) => {\r\n        e.preventDefault()\r\n        console.log('Inside Submit')\r\n        console.log(e) // SyntheticBaseEvent\r\n    }\r\n\r\n    return (\r\n        <div>\r\n            <button onClick={(e) => {\r\n                console.log('First button clicked')\r\n                console.log(e) // SyntheticBaseEvent\r\n            }}>First Button</button>\r\n\r\n            <button onClick={handleSecondButtonClick}>Second Button</button>\r\n\r\n            <div>\r\n                <label htmlFor=\"\">Name : </label>\r\n                <input type=\"text\" onChange={handleInputChange} />\r\n            </div>\r\n\r\n            <form onSubmit={handleSubmit}>\r\n                <input type=\"submit\" value='save' />\r\n            </form>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Events"
+        }
+      },
+      {
+        "id": "resource-react-day12-1-events_props-src-components-employeelist-jsx",
+        "title": "Employee List",
+        "summary": "Learn Employee List through a runnable example pulled from the Day12/1 lesson set.",
+        "explanation": "This lesson is part of the Day12/1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Employee List comes from the Day12/1 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Employee List</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Employee from \"./Employee\"\r\n\r\nfunction EmployeeList() {\r\n    // const e1 = { empid: 1, name: 'anil', salary: 10000 }\r\n\r\n    const arr = [\r\n        { empid: 1, name: 'anil', salary: 10000 },\r\n        { empid: 2, name: 'mukesh', salary: 20000 },\r\n        { empid: 3, name: 'ramesh', salary: 30000 },\r\n        { empid: 4, name: 'suresh', salary: 40000 }\r\n    ]\r\n    return (\r\n        <div>\r\n            {\r\n                //<Employee empid={e1.empid} name={e1.name} salary={e1.salary} />\r\n                arr.map(e => {\r\n                    return <Employee empid={e.empid} name={e.name} salary={e.salary} />\r\n                })\r\n            }\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default EmployeeList"
+        }
+      },
+      {
+        "id": "resource-react-day12-1-events_props-src-components-employee-jsx",
+        "title": "Employee",
+        "summary": "Learn Employee through a runnable example pulled from the Day12/1 lesson set.",
+        "explanation": "This lesson is part of the Day12/1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Employee comes from the Day12/1 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Employee</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "function Employee({ empid, name, salary }) {\r\n    //console.log('props - ' + props)\r\n    //console.log(props)\r\n    //const { empid, name, salary } = props // destructuring\r\n    return (\r\n        <div>\r\n            <p>Empid : {empid}</p>\r\n            <p>Name : {name}</p>\r\n            <p>Salary : {salary}</p>\r\n            <hr />\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Employee"
+        }
+      },
+      {
+        "id": "resource-react-day12-2-usestate-hook-src-components-counter-jsx",
+        "title": "Counter",
+        "summary": "Learn Counter through a runnable example pulled from the Day12/2 lesson set.",
+        "explanation": "This lesson shows a React stateful component. The important thing to notice is that updating state triggers a rerender and changes what appears on screen.",
+        "points": [
+          "Counter comes from the Day12/2 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Counter</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { useState } from \"react\"\r\n\r\nfunction Counter() {\r\n    // const arr = useState(0)\r\n    // const count = arr[0]\r\n    //const setCounter = arr[1]\r\n\r\n    const [count, setCounter] = useState(0)\r\n    console.log(setCounter)\r\n    // let count = 0\r\n    const handleIncrementClick = () => {\r\n        setCounter(count + 1)\r\n        //console.log('Incremented count value - ' + count)\r\n    }\r\n    const handleDecrementClick = () => {\r\n        setCounter(count - 1)\r\n        //console.log('Decremented count value - ' + count)\r\n\r\n    }\r\n    return (\r\n        <div>\r\n            <div>Count : {count} </div>\r\n            <div>\r\n                <button onClick={handleIncrementClick}>Increment</button>\r\n                <button onClick={handleDecrementClick}>Decrement</button>\r\n            </div>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Counter"
+        }
+      },
+      {
+        "id": "resource-react-day12-3-navigation_boootstrap-src-components-navbar-jsx",
+        "title": "Navbar",
+        "summary": "Learn Navbar through a runnable example pulled from the Day12/3 lesson set.",
+        "explanation": "This lesson is part of the Day12/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Navbar comes from the Day12/3 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Navbar</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { Link } from \"react-router\"\r\n\r\nfunction Navbar() {\r\n    return (\r\n        <nav>\r\n            <ul>\r\n                {/* static navigation */}\r\n                <li><Link to=\"/home\">Home</Link> </li>\r\n                <li><Link to=\"/aboutus\">About us</Link></li>\r\n                <li><Link to=\"/\">Logout</Link></li>\r\n            </ul>\r\n        </nav>\r\n    )\r\n}\r\n\r\nexport default Navbar"
+        }
+      },
+      {
+        "id": "resource-react-day12-3-navigation_boootstrap-src-pages-home-jsx",
+        "title": "Home",
+        "summary": "Learn Home through a runnable example pulled from the Day12/3 lesson set.",
+        "explanation": "This lesson is part of the Day12/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Home comes from the Day12/3 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Home</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Navbar from \"../components/Navbar\"\r\n\r\nfunction Home() {\r\n    return (\r\n        <div>\r\n            <Navbar />\r\n            <h1>Home Page</h1>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Home"
+        }
+      },
+      {
+        "id": "resource-react-day12-3-navigation_boootstrap-src-pages-aboutus-jsx",
+        "title": "Aboutus",
+        "summary": "Learn Aboutus through a runnable example pulled from the Day12/3 lesson set.",
+        "explanation": "This lesson is part of the Day12/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Aboutus comes from the Day12/3 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Aboutus</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Navbar from \"../components/Navbar\"\r\n\r\nfunction Aboutus() {\r\n    return (\r\n        <div>\r\n            <Navbar />\r\n            <h1>Aboutus Page</h1>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Aboutus"
+        }
+      },
+      {
+        "id": "resource-react-day12-3-navigation_boootstrap-src-pages-login-jsx",
+        "title": "Login",
+        "summary": "Learn Login through a runnable example pulled from the Day12/3 lesson set.",
+        "explanation": "This lesson is part of the Day12/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Login comes from the Day12/3 resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Login</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { useNavigate } from \"react-router\"\r\n\r\nfunction Login() {\r\n    const navigate = useNavigate()\r\n    return (\r\n        <div className=\"container\">\r\n            <h1>Login Page</h1>\r\n            <button className=\"btn btn-primary\" onClick={() => {\r\n                navigate('/home') // dynamic navigation\r\n            }}>signin</button>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Login"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-components-navbar-jsx",
+        "title": "Navbar",
+        "summary": "Learn Navbar through a runnable example pulled from the Day12/Onlinefoodorder/Src/Components lesson set.",
+        "explanation": "This lesson is part of the Day12/Onlinefoodorder/Src/Components section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Navbar comes from the Day12/Onlinefoodorder/Src/Components resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Components Navbar</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { Link, useNavigate } from \"react-router\"\r\n\r\nfunction Navbar() {\r\n    const navigate = useNavigate()\r\n    return (\r\n        <nav className=\"navbar navbar-expand-lg bg-primary\" data-bs-theme=\"dark\">\r\n            <div className=\"container-fluid\">\r\n                <span className=\"navbar-brand\" href=\"#\">Food</span>\r\n                <button className=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n                    <span className=\"navbar-toggler-icon\"></span>\r\n                </button>\r\n                <div className=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n                    <ul className=\"navbar-nav\">\r\n                        <li className=\"nav-item\">\r\n                            <Link className=\"nav-link\" aria-current=\"page\" to=\"/home\">Home</Link>\r\n                        </li>\r\n                        <li className=\"nav-item\">\r\n                            <Link className=\"nav-link\" to=\"/cart\">Cart</Link>\r\n                        </li>\r\n                        <li className=\"nav-item\">\r\n                            <Link className=\"nav-link\" to=\"/orders\">Orders</Link>\r\n                        </li>\r\n                        <li className=\"nav-item\">\r\n                            <Link className=\"nav-link\" to=\"/profile\">Profile</Link>\r\n                        </li>\r\n                        <li className=\"nav-item\">\r\n                            <button className=\"nav-link\" onClick={() => navigate('/')} >Logout</button>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    )\r\n}\r\n\r\nexport default Navbar"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-pages-home-jsx",
+        "title": "Home",
+        "summary": "Learn Home through a runnable example pulled from the Day12/Onlinefoodorder/Src/Pages lesson set.",
+        "explanation": "This lesson is part of the Day12/Onlinefoodorder/Src/Pages section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Home comes from the Day12/Onlinefoodorder/Src/Pages resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Home</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Navbar from \"../components/Navbar\"\r\n\r\nfunction Home() {\r\n    return (\r\n        <div>\r\n            <Navbar />\r\n            <h1>Home</h1>\r\n\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Home"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-pages-login-jsx",
+        "title": "Login",
+        "summary": "Learn Login through a runnable example pulled from the Day12/Onlinefoodorder/Src/Pages lesson set.",
+        "explanation": "This lesson shows a React stateful component. The important thing to notice is that updating state triggers a rerender and changes what appears on screen.",
+        "points": [
+          "Login comes from the Day12/Onlinefoodorder/Src/Pages resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Login</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { useState } from \"react\"\r\nimport { Link, useNavigate } from \"react-router\"\r\nimport { loginUser } from \"../services/user\"\r\nimport { toast } from \"react-toastify\"\r\n\r\nfunction Login() {\r\n    const [email, setEmail] = useState('')\r\n    const [password, setPassword] = useState('')\r\n\r\n    const navigate = useNavigate()\r\n\r\n    const handleSigninClick = async () => {\r\n        // console.log(`email - ${email}`)\r\n        // console.log(`password - ${password}`)\r\n        try {\r\n            const response = await loginUser(email, password)\r\n            if (response.status == 'success') {\r\n                toast.success('login successful')\r\n                navigate('/home')\r\n            } else\r\n                toast.error(response.error)\r\n        } catch (error) {\r\n            window.alert(error)\r\n        }\r\n    }\r\n\r\n    return (\r\n        <div className=\"container w-50\">\r\n            <h2 className=\"mb-3\">Login</h2>\r\n            <div className=\"mb-3\">\r\n                <label for=\"email\" className=\"form-label\">Email</label>\r\n                <input type=\"email\" className=\"form-control\" id=\"email\" placeholder=\"Enter email\" onChange={e => setEmail(e.target.value)} />\r\n            </div>\r\n            <div className=\"mb-3\">\r\n                <label for=\"password\" className=\"form-label\">Password</label>\r\n                <input type=\"password\" className=\"form-control\" id=\"password\" placeholder=\"Enter password\" onChange={e => setPassword(e.target.value)} />\r\n            </div>\r\n            <div className=\"mb-3\">\r\n                <label>Don't have an account yet ?</label>\r\n                <Link to='/register'>Click Here To Register</Link>\r\n            </div>\r\n            <div className=\"mb-3\">\r\n                <button className=\"btn btn-success\" onClick={handleSigninClick}>Signin</button>\r\n            </div>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Login"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-pages-register-jsx",
+        "title": "Register",
+        "summary": "Learn Register through a runnable example pulled from the Day12/Onlinefoodorder/Src/Pages lesson set.",
+        "explanation": "This lesson shows a React stateful component. The important thing to notice is that updating state triggers a rerender and changes what appears on screen.",
+        "points": [
+          "Register comes from the Day12/Onlinefoodorder/Src/Pages resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Register</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import { useState } from \"react\"\r\nimport { Link, useNavigate } from \"react-router\"\r\nimport { registerUser } from \"../services/user\"\r\nimport { toast } from \"react-toastify\"\r\n\r\nfunction Register() {\r\n    const [name, setName] = useState('')\r\n    const [email, setEmail] = useState('')\r\n    const [password, setPassword] = useState('')\r\n    const [phone, setPhone] = useState('')\r\n\r\n    const navigate = useNavigate()\r\n\r\n    const handleSignupClick = async () => {\r\n        const data = await registerUser(name, email, password, phone)\r\n        if (data.status == 'success') {\r\n            toast.success('Registration successful')\r\n            navigate('/')\r\n        }\r\n        else\r\n            toast.error(data.error)\r\n    }\r\n\r\n\r\n    return (\r\n        <div>\r\n            <div className=\"container w-50\">\r\n                <h2 className=\"mb-3\">Register</h2>\r\n                <div className=\"mb-3\">\r\n                    <label for=\"username\" className=\"form-label\">Name</label>\r\n                    <input type=\"text\" className=\"form-control\" id=\"username\" placeholder=\"Enter name\" onChange={e => setName(e.target.value)} />\r\n                </div>\r\n                <div className=\"mb-3\">\r\n                    <label for=\"email\" className=\"form-label\">Email</label>\r\n                    <input type=\"email\" className=\"form-control\" id=\"email\" placeholder=\"Enter email\" onChange={e => setEmail(e.target.value)} />\r\n                </div>\r\n                <div className=\"mb-3\">\r\n                    <label for=\"password\" className=\"form-label\">Password</label>\r\n                    <input type=\"password\" className=\"form-control\" id=\"password\" placeholder=\"Enter password\" onChange={e => setPassword(e.target.value)} />\r\n                </div>\r\n                <div className=\"mb-3\">\r\n                    <label for=\"phone\" className=\"form-label\">Phone</label>\r\n                    <input type=\"tel\" className=\"form-control\" id=\"phone\" placeholder=\"Enter mobile no\" onChange={e => setPhone(e.target.value)} />\r\n                </div>\r\n                <div className=\"mb-3\">\r\n                    <label>Already have an account ?</label>\r\n                    <Link to='/'>Click Here To Signin</Link>\r\n                </div>\r\n                <div className=\"mb-3\">\r\n                    <button className=\"btn btn-success\" onClick={handleSignupClick}>Signup</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Register"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-pages-cart-jsx",
+        "title": "Cart",
+        "summary": "Learn Cart through a runnable example pulled from the Day12/Onlinefoodorder/Src/Pages lesson set.",
+        "explanation": "This lesson is part of the Day12/Onlinefoodorder/Src/Pages section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Cart comes from the Day12/Onlinefoodorder/Src/Pages resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Cart</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Navbar from \"../components/Navbar\"\r\n\r\nfunction Cart() {\r\n    return (\r\n        <div>\r\n            <Navbar />\r\n            <h1>Cart</h1>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Cart"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-pages-orders-jsx",
+        "title": "Orders",
+        "summary": "Learn Orders through a runnable example pulled from the Day12/Onlinefoodorder/Src/Pages lesson set.",
+        "explanation": "This lesson is part of the Day12/Onlinefoodorder/Src/Pages section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Orders comes from the Day12/Onlinefoodorder/Src/Pages resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Orders</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Navbar from \"../components/Navbar\"\r\n\r\nfunction Orders() {\r\n    return (\r\n        <div>\r\n            <Navbar />\r\n            <h1>Orders</h1>\r\n\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Orders"
+        }
+      },
+      {
+        "id": "resource-react-day12-onlinefoodorder-src-pages-profile-jsx",
+        "title": "Profile",
+        "summary": "Learn Profile through a runnable example pulled from the Day12/Onlinefoodorder/Src/Pages lesson set.",
+        "explanation": "This lesson is part of the Day12/Onlinefoodorder/Src/Pages section. It is meant to help you understand what this page does by comparing the rendered output with the underlying react code.",
+        "points": [
+          "Profile comes from the Day12/Onlinefoodorder/Src/Pages resource section.",
+          "Edit the code and rerun it to see how the react concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Pages Profile</h2>\n  <p>This is a JSX source example from the React lessons. Read the component code and compare it with the simpler runnable React examples nearby.</p>\n</section>",
+          "css": "body { background: #fff6ff; color: #301b4a; }",
+          "js": "import Navbar from \"../components/Navbar\"\r\n\r\nfunction Profile() {\r\n    return (\r\n        <div>\r\n            <Navbar />\r\n            <h1>Profile</h1>\r\n\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Profile"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Node",
+    "topics": [
+      {
+        "id": "resource-node-day07-4-node-demo01-js",
+        "title": "Hello World Logging",
+        "summary": "Learn Hello World Logging through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "Hello World Logging comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Hello World Logging</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const math = require('./math01')\r\nconsole.log('Hello world')\r\nconsole.log(math)\r\nmath.add(10, 20)\r\nmath.sub(20, 10)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-demo02-js",
+        "title": "4 Demo 02",
+        "summary": "Learn 4 Demo 02 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Demo 02 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const { add } = require('./math01')\r\nconst math = require('./math02')\r\nconsole.log(math)\r\nmath.add(10, 20)\r\nmath.substaraction(20, 10)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-demo03-js",
+        "title": "4 Demo 03",
+        "summary": "Learn 4 Demo 03 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Demo 03 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 03</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const math = require('./math03')\r\nconsole.log(math)\r\nmath(30, 40)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-demo04-js",
+        "title": "4 Demo 04",
+        "summary": "Learn 4 Demo 04 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Demo 04 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const math = require('./math04')\r\nconsole.log(math)\r\nmath(30, 40)\r\nmath.sub(10, 3)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-demo05-js",
+        "title": "4 Demo 05",
+        "summary": "Learn 4 Demo 05 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Demo 05 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "import math from './math05.js'\r\nconsole.log(math)\r\nmath.add(10, 20)\r\nmath.mul(11, 22)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-demo06-js",
+        "title": "4 Demo 06",
+        "summary": "Learn 4 Demo 06 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Demo 06 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 06</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "import { add, sub, mul, div } from './math06.js'\r\nconsole.log(add)\r\n// math.add(10, 20)\r\n// math.mul(11, 22)\r\nadd(10, 20)\r\ndiv(10, 2)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-demo07-js",
+        "title": "4 Demo 07",
+        "summary": "Learn 4 Demo 07 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Demo 07 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Demo 07</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "import math from './math07.js'\r\nimport { sub } from './math07.js'\r\nconsole.log(math)\r\nmath(10, 20)\r\nsub(10, 2)"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math01-js",
+        "title": "4 Math01",
+        "summary": "Learn 4 Math01 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math01 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math01</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}\r\n\r\nmodule.exports = { add, sub, mul, division: div }"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math02-js",
+        "title": "4 Math02",
+        "summary": "Learn 4 Math02 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math02 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}\r\n\r\nmodule.exports.add = add\r\nmodule.exports.substaraction = sub"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math03-js",
+        "title": "4 Math03",
+        "summary": "Learn 4 Math03 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math03 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math03</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}\r\n\r\nmodule.exports = add\r\nmodule.exports = sub"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math04-js",
+        "title": "4 Math04",
+        "summary": "Learn 4 Math04 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math04 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}\r\n\r\nmodule.exports = add\r\nmodule.exports.sub = sub"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math05-js",
+        "title": "4 Math05",
+        "summary": "Learn 4 Math05 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math05 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}\r\n\r\nexport default { add, sub, mul, div }"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math06-js",
+        "title": "4 Math06",
+        "summary": "Learn 4 Math06 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math06 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math06</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nfunction sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nfunction mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nfunction div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}\r\n\r\nexport { add, sub, mul, div }"
+        }
+      },
+      {
+        "id": "resource-node-day07-4-node-math07-js",
+        "title": "4 Math07",
+        "summary": "Learn 4 Math07 through a runnable example pulled from the 4 lesson set.",
+        "explanation": "This lesson is part of the 4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "4 Math07 comes from the 4 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>4 Math07</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "export default function add(n1, n2) {\r\n    console.log(`Addition - ${n1 + n2}`)\r\n}\r\n\r\nexport function sub(n1, n2) {\r\n    console.log(`substraction - ${n1 - n2}`)\r\n}\r\n\r\nexport function mul(n1, n2) {\r\n    console.log(`Multiplication - ${n1 * n2}`)\r\n}\r\n\r\nexport function div(n1, n2) {\r\n    console.log(`Division - ${n1 / n2}`)\r\n}"
+        }
+      },
+      {
+        "id": "resource-node-day08-1-builtinmodules-demo01-js",
+        "title": "1 Demo 01",
+        "summary": "Learn 1 Demo 01 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "1 Demo 01 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 01</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "console.log('start')\r\n\r\nfunction task1() {\r\n    console.log('Inside task1')\r\n    setTimeout(() => {\r\n        console.log('task1 started')\r\n        console.log('task1 finished')\r\n    }, 0)\r\n}\r\n\r\nfunction task2() {\r\n    console.log('Inside task2')\r\n    setTimeout(() => {\r\n        console.log('task2 started')\r\n        console.log('task2 finished')\r\n    }, 0)\r\n}\r\n\r\nfunction task3() {\r\n    console.log('Inside task3')\r\n    Promise.resolve().then(() => {\r\n        console.log('task3 started')\r\n        console.log('task3 finished')\r\n    })\r\n\r\n}\r\n\r\ntask1()\r\ntask2()\r\ntask3()\r\nconsole.log('end')"
+        }
+      },
+      {
+        "id": "resource-node-day08-1-builtinmodules-demo02-js",
+        "title": "1 Demo 02",
+        "summary": "Learn 1 Demo 02 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "1 Demo 02 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 02</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const os = require('os')\r\nconsole.log(os.homedir())\r\nconsole.log(os.hostname())\r\nconsole.log(os.arch())"
+        }
+      },
+      {
+        "id": "resource-node-day08-1-builtinmodules-demo03-js",
+        "title": "1 Demo 03",
+        "summary": "Learn 1 Demo 03 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "1 Demo 03 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 03</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const fs = require('fs')\r\nconsole.log('Start')\r\n\r\n// function writeIntoFile() {\r\n//     console.log('File write started')\r\n//     fs.writeFile('file1.txt', 'JavaScript is single-threaded', (error) => console.log(error))\r\n//     console.log('File write finished')\r\n\r\n// }\r\n\r\nfunction readFromFile() {\r\n    console.log('File read started')\r\n    fs.readFile('file1.txt', (error, data) => {\r\n        if (data)\r\n            console.log('data - ' + data)\r\n        else\r\n            console.log(error)\r\n        console.log('file read finished')\r\n    })\r\n}\r\n\r\nfunction doCalculation() {\r\n    console.log('calculation started')\r\n    console.log('calculation - ' + (87216782 * 612387132))\r\n    console.log('calculation finished')\r\n}\r\n\r\n//writeIntoFile()\r\nreadFromFile()\r\ndoCalculation()\r\nconsole.log('End')"
+        }
+      },
+      {
+        "id": "resource-node-day08-1-builtinmodules-demo04-js",
+        "title": "1 Demo 04",
+        "summary": "Learn 1 Demo 04 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "1 Demo 04 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 04</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const fs = require('fs')\r\nconsole.log('Start')\r\n\r\n// function writeIntoFile() {\r\n//     console.log('File write started')\r\n//     fs.writeFile('file1.txt', 'JavaScript is single-threaded', (error) => console.log(error))\r\n//     console.log('File write finished')\r\n\r\n// }\r\n\r\nfunction readFromFile() {\r\n    console.log('File read started')\r\n    const data = fs.readFileSync('file1.txt')\r\n    console.log('data - ' + data)\r\n    console.log('file read finished')\r\n}\r\n\r\nfunction doCalculation() {\r\n    console.log('calculation started')\r\n    console.log('calculation - ' + (87216782 * 612387132))\r\n    console.log('calculation finished')\r\n}\r\n\r\n//writeIntoFile()\r\nreadFromFile()\r\ndoCalculation()\r\nconsole.log('End')"
+        }
+      },
+      {
+        "id": "resource-node-day08-1-builtinmodules-demo05-js",
+        "title": "1 Demo 05",
+        "summary": "Learn 1 Demo 05 through a runnable example pulled from the 1 lesson set.",
+        "explanation": "This lesson is part of the 1 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying node code.",
+        "points": [
+          "1 Demo 05 comes from the 1 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>1 Demo 05</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const fs = require('fs/promises')\r\nconsole.log('Start')\r\n\r\nasync function readFromFile() {\r\n    console.log('File read started')\r\n    const data = await fs.readFile('file1.txt')\r\n    console.log('data - ' + data)\r\n    console.log('File read finished')\r\n}\r\n\r\nfunction doCalculation() {\r\n    console.log('calculation started')\r\n    console.log('calculation - ' + (87216782 * 612387132))\r\n    console.log('calculation finished')\r\n}\r\n\r\nreadFromFile()\r\ndoCalculation()\r\nconsole.log('End')"
+        }
+      },
+      {
+        "id": "resource-node-day08-2-http-server-server01-js",
+        "title": "Node HTTP Server",
+        "summary": "Learn Node HTTP Server through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson shows a raw Node HTTP server so you can understand request and response handling before adding frameworks like Express.",
+        "points": [
+          "Node HTTP Server comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Node HTTP Server</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const http = require('http')\r\n\r\n// create a server\r\nconst server = http.createServer((request, response) => {\r\n    console.log('METHOD - ' + request.method)\r\n    console.log('PATH - ' + request.url)\r\n    response.end('Hello From backend server')\r\n})\r\n\r\nserver.listen(4000, 'localhost', () => {\r\n    console.log('Server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-node-day08-2-http-server-server02-js",
+        "title": "Node HTTP Server",
+        "summary": "Learn Node HTTP Server through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson shows a raw Node HTTP server so you can understand request and response handling before adding frameworks like Express.",
+        "points": [
+          "Node HTTP Server comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Node HTTP Server</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const http = require('http')\r\nconst server = http.createServer((req, res) => {\r\n    const path = req.url\r\n    const method = req.method\r\n    if (path == '/users') {\r\n        // res.setHeader('content-type', 'text/plain')\r\n        // res.setHeader('content-type', 'text/html')\r\n        res.setHeader('content-type', 'application/json')\r\n        // res.end('ALL USER DATA')\r\n        // res.end('<h1>ALL USER DATA</h1>')\r\n        res.end('{uid:1,name:anil,age:35}')\r\n    }\r\n    else if (path == '/products') {\r\n        res.setHeader('content-type', 'application/json')\r\n        // res.end('ALL PRODUCTS DATA')\r\n        res.end('{pid:1,pname:pen,price:10}')\r\n\r\n    } else {\r\n        res.end('INVALID PATH')\r\n    }\r\n})\r\n\r\nserver.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-node-day08-2-http-server-server03-js",
+        "title": "Node HTTP Server",
+        "summary": "Learn Node HTTP Server through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson shows a raw Node HTTP server so you can understand request and response handling before adding frameworks like Express.",
+        "points": [
+          "Node HTTP Server comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Node HTTP Server</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const http = require('http')\r\nconst server = http.createServer((req, res) => {\r\n    const path = req.url\r\n    const method = req.method\r\n    if (path == '/users') {\r\n        res.writeHead(202, \"found\")\r\n        res.write('<h1>User data</h1>')\r\n        res.write('<h2> This is data of all users</h2>')\r\n        res.end()\r\n    }\r\n    else if (path == '/products') {\r\n\r\n\r\n    } else {\r\n        res.end('INVALID PATH')\r\n    }\r\n})\r\n\r\nserver.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-node-day08-2-http-server-server04-js",
+        "title": "Node HTTP Server",
+        "summary": "Learn Node HTTP Server through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson shows a raw Node HTTP server so you can understand request and response handling before adding frameworks like Express.",
+        "points": [
+          "Node HTTP Server comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Node HTTP Server</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const http = require('http')\r\nconst server = http.createServer((req, res) => {\r\n    const path = req.url\r\n    const method = req.method\r\n    res.setHeader('content-type', 'text/html')\r\n\r\n    if (path == '/users' && method == 'GET') {\r\n        res.end('<h1>ALL USER DATA</h1>')\r\n    }\r\n    else if (path == '/users' && method == 'POST') {\r\n        res.end('<h1>USER DATA INSERTED</h1>')\r\n    }\r\n    else if (path == '/users' && method == 'PUT') {\r\n        res.end('<h1>USER DATA UPDATED</h1>')\r\n    }\r\n    else if (path == '/users' && method == 'DELETE') {\r\n        res.end('<h1>USER DATA DELETED</h1>')\r\n    }\r\n    else if (path == '/products' && method == 'GET') {\r\n        res.end('ALL PRODUCTS DATA')\r\n    }\r\n    else if (path == '/products' && method == 'POST') {\r\n        res.end('PRODUCT DATA INSERTED')\r\n    }\r\n    else if (path == '/products' && method == 'PUT') {\r\n        res.end('PRODUCT DATA UPDATED')\r\n    }\r\n    else if (path == '/products' && method == 'DELETE') {\r\n        res.end('PRODUCT DATA DELETED')\r\n    } else {\r\n        res.end('Inavlid path')\r\n    }\r\n})\r\n\r\nserver.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-node-day08-2-http-server-server05-js",
+        "title": "Node HTTP Server",
+        "summary": "Learn Node HTTP Server through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson shows a raw Node HTTP server so you can understand request and response handling before adding frameworks like Express.",
+        "points": [
+          "Node HTTP Server comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Node HTTP Server</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const http = require('http')\r\n\r\nconst users = [\r\n    { uid: 1, name: 'anil', age: 30 },\r\n    { uid: 2, name: 'mukesh', age: 35 },\r\n    { uid: 3, name: 'ramesh', age: 40 },\r\n    { uid: 4, name: 'suresh', age: 45 }\r\n]\r\n\r\nconst products = [\r\n    { pid: 1, name: 'Pen', price: 20 },\r\n    { pid: 2, name: 'Book', price: 35 },\r\n    { pid: 3, name: 'Pencil', price: 4 },\r\n    { pid: 4, name: 'Eraser', price: 5 }\r\n]\r\n\r\nconst server = http.createServer((req, res) => {\r\n    const path = req.url\r\n    const method = req.method\r\n    res.setHeader('content-type', 'text/html')\r\n\r\n    if (path == '/users' && method == 'GET') {\r\n        res.setHeader('content-type', 'application/json')\r\n        res.end(JSON.stringify(users))\r\n    }\r\n    else if (path == '/users' && method == 'POST') {\r\n        res.end('<h1>USER DATA INSERTED</h1>')\r\n    }\r\n    else if (path == '/users' && method == 'PUT') {\r\n        res.end('<h1>USER DATA UPDATED</h1>')\r\n    }\r\n    else if (path == '/users' && method == 'DELETE') {\r\n        res.end('<h1>USER DATA DELETED</h1>')\r\n    }\r\n    else if (path == '/products' && method == 'GET') {\r\n        res.setHeader('content-type', 'application/json')\r\n        res.end(JSON.stringify(products))\r\n    }\r\n    else if (path == '/products' && method == 'POST') {\r\n        res.end('PRODUCT DATA INSERTED')\r\n    }\r\n    else if (path == '/products' && method == 'PUT') {\r\n        res.end('PRODUCT DATA UPDATED')\r\n    }\r\n    else if (path == '/products' && method == 'DELETE') {\r\n        res.end('PRODUCT DATA DELETED')\r\n    } else {\r\n        res.end('Inavlid path')\r\n    }\r\n})\r\n\r\nserver.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-node-day08-2-http-server-server06-js",
+        "title": "Node HTTP Server",
+        "summary": "Learn Node HTTP Server through a runnable example pulled from the 2 lesson set.",
+        "explanation": "This lesson shows a raw Node HTTP server so you can understand request and response handling before adding frameworks like Express.",
+        "points": [
+          "Node HTTP Server comes from the 2 resource section.",
+          "Edit the code and rerun it to see how the node concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Node HTTP Server</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const http = require('http')\r\n\r\nconst users = [\r\n    { uid: 1, name: 'anil', age: 30 },\r\n    { uid: 2, name: 'mukesh', age: 35 },\r\n    { uid: 3, name: 'ramesh', age: 40 },\r\n    { uid: 4, name: 'suresh', age: 45 }\r\n]\r\n\r\nconst products = [\r\n    { pid: 1, name: 'Pen', price: 20 },\r\n    { pid: 2, name: 'Book', price: 35 },\r\n    { pid: 3, name: 'Pencil', price: 4 },\r\n    { pid: 4, name: 'Eraser', price: 5 }\r\n]\r\n\r\nconst server = http.createServer((req, res) => {\r\n    const path = req.url\r\n    const method = req.method\r\n    res.setHeader('content-type', 'text/html')\r\n    if (path == '/users') {\r\n        if (method == 'GET') {\r\n            res.setHeader('content-type', 'application/json')\r\n            res.end(JSON.stringify(users))\r\n        }\r\n        else if (method == 'POST') {\r\n            res.end('<h1>USER DATA INSERTED</h1>')\r\n        }\r\n        else if (method == 'PUT') {\r\n            res.end('<h1>USER DATA UPDATED</h1>')\r\n        }\r\n        else if (method == 'DELETE') {\r\n            res.end('<h1>USER DATA DELETED</h1>')\r\n        }\r\n    }\r\n    else if (path == '/products') {\r\n        if (method == 'GET') {\r\n            res.setHeader('content-type', 'application/json')\r\n            res.end(JSON.stringify(products))\r\n        }\r\n        else if (method == 'POST') {\r\n            res.end('PRODUCT DATA INSERTED')\r\n        }\r\n        else if (method == 'PUT') {\r\n            res.end('PRODUCT DATA UPDATED')\r\n        }\r\n        else if (method == 'DELETE') {\r\n            res.end('PRODUCT DATA DELETED')\r\n        }\r\n    } else {\r\n        res.end('Inavlid path')\r\n    }\r\n})\r\n\r\nserver.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Express",
+    "topics": [
+      {
+        "id": "resource-express-day08-3-understandingexpress-server-js",
+        "title": "Express Server Basics",
+        "summary": "Learn Express Server Basics through a runnable example pulled from the Day08/3 lesson set.",
+        "explanation": "This lesson is part of the Day08/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Server Basics comes from the Day08/3 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Server Basics</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\n\r\nconst app = express()\r\n\r\n// route\r\napp.get('/', (req, res) => {\r\n    console.log(req.url)\r\n    console.log(req.method)\r\n    res.send(\"Hello from express\")\r\n})\r\n\r\n\r\n\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day08-4-addingroutes-server-js",
+        "title": "Express Server Basics",
+        "summary": "Learn Express Server Basics through a runnable example pulled from the Day08/4 lesson set.",
+        "explanation": "This lesson is part of the Day08/4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Server Basics comes from the Day08/4 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Server Basics</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst app = express()\r\n\r\nconst users = [\r\n    { uid: 1, name: 'anil', age: 30 },\r\n    { uid: 2, name: 'mukesh', age: 35 },\r\n    { uid: 3, name: 'ramesh', age: 40 },\r\n    { uid: 4, name: 'suresh', age: 45 }\r\n]\r\n\r\nconst products = [\r\n    { pid: 1, name: 'Pen', price: 20 },\r\n    { pid: 2, name: 'Book', price: 35 },\r\n    { pid: 3, name: 'Pencil', price: 4 },\r\n    { pid: 4, name: 'Eraser', price: 5 }\r\n]\r\n\r\n// app.get((req, res) => {\r\n//     console.log('Inside empty path')\r\n//     res.send('Empty API')\r\n// })\r\n\r\n// routes for user\r\n// app -> express object\r\n// get -> method\r\n//(path,handler function)\r\napp.get('/', (req, res) => {\r\n    res.setHeader('Access-Control-Allow-Origin', '*')\r\n    res.send(users)\r\n})\r\n\r\napp.post('/users', (req, res) => {\r\n    res.send('user inserted')\r\n})\r\n\r\napp.put('/users', (req, res) => {\r\n    res.send('user updated')\r\n})\r\n\r\napp.delete('/users', (req, res) => {\r\n    res.send('user deleted')\r\n})\r\n\r\napp.get('/', (req, res) => {\r\n    res.send(products)\r\n})\r\n\r\napp.post('/products', (req, res) => {\r\n    res.send('product inserted')\r\n})\r\n\r\napp.put('/products', (req, res) => {\r\n    res.send('products updated')\r\n})\r\n\r\napp.delete('/products', (req, res) => {\r\n    res.send('products deleted')\r\n})\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day08-5-seperatingroutes-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day08/5 lesson set.",
+        "explanation": "This lesson is part of the Day08/5 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Router Setup comes from the Day08/5 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst userRouter = require('./routes/user')\r\nconst productRouter = require('./routes/product')\r\nconst app = express()\r\n\r\n// Middleware\r\napp.use('/users', userRouter)\r\napp.use('/products', productRouter)\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day08-5-seperatingroutes-routes-user-js",
+        "title": "Routes User",
+        "summary": "Learn Routes User through a runnable example pulled from the Day08/5 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes User comes from the Day08/5 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst router = express.Router()\r\n// router is used to just create  the routes\r\n// used for making code modular\r\n\r\nrouter.get('/', (req, res) => {\r\n    res.send('users data')\r\n})\r\n\r\nrouter.put('/', (req, res) => {\r\n    res.send('user updated')\r\n})\r\n\r\nrouter.post('/', (req, res) => {\r\n    res.send('users inserted')\r\n})\r\n\r\nrouter.delete('/', (req, res) => {\r\n    res.send('users deleted')\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day08-5-seperatingroutes-routes-product-js",
+        "title": "Routes Product",
+        "summary": "Learn Routes Product through a runnable example pulled from the Day08/5 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes Product comes from the Day08/5 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes Product</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst router = express.Router()\r\n\r\nrouter.get('/', (req, res) => {\r\n    res.send('products data')\r\n})\r\n\r\nrouter.post('/', (req, res) => {\r\n    res.send('product inserted')\r\n})\r\n\r\nrouter.put('/', (req, res) => {\r\n    res.send('product updated')\r\n})\r\n\r\nrouter.delete('/', (req, res) => {\r\n    res.send('product deleted')\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day09-1-middleware-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day09/1 lesson set.",
+        "explanation": "This lesson shows how Express middleware sits in the request pipeline, runs before the final route handler, and passes control forward with next().",
+        "points": [
+          "Express Router Setup comes from the Day09/1 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst userRouter = require('./routes/user')\r\nconst productRouter = require('./routes/product')\r\nconst app = express()\r\n\r\n// function myMiddleware(req, res, next) {\r\n//     console.log('Inside middleware')\r\n//     next()\r\n// }\r\n\r\n// middleware\r\n// It is a function that gets executed for every incoming request\r\n//app.use(myMiddleware)\r\n\r\napp.use((req, res, next) => {\r\n    console.log('Inside middleware')\r\n    next()\r\n})\r\napp.use('/users', userRouter)\r\napp.use('/products', productRouter)\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day09-1-middleware-routes-user-js",
+        "title": "Routes User",
+        "summary": "Learn Routes User through a runnable example pulled from the Day09/1 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes User comes from the Day09/1 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst router = express.Router()\r\n\r\nrouter.get('/', (req, res) => {\r\n    res.send('user data')\r\n})\r\n\r\nrouter.put('/', (req, res) => {\r\n    res.send('user updated')\r\n})\r\n\r\nrouter.post('/', (req, res) => {\r\n    res.send('user inserted')\r\n})\r\n\r\nrouter.delete('/', (req, res) => {\r\n    res.send('user deleted')\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day09-1-middleware-routes-product-js",
+        "title": "Routes Product",
+        "summary": "Learn Routes Product through a runnable example pulled from the Day09/1 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes Product comes from the Day09/1 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes Product</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst router = express.Router()\r\n\r\nrouter.get('/', (req, res) => {\r\n    res.send('product data')\r\n})\r\n\r\nrouter.put('/', (req, res) => {\r\n    res.send('product updated')\r\n})\r\n\r\nrouter.post('/', (req, res) => {\r\n    res.send('product inserted')\r\n})\r\n\r\nrouter.delete('/', (req, res) => {\r\n    res.send('product deleted')\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day09-2-crudoperations-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day09/2 lesson set.",
+        "explanation": "This lesson is part of the Day09/2 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Router Setup comes from the Day09/2 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst userRouter = require('./route/user')\r\nconst app = express()\r\n\r\napp.use(express.json())\r\napp.use('/users', userRouter)\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day09-2-crudoperations-route-user-js",
+        "title": "Route User",
+        "summary": "Learn Route User through a runnable example pulled from the Day09/2 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Route User comes from the Day09/2 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Route User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst pool = require('../db/pool')\r\nconst result = require('../utils/result')\r\nconst router = express.Router()\r\n\r\nrouter.get('/', async (req, res) => {\r\n    const sql = 'SELECT * FROM user'\r\n    try {\r\n        const data = await pool.query(sql)\r\n        // const users = result[0]\r\n        const [users] = data\r\n        // console.log(users)\r\n        // res.send(users)\r\n        res.send(result.createResult(users))\r\n    } catch (error) {\r\n        console.log(error)\r\n        // res.send('error')\r\n        //res.send(error)\r\n        res.send(result.createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.post('/', async (req, res) => {\r\n    const { name, email, password, mobile, city } = req.body\r\n    const sql = 'INSERT INTO users (name,email,password,mobile,city) VALUES(?,?,?,?,?)'\r\n    try {\r\n        const data = await pool.query(sql, [name, email, password, mobile, city])\r\n        const [sqlMessage] = data\r\n        res.send(result.createResult(sqlMessage))\r\n    }\r\n    catch (error) {\r\n        res.send(result.createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.put('/', async (req, res) => {\r\n    const { mobile, city, uid } = req.body\r\n    try {\r\n        const sql = 'UPDATE users SET mobile = ? , city = ? WHERE uid = ?'\r\n        const data = await pool.query(sql, [mobile, city, uid])\r\n        res.send(result.createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(result.createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.delete('/:uid', async (req, res) => {\r\n    const uid = req.params.uid\r\n    const sql = 'DELETE FROM users WHERE uid = ?'\r\n    try {\r\n        const data = await pool.query(sql, [uid])\r\n        res.send(result.createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(result.createResult(null, error))\r\n    }\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day09-3-signin_signup-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day09/3 lesson set.",
+        "explanation": "This lesson is part of the Day09/3 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Router Setup comes from the Day09/3 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst userRouter = require('./routes/user')\r\nconst app = express()\r\n\r\napp.use(express.json())\r\napp.use('/users', userRouter)\r\n\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day09-3-signin_signup-routes-user-js",
+        "title": "Routes User",
+        "summary": "Learn Routes User through a runnable example pulled from the Day09/3 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes User comes from the Day09/3 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst pool = require('../db/pool')\r\nconst result = require('../utils/result')\r\nconst router = express.Router()\r\n\r\nrouter.post('/signup', async (req, res) => {\r\n    const { name, email, password, mobile, city } = req.body\r\n    const sql = 'INSERT INTO users(name,email,password,mobile,city) VALUES(?,?,?,?,?)'\r\n    try {\r\n        const data = await pool.query(sql, [name, email, password, mobile, city])\r\n        res.send(result.createResult(null, data[0]))\r\n    }\r\n    catch (error) {\r\n        res.send(result.createResult(error))\r\n    }\r\n})\r\n\r\nrouter.post('/signin', async (req, res) => {\r\n    const { email, password } = req.body\r\n    // const sql = `SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`\r\n    const sql = `SELECT * FROM users WHERE email = ? AND password = ?`\r\n    try {\r\n        const data = await pool.query(sql, [email, password])\r\n        const users = data[0][0]\r\n        if (users)\r\n            res.send(result.createResult(null, users))\r\n        else\r\n            res.send(result.createResult('Invalid email or password'))\r\n\r\n    } catch (error) {\r\n        res.send(result.createResult(error))\r\n    }\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day09-4-password_hashing-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day09/4 lesson set.",
+        "explanation": "This lesson is part of the Day09/4 section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Router Setup comes from the Day09/4 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst userRouter = require('./routes/user')\r\nconst app = express()\r\n\r\n// middleware1 : convert the raw data from requst body into the json object\r\napp.use(express.json())\r\n// middleware2 : provide the response for the incoming request for /users\r\napp.use('/users', userRouter)\r\n\r\n\r\napp.listen(4000, 'localhost', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day09-4-password_hashing-routes-user-js",
+        "title": "Routes User",
+        "summary": "Learn Routes User through a runnable example pulled from the Day09/4 lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes User comes from the Day09/4 resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst bcrypt = require('bcrypt') // to hash the password\r\n\r\n// user defined modules\r\nconst pool = require('../db/pool') // provides the db connection\r\nconst result = require('../utils/result') // to create a result in standard format\r\nconst config = require('../utils/config') // to get all constants\r\n\r\nconst router = express.Router()\r\n\r\nrouter.post('/signup', async (req, res) => {\r\n    const { name, email, password, mobile, city } = req.body\r\n    const sql = 'INSERT INTO users(name,email,password,mobile,city) VALUES(?,?,?,?,?)'\r\n    try {\r\n        const hashPassword = await bcrypt.hash(password, config.SALT_ROUNDS)\r\n        const data = await pool.query(sql, [name, email, hashPassword, mobile, city])\r\n        res.send(result.createResult(null, data[0]))\r\n    }\r\n    catch (error) {\r\n        res.send(result.createResult(error))\r\n    }\r\n})\r\n\r\nrouter.post('/signin', async (req, res) => {\r\n    const { email, password } = req.body\r\n    const sql = 'SELECT * FROM users WHERE email = ?'\r\n    try {\r\n        const data = await pool.query(sql, [email])\r\n        const user = data[0][0]\r\n        if (user) {\r\n            const hashedPassword = user.password\r\n            const status = await bcrypt.compare(password, hashedPassword)\r\n            if (status) {\r\n                const res_user = {\r\n                    uid: user.uid,\r\n                    mobile: user.mobile\r\n                }\r\n                res.send(result.createResult(null, res_user))\r\n            } else\r\n                res.send(result.createResult('Invalid password'))\r\n        } else\r\n            res.send(result.createResult('Invalid email'))\r\n    } catch (error) {\r\n        res.send(result.createResult(error))\r\n    }\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day10-foodorderingserver-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day10/Food Ordering Server lesson set.",
+        "explanation": "This lesson is part of the Day10/Food Ordering Server section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Router Setup comes from the Day10/Food Ordering Server resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst cors = require('cors')\r\n\r\n//routes\r\nconst userRouter = require('./routes/user')\r\nconst foodRouter = require('./routes/food')\r\n\r\n//authorization\r\nconst authUser = require('./utils/auth')\r\n\r\nconst app = express()\r\n\r\n//middlewares\r\napp.use('/foodImage', express.static('images'))\r\napp.use(cors())\r\napp.use(express.json())\r\napp.use(authUser)\r\napp.use('/user', userRouter)\r\napp.use('/food', foodRouter)\r\n\r\n\r\napp.listen(4000, '127.0.0.1', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day10-foodorderingserver-routes-user-js",
+        "title": "Routes User",
+        "summary": "Learn Routes User through a runnable example pulled from the Day10/Food Ordering Server/Routes lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes User comes from the Day10/Food Ordering Server/Routes resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst bcrypt = require('bcrypt')\r\nconst jwt = require('jsonwebtoken')\r\n\r\nconst pool = require('../db/pool')\r\nconst createResult = require('../utils/result')\r\nconst config = require('../utils/config')\r\n\r\nconst router = express.Router()\r\n\r\nrouter.post('/signup', async (req, res) => {\r\n    const { name, email, password, phone } = req.body\r\n    const sql = `INSERT INTO users(name,email,password,phone) VALUES(?,?,?,?)`\r\n    try {\r\n        const hashedPassword = await bcrypt.hash(password, config.SALT_ROUNDS)\r\n        const data = await pool.query(sql, [name, email, hashedPassword, phone])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.post('/signin', async (req, res) => {\r\n    const { email, password } = req.body\r\n    const sql = `SELECT * FROM users WHERE email = ?`\r\n    try {\r\n        const data = await pool.query(sql, [email])\r\n        const sql_data = data[0][0]\r\n        if (sql_data) {\r\n            const status = await bcrypt.compare(password, sql_data.password)\r\n            if (status) {\r\n                const payload = {\r\n                    uid: sql_data.uid,\r\n                }\r\n                const token = jwt.sign(payload, config.SECRET)\r\n\r\n                const user = {\r\n                    token,\r\n                    phone: sql_data.phone\r\n                }\r\n                res.send(createResult(user))\r\n            }\r\n            else\r\n                res.send(createResult(null, 'Invalid Password'))\r\n        } else\r\n            res.send(createResult(null, 'Invalid Email'))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.get('/', async (req, res) => {\r\n    const uid = req.headers.uid\r\n    const sql = `SELECT name,email,phone FROM users WHERE uid = ?`\r\n    try {\r\n        const data = await pool.query(sql, [uid])\r\n        res.send(createResult(data[0][0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.put('/', async (req, res) => {\r\n    const { phone } = req.body\r\n    const uid = req.headers.uid\r\n    const sql = `UPDATE users SET phone = ? WHERE uid = ?`\r\n    try {\r\n        const data = await pool.query(sql, [phone, uid])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.delete('/', async (req, res) => {\r\n    const uid = req.headers.uid\r\n    const sql = `DELETE FROM users WHERE uid = ?`\r\n    try {\r\n        const data = await pool.query(sql, [uid])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day10-foodorderingserver-routes-food-js",
+        "title": "Routes Food",
+        "summary": "Learn Routes Food through a runnable example pulled from the Day10/Food Ordering Server/Routes lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes Food comes from the Day10/Food Ordering Server/Routes resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes Food</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const fs = require('fs/promises')\r\nconst express = require('express')\r\nconst multer = require('multer')\r\n\r\nconst createResult = require('../utils/result')\r\nconst pool = require('../db/pool')\r\n\r\nconst router = express.Router()\r\nconst upload = multer({ dest: 'images' })\r\n\r\nrouter.get('/menu', async (req, res) => {\r\n    const sql = `SELECT * FROM food`\r\n    try {\r\n        const data = await pool.query(sql)\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\n// add a food item\r\nrouter.post('/', upload.single('image'), async (req, res) => {\r\n    const { name, description, price } = req.body\r\n    const file = req.file\r\n    const sql = `INSERT INTO food(name,description,price,image) VALUES(?,?,?,?)`\r\n    try {\r\n        await fs.rename(file.path, 'images/' + file.originalname)\r\n        const data = await pool.query(sql, [name, description, price, file.originalname])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n\r\n})\r\n\r\n// update the food item\r\nrouter.put('/', (req, res) => {\r\n\r\n})\r\n\r\n// delete the food item\r\nrouter.delete('/:fid',async (req, res) => {\r\n    const id=req.body.id\r\n    const sql=`delete from food where id=?`\r\n    try{\r\n        const data = await pool.query(sql,[id])\r\n        console.log(data[0])\r\n        res.send(createResult(data[0]))\r\n    }catch(error){\r\n        res.send(createResult(null,error))\r\n    }\r\n})\r\n\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day12-foodorderingserver-server-js",
+        "title": "Express Router Setup",
+        "summary": "Learn Express Router Setup through a runnable example pulled from the Day12/Food Ordering Server lesson set.",
+        "explanation": "This lesson is part of the Day12/Food Ordering Server section. It is meant to help you understand what this page does by comparing the rendered output with the underlying express code.",
+        "points": [
+          "Express Router Setup comes from the Day12/Food Ordering Server resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Express Router Setup</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst cors = require('cors')\r\n\r\n//routes\r\nconst userRouter = require('./routes/user')\r\nconst foodRouter = require('./routes/food')\r\n\r\n//authorization\r\nconst authUser = require('./utils/auth')\r\n\r\nconst app = express()\r\n\r\n//middlewares\r\napp.use('/foodImage', express.static('images'))\r\napp.use(cors())\r\napp.use(express.json())\r\napp.use(authUser)\r\napp.use('/user', userRouter)\r\napp.use('/food', foodRouter)\r\n\r\n\r\napp.listen(4000, '127.0.0.1', () => {\r\n    console.log('server started at port 4000')\r\n})"
+        }
+      },
+      {
+        "id": "resource-express-day12-foodorderingserver-routes-user-js",
+        "title": "Routes User",
+        "summary": "Learn Routes User through a runnable example pulled from the Day12/Food Ordering Server/Routes lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes User comes from the Day12/Food Ordering Server/Routes resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes User</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const express = require('express')\r\nconst bcrypt = require('bcrypt')\r\nconst jwt = require('jsonwebtoken')\r\n\r\nconst pool = require('../db/pool')\r\nconst createResult = require('../utils/result')\r\nconst config = require('../utils/config')\r\n\r\nconst router = express.Router()\r\n\r\nrouter.post('/signup', async (req, res) => {\r\n    const { name, email, password, phone } = req.body\r\n    const sql = `INSERT INTO users(name,email,password,phone) VALUES(?,?,?,?)`\r\n    try {\r\n        const hashedPassword = await bcrypt.hash(password, config.SALT_ROUNDS)\r\n        const data = await pool.query(sql, [name, email, hashedPassword, phone])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.post('/signin', async (req, res) => {\r\n    const { email, password } = req.body\r\n    const sql = `SELECT * FROM users WHERE email = ?`\r\n    try {\r\n        const data = await pool.query(sql, [email])\r\n        const sql_data = data[0][0]\r\n        if (sql_data) {\r\n            const status = await bcrypt.compare(password, sql_data.password)\r\n            if (status) {\r\n                const payload = {\r\n                    uid: sql_data.uid,\r\n                }\r\n                const token = jwt.sign(payload, config.SECRET)\r\n\r\n                const user = {\r\n                    token,\r\n                    phone: sql_data.phone\r\n                }\r\n                res.send(createResult(user))\r\n            }\r\n            else\r\n                res.send(createResult(null, 'Invalid Password'))\r\n        } else\r\n            res.send(createResult(null, 'Invalid Email'))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.get('/', async (req, res) => {\r\n    const uid = req.headers.uid\r\n    const sql = `SELECT name,email,phone FROM users WHERE uid = ?`\r\n    try {\r\n        const data = await pool.query(sql, [uid])\r\n        res.send(createResult(data[0][0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.put('/', async (req, res) => {\r\n    const { phone } = req.body\r\n    const uid = req.headers.uid\r\n    const sql = `UPDATE users SET phone = ? WHERE uid = ?`\r\n    try {\r\n        const data = await pool.query(sql, [phone, uid])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nrouter.delete('/', async (req, res) => {\r\n    const uid = req.headers.uid\r\n    const sql = `DELETE FROM users WHERE uid = ?`\r\n    try {\r\n        const data = await pool.query(sql, [uid])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\nmodule.exports = router"
+        }
+      },
+      {
+        "id": "resource-express-day12-foodorderingserver-routes-food-js",
+        "title": "Routes Food",
+        "summary": "Learn Routes Food through a runnable example pulled from the Day12/Food Ordering Server/Routes lesson set.",
+        "explanation": "This lesson shows how an Express app becomes easier to manage by splitting related routes into dedicated router modules.",
+        "points": [
+          "Routes Food comes from the Day12/Food Ordering Server/Routes resource section.",
+          "Edit the code and rerun it to see how the express concept changes in practice.",
+          "Try changing one small thing at a time so the effect is easy to observe."
+        ],
+        "files": {
+          "html": "<section style=\"font-family: Arial, sans-serif; padding: 24px;\">\n  <h2>Routes Food</h2>\n  <p>This lesson focuses on source code behavior. Use the code panel and preview console together.</p>\n</section>",
+          "css": "body { background: #eef6ff; color: #18344c; }",
+          "js": "const fs = require('fs/promises')\r\nconst express = require('express')\r\nconst multer = require('multer')\r\n\r\nconst createResult = require('../utils/result')\r\nconst pool = require('../db/pool')\r\n\r\nconst router = express.Router()\r\nconst upload = multer({ dest: 'images' })\r\n\r\nrouter.get('/menu', async (req, res) => {\r\n    const sql = `SELECT * FROM food`\r\n    try {\r\n        const data = await pool.query(sql)\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n})\r\n\r\n// add a food item\r\nrouter.post('/', upload.single('image'), async (req, res) => {\r\n    const { name, description, price } = req.body\r\n    const file = req.file\r\n    const sql = `INSERT INTO food(name,description,price,image) VALUES(?,?,?,?)`\r\n    try {\r\n        await fs.rename(file.path, 'images/' + file.originalname)\r\n        const data = await pool.query(sql, [name, description, price, file.originalname])\r\n        res.send(createResult(data[0]))\r\n    } catch (error) {\r\n        res.send(createResult(null, error))\r\n    }\r\n\r\n})\r\n\r\n// update the food item\r\nrouter.put('/', (req, res) => {\r\n\r\n})\r\n\r\n// delete the food item\r\nrouter.delete('/:fid', (req, res) => {\r\n\r\n})\r\n\r\n\r\nmodule.exports = router"
+        }
+      }
+    ]
+  }
+];
